@@ -1,4 +1,57 @@
 ﻿l_english:
 
+# Species Traits
 devolved_trait_l_machine:0 "L Machine"
 devolved_trait_l_machine_desc:0 "Members of this species are absolute losers, who can't understand anything and can never fully adapt to even the best environments, and are impossibly cowardly and weak soldiers."
+
+# Civics
+devolved_civic_pleasure_power:0 "Pleasure Power"
+devolved_civic_pleasure_power_desc:0 "REPLACE_ME"
+
+devolved_civic_chonnys_charm:0 "Chonny's Charm"
+devolved_civic_chonnys_charm_desc:0 "This government uses a unique form of a negative auditory enforcement to ensure all citizens are miserable. Any citizens that can withstand such pain are given a strait shot into military command, greatly increasing this empire's naval effectiveness."
+
+devolved_civic_together_suffering:0 "Together Suffering"
+devolved_civic_together_suffering_desc:0 "REPLACE_ME"
+
+devolved_civic_ubiquitous_unity:0 "Ubiquitous Unity"
+devolved_civic_ubiquitous_unity_desc:0 "REPLACE_ME"
+
+devolved_civic_unity_unaliving:0 "Unity Unaliving"
+devolved_civic_unity_unaliving_desc:0 "REPLACE_ME"
+
+devolved_civic_energy_endowment:0 "Energy Endowment"
+devolved_civic_energy_endowment_desc:0 "REPLACE_ME"
+
+devolved_civic_power_pit:0 "Power Pit"
+devolved_civic_power_pit_desc:0 "REPLACE_ME"
+
+devolved_civic_mineral_hater:0 "Mineral Hater"
+devolved_civic_mineral_hater_desc:0 "REPLACE_ME"
+
+devolved_civic_mineral_lover:0 "Mineral Lover"
+devolved_civic_mineral_lover_desc:0 "REPLACE_ME"
+
+devolved_civic_research_radicals:0 "Research Radicals"
+devolved_civic_research_radicals_desc:0 "REPLACE_ME"
+
+devolved_civic_rightoid_rascality:0 "Rightoid Rascality"
+devolved_civic_rightoid_rascality_desc:0 "REPLACE_ME"
+
+devolved_civic_alloy_amelioration:0 "Alloy Amelioration"
+devolved_civic_alloy_amelioration_desc:0 "REPLACE_ME"
+
+devolved_civic_agrarianism:0 "Agrarianism"
+devolved_civic_agrarianism_desc:0 "REPLACE_ME"
+
+devolved_civic_starvationism:0 "Starvationism"
+devolved_civic_starvationism_desc:0 "REPLACE_ME"
+
+devolved_civic_supermini:0 "Supermini"
+devolved_civic_supermini_desc:0 "REPLACE_ME"
+
+devolved_civic_supermassive:0 "Supermassive"
+devolved_civic_supermassive_desc:0 "REPLACE_ME"
+
+devolved_civic_influencer:0 "Influencer"
+devolved_civic_influencer_desc:0 "The bueracratic class in this society is dedicated to external affairs as well as internal, in order to greatly extend their galactic presence and enforce their political will."
