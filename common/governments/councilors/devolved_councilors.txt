@@ -48,11 +48,11 @@ devolved_civic_councilor_house_filler = {
 			leader_class = official
 		}
 	}
-	civic = devolved_civic_hyper_housing
+	civic = devolved_civic_hyper_housing # Needs rework
 		modifier = {
-			planet_immigration_pull_add = 20
-			planet_immigration_pull_mult = .2
-			pop_growth_from_immigration = .1
+			planet_immigration_pull_add = 50
+			pop_housing_usage_add = -0.02
+			planet_housing_add = 1
 		}
 	ai_hiring_weight = {
 		inline_script = councilor_leader_weights
@@ -92,8 +92,8 @@ devolved_civic_councilor_metallic_maniac = {
 	}
 	civic = devolved_civic_alloy_amelioration
 	modifier = {
-		ships_alloys_upkeep_mult = 0.03
-		megastructures_alloys_cost_mult = 0.015
+		ships_alloys_upkeep_mult = -0.03
+		megastructures_alloys_cost_mult = -0.015
 		planet_districts_industrial_alloys_produces_add = 0.5
 		megastructures_alloys_produces_add = 10
 	}
