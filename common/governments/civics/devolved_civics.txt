@@ -388,3 +388,19 @@ devolved_civic_influencer = {
 	}
 	random_weight = { base = 5 }
 }
+
+devolved_civic_ethical_adherance = {
+	modifier = {
+		faction_approval = 0.2
+		pop_ethics_shift_speed_mult = 5
+		pop_government_ethic_attraction = 5
+	}
+}
+
+devolved_civic_oppositionalism = {
+	modifier = {
+		pop_government_ethic_attraction = -10
+		pop_ethics_shift_speed_mult = 5
+		society_tech_cost_mult = 0.75
+	}
+}
