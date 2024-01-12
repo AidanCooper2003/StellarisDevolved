@@ -1,0 +1,32 @@
+triggered_opinion_power_pit = {
+	trigger = {
+		FROM = {
+			has_civic = civic_power_pit
+		}
+		# Is not a Fallen Empire, Awakened Empire or Pre-FTL Empire
+		is_country_type = default
+		OR = {
+			# Is independent
+			is_subject = no
+			# Or a subject of another empire that is capable of independent diplomacy
+			AND = {
+				is_subject = yes
+				FROM = {
+					NOT = { is_overlord_to = PREV }
+				}
+				any_agreement = {
+					NOT = {
+						has_term_value = {
+							term = subject_diplomacy
+							value = subject_can_not_do_diplomacy
+						}
+					}
+				}
+			}
+		}
+	}
+
+	opinion = {
+		base = 100 # For Power Pit
+	}
+}
