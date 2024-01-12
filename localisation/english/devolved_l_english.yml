@@ -92,6 +92,9 @@ devolved_civic_dead_upkeeper_desc:0 "REPLACE_ME Upkeep Hate"
 devolved_civic_timeless_trading:0 "Timeless Trading"
 devolved_civic_timeless_trading_desc:0 "REPLACE_ME Trade Value Focus"
 
+ devolved_civic_enlightened_edicts:0 "Enlightened Edicts"
+ devolved_civic_enlightened_edicts_desc:0 "REPLACE_ME Edict Focus"
+
 devolved_civic_omniconomy:0 "Omniconomy"
 devolved_civic_omniconomy_desc:0 "All manners of the economy are left to hobbyist work, leading to a small gain of every resource type from a unique trade policy."
 
