@@ -118,6 +118,9 @@ devolved_civic_omniconomy_desc:0 "All manners of the economy are left to hobbyis
  devolved_civic_councilor_niche_exploiter:0 "Niche Exploiter"
  devolved_civic_councilor_niche_exploiter_desc:0 "The Niche Exploiter analyzes local economies to create more jobs to fill niches."
 
+ devolved_civic_councilor_rock_remover:0 "Rock Remover"
+ devolved_civic_councilor_rock_remover_desc:0 "The Rock Remover is tasked with coming up with new ways to destroy minerals, by forming them into something far greater."
+
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"
 

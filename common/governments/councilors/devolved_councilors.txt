@@ -19,3 +19,23 @@ devolved_civic_councilor_niche_exploiter= {
 		inline_script = councilor_leader_weights
 	}
 }
+
+devolved_civic_councilor_rock_remover = {
+	leader_class = { official }
+
+	is_leader_possible = {
+		OR = {
+			leader_class = official
+		}
+	}
+	civic = devolved_civic_mineral_hater
+		modifier = {
+			planet_metallurgists_alloys_produces_add = 1
+			planet_metallurgists_minerals_upkeep_add = 4
+			planet_artisans_consumer_goods_produces_add = 1
+			planet_artisans_minerals_upkeep_add = 2
+		}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
