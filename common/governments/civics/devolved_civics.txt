@@ -256,7 +256,9 @@ devolved_civic_mineral_hater = {
 			planet_researchers_minerals_upkeep_add = 1
 			planet_artisans_minerals_upkeep_add = 0.5
 			planet_metallurgists_minerals_upkeep_add = 0.5
-			planet_metallurgists_alloys_produces_add = 0.5
+			planet_metallurgists_alloys_produces_add = 1.5
+			job_miner_per_pop = -0.1
+			district_mining_max = -5
 			country_edict_fund_add = 100
 			ascension_perks_add = 3
 		}
