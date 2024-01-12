@@ -113,6 +113,11 @@ devolved_civic_omniconomy_desc:0 "All manners of the economy are left to hobbyis
  devolved_civic_sexual_singularity:0 "Sexual Singularity"
  devolved_civic_sexual_singularity_desc:0 "REPLACE_ME Machine Assembly Focus"
 
+# Councilor Positions
+
+ devolved_civic_councilor_niche_exploiter:0 "Niche Exploiter"
+ devolved_civic_councilor_niche_exploiter_desc:0 "The Niche Exploiter analyzes local economies to create more jobs to fill niches."
+
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"
 

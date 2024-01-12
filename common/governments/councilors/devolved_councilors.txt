@@ -1,0 +1,21 @@
+devolved_civic_councilor_niche_exploiter= {
+	leader_class = { official  }
+
+	is_leader_possible = {
+		OR = {
+			leader_class = official
+		}
+	}
+	civic = devolved_civic_infinite_employment
+	modifier = {
+		job_enforcer_add = 1
+		job_culture_worker_add = 1
+		job_archaeoengineers_add = 1
+		job_healthcare_add = 1
+		job_soldier_add = 1
+		job_scrap_miner_add = 1
+	}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}

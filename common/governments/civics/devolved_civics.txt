@@ -429,7 +429,7 @@ devolved_civic_consumer_craze = {
     modification = no
         modifier = {
             planet_researchers_upkeep_mult = -1
-            country_consumer_goods_produces_mult = 0.2
+            country_consumer_goods_produces_mult = 0.3
             country_alloys_produces_mult = -0.1
         }
         random_weight = { base = 5 }
@@ -441,6 +441,7 @@ devolved_civic_konsumerist_killers = {
             planet_researchers_upkeep_mult = 0.3
             country_consumer_goods_produces_mult = -0.2
             country_alloys_produces_mult = 0.2
+			council_agenda_progress_speed = 0.3
         }
         random_weight = { base = 5 }
     }
@@ -491,13 +492,13 @@ devolved_civic_stratworld_despisers = {
 devolved_civic_influencer_idiot = {
 
         modifier = {
-            planet_refiners_influence_upkeep_add = 1
-            planet_chemists_influence_upkeep_add = 1
-            planet_translucers_influence_upkeep_add = 1
-            country_influence_produces_mult = -0.5
+            planet_refiners_influence_upkeep_add = 0.1
+            planet_chemists_influence_upkeep_add = 0.1
+            planet_translucers_influence_upkeep_add = 0.1
+            country_influence_produces_mult = -0.5 # Doesn't currently work
             country_resource_max_influence_add = -500
-            commercial_pact_mult = 1
-            research_sharing_mult = 1
+            commercial_pact_mult = 3
+            research_sharing_mult = 3
             country_trust_growth = 0.1
         }
         random_weight = { base = 5 }
@@ -605,9 +606,9 @@ devolved_civic_infinite_employment = {
 		job_miner_per_pop = 0.5
 		job_technician_per_pop = 0.5
 		job_artisan_per_pop = 0.5
-		job_metallurgists_per_pop = 0.5 # Should work, needs testing
+		job_foundry_add = 0.5 # Should work, needs testing
 		job_researcher_per_pop = 0.5
-		job_administrator_per_pop = 0.5
+		job_bureaucrat_per_pop = 0.5
 	}
 	random_weight = {
 		base = 1
