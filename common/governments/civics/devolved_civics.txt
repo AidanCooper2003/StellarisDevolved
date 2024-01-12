@@ -344,6 +344,9 @@ devolved_civic_agrarianism = {
 devolved_civic_starvationism = {
 	potential = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+		species_class = {
+			NOT = { value = LITHOID }
+		}
 	}
 		modifier = {
 			planet_farmers_food_produces_add = -2

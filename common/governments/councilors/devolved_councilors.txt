@@ -39,3 +39,62 @@ devolved_civic_councilor_rock_remover = {
 		inline_script = councilor_leader_weights
 	}
 }
+
+devolved_civic_councilor_house_filler = {
+	leader_class = { official }
+
+	is_leader_possible = {
+		OR = {
+			leader_class = official
+		}
+	}
+	civic = devolved_civic_hyper_housing
+		modifier = {
+			planet_immigration_pull_add = 20
+			planet_immigration_pull_mult = .2
+			pop_growth_from_immigration = .1
+		}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
+
+devolved_civic_councilor_nutrient_nullifier = {
+	leader_class = { scientist }
+
+	is_leader_possible = {
+		OR = {
+			leader_class = scientist
+		}
+	}
+	civic = devolved_civic_starvationism
+		modifier = {
+			planet_researchers_food_upkeep_add = 0.5
+			planet_researchers_exotic_gases_produces_add = 0.2
+			planet_researchers_physics_research_produces_add = 0.5
+			planet_researchers_sr_dark_matter_produces_add = 0.01
+			planet_researchers_produces_mult = 0.1
+		}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
+
+devolved_civic_councilor_metallic_maniac = {
+	leader_class = { commander official scientist }
+
+	is_leader_possible = {
+		OR = {
+			leader_class = scientist
+			leader_class = official
+			leader_class = scientist
+		}
+	}
+	civic = devolved_civic_alloy_amelioration
+	modifier = {
+		ships_alloys_upkeep_mult = 0.03
+		megastructures_alloys_cost_mult = 0.015
+		planet_districts_industrial_alloys_produces_add = 0.5
+		megastructures_alloys_produces_add = 10
+	}
+}
