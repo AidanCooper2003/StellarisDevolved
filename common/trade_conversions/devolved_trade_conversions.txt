@@ -1,4 +1,4 @@
-omni_conversion = {
+trade_policy_omni_conversion = {
 	potential = {
 		always = yes # Will change later to be civic exclusive
 	}

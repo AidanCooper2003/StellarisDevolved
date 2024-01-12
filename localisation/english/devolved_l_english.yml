@@ -64,3 +64,7 @@ devolved_civic_oppositionalism_desc:0 "The government actively encourages all to
 
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"
+
+# Trade Conversions
+trade_policy_omni_conversion:0 "Omniconomy"
+trade_policy_omni_conversion_desc:0 "The economy is rerouted so trade focuses on a little bit of everything! Each collected trade value earns us a small amount of £energy££minerals££food££alloys££consumer_goods£physics_research££society_research££engineering_research££unity££influence££volatile_motes£exotic_gases££rare_crystals££sr_dark_matter££nanites££sr_living_metal££sr_zro£"
