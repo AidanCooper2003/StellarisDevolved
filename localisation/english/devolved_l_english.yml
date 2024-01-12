@@ -101,6 +101,18 @@ devolved_civic_timeless_trading_desc:0 "REPLACE_ME Trade Value Focus"
 devolved_civic_omniconomy:0 "Omniconomy"
 devolved_civic_omniconomy_desc:0 "All manners of the economy are left to hobbyist work, leading to a small gain of every resource type from a unique trade policy."
 
+ devolved_civic_genetic_puritans:0 "Genetic Puritans"
+ devolved_civic_genetic_puritans_desc:0 "REPLACE_ME Genetic Hate"
+
+ devolved_civic_infinite_employment:0 "Infinite Employment"
+ devolved_civic_infinite_employment_desc:0 "REPLACE_ME Job Focus"
+
+ devolved_civic_hyper_housing:0 "Hyper Housing"
+ devolved_civic_hyper_housing_desc:0 "REPLACE_ME Housing Focus"
+
+ devolved_civic_sexual_singularity:0 "Sexual Singularity"
+ devolved_civic_sexual_singularity_desc:0 "REPLACE_ME Machine Assembly Focus"
+
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"
 
