@@ -329,7 +329,9 @@ devolved_civic_alloy_amelioration = {
 	}
 
 devolved_civic_agrarianism = {
-
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+	}
 		modifier = {
 			planet_clerks_food_produces_add = 3
 			planet_farmers_food_produces_add = 3
@@ -338,7 +340,9 @@ devolved_civic_agrarianism = {
 	}
 
 devolved_civic_starvationism = {
-
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+	}
 		modifier = {
 			planet_farmers_food_produces_add = -2
 			pop_amenities_usage_mult = -0.5
@@ -555,15 +559,16 @@ devolved_civic_timeless_trading = {
 
 devolved_civic_enlightened_edicts = {
 	modification = no
-		modifier = {
-			edicts_upkeep_mult = -0.2
-			country_edict_fund_add = 25
-			country_edict_fund_mult = 0.25
-		}
-		random_weight = { base = 5 }
+	modifier = {
+		edicts_upkeep_mult = -0.2
+		country_edict_fund_add = 25
+		country_edict_fund_mult = 0.25
+	}
+	random_weight = { base = 5 }
 }
 
 devolved_civic_genetic_gerrymanders = {
+	modification = no
 	modifier = {
 		BIOLOGICAL_species_trait_points_add = 3
 		LITHOID_species_trait_points_add = 2
@@ -572,4 +577,56 @@ devolved_civic_genetic_gerrymanders = {
 		modify_species_cost_mult = -0.2
 	}
 	random_weight = { base = 1 }
+}
+
+devolved_civic_genetic_puritans = {
+	modification = no
+	modifier = {
+		BIOLOGICAL_species_trait_points_add = -100
+		LITHOID_species_trait_points_add = -100
+		BIOLOGICAL_species_trait_picks_add = -100
+		LITHOID_species_trait_picks_add = -100
+		pop_growth_speed = .2
+		job_priest_add = 2
+		job_priest_per_pop = 0.05
+	}
+	random_weight = { base = 1 }
+}
+
+devolved_civic_infinite_employment = {
+	modifier = {
+		pop_job_trade_mult = -0.5
+		planet_jobs_produces_mult = -0.5
+		pop_growth_speed = 0.15
+		planet_pop_assembly_organic_add = 2
+		job_farmer_per_pop = 0.5
+		job_miner_per_pop = 0.5
+		job_technician_per_pop = 0.5
+		job_artisan_per_pop = 0.5
+		job_metallurgists_per_pop = 0.5 # Should work, needs testing
+		job_researcher_per_pop = 0.5
+		job_administrator_per_pop = 0.5
+	}
+	random_weight = {
+		base = 1
+	}
+}
+
+devolved_civic_hyper_housing = {
+	modifier = {
+		planet_housing_add = 5
+		planet_housing_mult = 1
+	}
+	random_weight = {
+		base = 1
+	}
+}
+
+devolved_civic_sexual_singularity = {
+	potential = {
+		inline_script = governments/conditions/is_machine_intelligence # May need to fix
+	}
+	modifier = {
+		job_replicator_per_pop = 0.05
+	}
 }
