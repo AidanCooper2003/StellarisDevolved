@@ -539,7 +539,7 @@ devolved_civic_dead_upkeeper = {
 
 devolved_civic_timeless_trading = {
 	modifier = {
-		trade_value_mult = .2
+		trade_routes__produces_mult = 0.1
 		living_standard_trade_value_rulers_add = 3
 		living_standard_trade_value_specialists_add = 1
 		living_standard_trade_value_workers_add = 0.5
