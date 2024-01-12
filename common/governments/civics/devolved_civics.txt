@@ -401,6 +401,151 @@ devolved_civic_oppositionalism = {
 	modifier = {
 		pop_government_ethic_attraction = -10
 		pop_ethics_shift_speed_mult = 5
-		society_tech_cost_mult = 0.75
+		society_tech_cost_mult = -0.25
+	}
+}
+
+devolved_civic_omniconomy = {
+	# Enables omniconomy trade policy
+}
+
+devolved_civic_expedition_enhancement = {
+    modification = no
+        modifier = {
+            country_minor_artifacts_produces_mult = 3
+        }
+        random_weight = { base = 5 }
+    }
+
+devolved_civic_consumer_craze = {
+    modification = no
+        modifier = {
+            planet_researchers_upkeep_mult = -1
+            country_consumer_goods_produces_mult = 0.2
+            country_alloy_produces_mult = -0.1
+        }
+        random_weight = { base = 5 }
+    }
+
+devolved_civic_konsumerist_killers = {
+    modification = no
+        modifier = {
+            planet_researchers_upkeep_mult = 0.3
+            country_consumer_goods_produces_mult = -0.2
+            country_alloy_produces_mult = 0.2
+        }
+        random_weight = { base = 5 }
+    }
+devolved_civic_beastly_breeders = {
+
+        modifier = {
+            pop_growth_speed = 0.3
+            planet_pop_assembly_organic_add = 1
+            planet_pops_upkeep_mult = 0.3
+        }
+        random_weight = { base = 5 }
+    }
+
+devolved_civic_stratworld_strategists = {
+
+        modifier = {
+            country_exotic_gases_produces_mult = 0.5
+            country_volatile_motes_produces_mult = 0.5
+            country_rare_crystals_produces_mult = 0.5
+            planet_structures_volatile_motes_upkeep_mult = -0.30
+            planet_structures_exotic_gases_upkeep_mult = -0.30
+            planet_structures_rare_crystals_upkeep_mult = -0.30
+            planet_structures_volatile_motes_cost_mult = -0.30
+            planet_structures_exotic_gases_cost_mult = -0.30
+            planet_structures_rare_crystals_cost_mult = -0.30
+        }
+        random_weight = { base = 5 }
+    }
+
+devolved_civic_stratworld_despisers = {
+    modification = no
+        modifier = {
+            country_exotic_gases_produces_mult = -0.5
+            country_volatile_motes_produces_mult = -0.5
+            country_rare_crystals_produces_mult = -0.5
+            planet_structures_volatile_motes_upkeep_mult = 0.1
+            planet_structures_exotic_gases_upkeep_mult = 0.1
+            planet_structures_rare_crystals_upkeep_mult = 0.1
+            planet_structures_volatile_motes_cost_mult = 0.1
+            planet_structures_exotic_gases_cost_mult = 0.1
+            planet_structures_rare_crystals_cost_mult = 0.1
+            country_energy_produces_mult = 0.15
+            country_minerals_produces_mult = 0.15
+            country_food_produces_mult = 0.15
+        }
+        random_weight = { base = 5 }
+    }
+devolved_civic_influencer_idiot = {
+
+        modifier = {
+            planet_refiners_influence_upkeep_add = 1
+            planet_chemists_influence_upkeep_add = 1
+            planet_translucer_influence_upkeep_add = 1
+            country_influence_produces_mult = -0.5
+            country_resource_max_influence_add = -500
+            commercial_pact_mult = 1
+            research_pact_mult = 1
+            country_trust_growth = 0.1
+        }
+        random_weight = { base = 5 }
+    }
+
+devolved_civic_undead_upkeeper = {
+
+        modifier = {
+            diplomacy_upkeep_mult = -0.1
+            pop_amenities_usage_mult = -0.1
+            planet_jobs_upkeep_mult = -0.1
+            planet_pops_upkeep_mult = -0.1
+            planet_researchers_upkeep_mult = -0.1
+            leaders_upkeep_mult = -0.1
+            ships_upkeep_mult = -0.1
+            starbases_upkeep_mult = -0.1
+            edicts_upkeep_mult = -0.1
+            planet_structures_upkeep_mult = -0.1
+            planet_districts_upkeep_mult = -0.1
+            planet_structures_cost_mult = 1
+            planet_districts_cost_mult = 1
+            ships_cost_mult = 0.3
+        }
+        random_weight = { base = 5 }
+    }
+
+devolved_civic_dead_upkeeper = {
+
+        modifier = {
+            diplomacy_upkeep_mult = 0.1
+            pop_amenities_usage_mult = 0.1
+            planet_jobs_upkeep_mult = 0.1
+            planet_pops_upkeep_mult = 0.1
+            planet_researchers_upkeep_mult = 0.1
+            leaders_upkeep_mult = 0.1
+            ships_upkeep_mult = 0.1
+            starbases_upkeep_mult = 0.1
+            edicts_upkeep_mult = 0.1
+            planet_structures_upkeep_mult = 0.1
+            planet_districts_upkeep_mult = 0.1
+            planet_structures_cost_mult = -0.6
+            planet_districts_cost_mult = -0.6
+            ships_cost_mult = -0.3
+        }
+        random_weight = { base = 5 }
+    }
+
+devolved_civic_timeless_trading = {
+	modifier = {
+		trade_value_mult = .2
+		living_standard_trade_value_rulers_add = 3
+		living_standard_trade_value_specialists_add = 1
+		living_standard_trade_value_workers_add = 0.5
+		living_standard_trade_value_slaves_add = 0.25
+		pop_job_trade_mult = 0.2
+		pop_amenities_usage_mult = 0.3
+		pop_housing_usage_mult = 0.2
 	}
 }

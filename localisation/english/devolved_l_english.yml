@@ -62,9 +62,48 @@ devolved_civic_ethical_adherance_desc:0 "Citizens naturally pressure each other 
 devolved_civic_oppositionalism:0 "Radical Oppositionalism"
 devolved_civic_oppositionalism_desc:0 "The government actively encourages all to not follow the ideology of the government. This leads to a power structure so unique that it greatly improves social research."
 
+devolved_civic_expedition_enhancement:0 "Expedition Enhancement"
+devolved_civic_expedition_enhancement_desc:0 "REPLACE_ME Minor Artifacts Focus"
+
+devolved_civic_consumer_craze:0 "Consumer Craze"
+devolved_civic_consumer_craze_desc:0 "REPLACE_ME Consumer Goods Focus"
+
+devolved_civic_konsumerist_killers:0 "Konsumerist Killers"
+devolved_civic_konsumerist_killers_desc:0 "REPLACE_ME Consumer Goods Hate"
+
+devolved_civic_beastly_breeders:0 "Beastly Breeders"
+devolved_civic_beastly_breeders_desc:0 "REPLACE_ME Pop Growth Focus"
+
+devolved_civic_stratworld_strategists:0 "Stratworld Strategists"
+devolved_civic_stratworld_strategists_desc:0 "REPLACE_ME Strategic Resource Focus"
+
+devolved_civic_stratworld_despisers:0 "Stratworld Despisers"
+devolved_civic_stratworld_despisers_desc:0 "REPLACE_ME Strategic Resource Hate"
+
+devolved_civic_influencer_idiot:0 "Influencer Idiot"
+devolved_civic_influencer_idiot_desc:0 "REPLACE_ME Influence Hate"
+
+devolved_civic_undead_upkeeper:0 "Undead Upkeeper"
+devolved_civic_undead_upkeeper_desc:0 "REPLACE_ME Upkeep Focus"
+
+devolved_civic_dead_upkeeper:0 "Dead Upkeeper"
+devolved_civic_dead_upkeeper_desc:0 "REPLACE_ME Upkeep Hate"
+
+devolved_civic_timeless_trading:0 "Timeless Trading"
+devolved_civic_timeless_trading_desc:0 "REPLACE_ME Trade Value Focus"
+
+devolved_civic_omniconomy:0 "Omniconomy"
+devolved_civic_omniconomy_desc:0 "All manners of the economy are left to hobbyist work, leading to a small gain of every resource type from a unique trade policy."
+
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"
 
-# Trade Conversions
+# Trade Conversions (maybe not necessary?)
+omni_conversion:0 "REPLACE_ME"
+omni_conversion_desc:0 "REPLACE_ME"
+omni_conversion_name:0 "REPLACE_ME"
+trade_conversion_omni_name:0 "REPLACE_ME"
+
+# Policies
 trade_policy_omni_conversion:0 "Omniconomy"
-trade_policy_omni_conversion_desc:0 "The economy is rerouted so trade focuses on a little bit of everything! Each collected trade value earns us a small amount of £energy££minerals££food££alloys££consumer_goods£physics_research££society_research££engineering_research££unity££influence££volatile_motes£exotic_gases££rare_crystals££sr_dark_matter££nanites££sr_living_metal££sr_zro£"
+trade_policy_omni_conversion_desc:0 "The economy is rerouted so trade focuses on a little bit of everything! Each collected trade value £trade_value£ earns us a small amount of £energy£ £minerals£ £food£ £alloys£ £consumer_goods£ £physics_research£ £society_research£ £engineering_research£ £unity£ £influence£ £volatile_motes£ £exotic_gases£ £rare_crystals£ £sr_dark_matter£ £nanites£ £sr_living_metal£ £sr_zro£ £minor_artifacts£ £sr_astral_threads£"

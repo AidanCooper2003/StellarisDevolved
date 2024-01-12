@@ -1,20 +1,21 @@
-trade_policy_omni_conversion = {
+omni_conversion = {
 	potential = {
-		always = yes # Will change later to be civic exclusive
+		has_policy_flag = trade_conversion_omni
 	}
 	weight = {
-		weight = 1 # Later should be 1000, should always be selected if available since its civic exclusive
+		weight = 10
 	}
 	conversion_rate = {
-		energy = 0.8
-		minerals = 0.8
-		food = 0.08
+		energy = 0.07
+		minerals = 0.07
+		food = 0.07
 		alloys = 0.03
 		consumer_goods = 0.03
 		physics_research = 0.03
 		society_research = 0.03
 		engineering_research = 0.03
 		unity = 0.05
+		influence = 0.005
 		volatile_motes = 0.005
 		exotic_gases = 0.005
 		rare_crystals = 0.005
@@ -22,7 +23,8 @@ trade_policy_omni_conversion = {
 		nanites = 0.001
 		sr_living_metal = 0.001
 		sr_zro = 0.001
-		influence = 0.001
+		minor_artifacts = 0.001
+		astral_threads = 0.001
 	}
 	economic_category = trade_routes
 }
