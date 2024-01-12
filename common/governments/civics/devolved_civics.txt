@@ -395,6 +395,7 @@ devolved_civic_ethical_adherance = {
 		pop_ethics_shift_speed_mult = 5
 		pop_government_ethic_attraction = 5
 	}
+	random_weight = { base = 1 }
 }
 
 devolved_civic_oppositionalism = {
@@ -403,6 +404,7 @@ devolved_civic_oppositionalism = {
 		pop_ethics_shift_speed_mult = 5
 		society_tech_cost_mult = -0.25
 	}
+	random_weight = { base = 1 }
 }
 
 devolved_civic_omniconomy = {
@@ -548,6 +550,7 @@ devolved_civic_timeless_trading = {
 		pop_housing_usage_mult = 0.15
 		ship_fire_rate_mult = -0.05
 	}
+	random_weight = { base = 3 }
 }
 
 devolved_civic_enlightened_edicts = {
@@ -558,4 +561,15 @@ devolved_civic_enlightened_edicts = {
 			country_edict_fund_mult = 0.25
 		}
 		random_weight = { base = 5 }
+}
+
+devolved_civic_genetic_gerrymanders = {
+	modifier = {
+		BIOLOGICAL_species_trait_points_add = 3
+		LITHOID_species_trait_points_add = 2
+		BIOLOGICAL_species_trait_picks_add = 3
+		LITHOID_species_trait_picks_add = 2
+		modify_species_cost_mult = -0.2
+	}
+	random_weight = { base = 1 }
 }
