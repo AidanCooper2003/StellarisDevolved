@@ -652,6 +652,7 @@ devolved_civic_profit_perforation = {
 		living_standard_trade_value_rulers_add = -60
 		trade_value_add = -100000
 		station_gatherers_unity_produces_add = 1
+		station_researchers_unity_produces_add = 1
 		starbases_cost_mult = 0.8
 		job_clerk_add = -1000
 		job_trader_add = -1000
