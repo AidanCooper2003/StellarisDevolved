@@ -520,7 +520,6 @@ devolved_civic_undead_upkeeper = {
             starbases_upkeep_mult = -0.1
             edicts_upkeep_mult = -0.1
             planet_structures_upkeep_mult = -0.1
-            planet_districts_upkeep_mult = -0.1
             planet_structures_cost_mult = 1
             planet_districts_cost_mult = 1
             ships_cost_mult = 0.3
@@ -543,7 +542,6 @@ devolved_civic_dead_upkeeper = {
             planet_structures_upkeep_mult = 0.1
             planet_districts_upkeep_mult = 0.1
             planet_structures_cost_mult = -0.6
-            planet_districts_cost_mult = -0.6
             ships_cost_mult = -0.3
         }
         random_weight = { base = 5 }
@@ -636,10 +634,21 @@ devolved_civic_sexual_singularity = {
 }
 
 devolved_civic_profit_perforation = {
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+	}
+	# if not using trade value shouldn't be useable
 	modifier = {
 		living_standard_trade_value_workers_add = -20
-		living_standard_trade_value_specialists_add = -20
-		living_standard_trade_value_workers_add = -20
+		living_standard_trade_value_specialists_add = -40
+		living_standard_trade_value_rulers_add = -60
 		trade_value_add = -100000
+		station_gatherers_unity_produces_add = 1
+		starbases_cost_mult = 0.8
+		job_clerk_add = -1000
+		job_trader_add = -1000
+		job_entertainer_per_pop = 0.2
+		planet_entertainers_unity_produces_add = 1
+		planet_entertainers_society_research_produces_add = 5
 	}
 }
