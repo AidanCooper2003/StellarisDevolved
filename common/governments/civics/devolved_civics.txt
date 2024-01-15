@@ -394,7 +394,7 @@ devolved_civic_dead_upkeeper = {
             starbases_upkeep_mult = 0.2
             edicts_upkeep_mult = 0.2
             planet_structures_upkeep_mult = 0.2
-            planet_structures_cost_mult = -0.6
+            planet_structures_cost_mult = -0.75
             ships_cost_mult = -0.3
         }
         random_weight = { base = 5 }
@@ -415,10 +415,9 @@ devolved_civic_timeless_trading = {
 }
 
 devolved_civic_enlightened_edicts = {
-	modification = no
 	modifier = {
 		edicts_upkeep_mult = -0.2
-		country_edict_fund_add = 25
+		country_edict_fund_add = 40
 		country_edict_fund_mult = 0.25
 	}
 	random_weight = { base = 5 }
@@ -436,14 +435,14 @@ devolved_civic_genetic_gerrymanders = {
 	random_weight = { base = 1 }
 }
 
-devolved_civic_genetic_puritans = {
+devolved_civic_protein_puritans = {
 	modification = no
 	modifier = {
 		BIOLOGICAL_species_trait_points_add = -100
 		LITHOID_species_trait_points_add = -100
 		BIOLOGICAL_species_trait_picks_add = -100
 		LITHOID_species_trait_picks_add = -100
-		pop_growth_speed = .2
+		pop_growth_speed = 0.2
 		job_priest_add = 2
 		job_priest_per_pop = 0.05
 	}
@@ -451,6 +450,7 @@ devolved_civic_genetic_puritans = {
 }
 
 devolved_civic_infinite_employment = {
+	modification = no
 	modifier = {
 		pop_job_trade_mult = -0.5
 		planet_jobs_produces_mult = -0.5
@@ -467,6 +467,10 @@ devolved_civic_infinite_employment = {
 	random_weight = {
 		base = 1
 	}
+}
+
+devolved_civic_infinite_unemployment = {
+
 }
 
 devolved_civic_hyper_housing = {
@@ -629,6 +633,7 @@ devolved_civic_hateable_huggers = {
 }
 
 devolved_civic_fleet_frenzy = {
+	modification = no
     modifier = {
         ship_fire_rate_mult = 1
         ships_cost_mult = -0.5
@@ -638,6 +643,7 @@ devolved_civic_fleet_frenzy = {
 }
 
 devolved_civic_fleet_fuckers = {
+	modification = no
     modifier = {
         ship_fire_rate_mult = -2
         ships_cost_mult = 1
@@ -673,8 +679,9 @@ devolved_civic_army_abomination = {
         army_attack_damage_mult = -0.8
         army_defense_morale_mult = -0.8
         army_defense_health_mult = -0.8
-        planet_artisans_consumer_goods_produces_add = 1
+        planet_artisans_consumer_goods_produces_add = 2
         planet_artisans_food_produces_add = 1
+		planet_artisans_unity_produces_add = 1
     }
 }
 
