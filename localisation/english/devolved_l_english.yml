@@ -140,14 +140,17 @@ devolved_civic_fleet_frenzy_desc:0 "REPLACE_ME Fleet Focus"
 devolved_civic_fleet_fuckers:0 "Fleet Fuckers"
 devolved_civic_fleet_fuckers_desc:0 "REPLACE_ME Fleet Fuckers"
 
- devolved_civic_hateable_huggers:0 "Hateable Huggers"
- devolved_civic_hateable_huggers_desc:0 "REPLACE_ME Diplomacy Hate ADDITIONAL EFFECT minus 150 opinion for *all* empire types."
+devolved_civic_hateable_huggers:0 "Hateable Huggers"
+devolved_civic_hateable_huggers_desc:0 "REPLACE_ME Diplomacy Hate ADDITIONAL EFFECT minus 150 opinion for *all* empire types."
 
- devolved_civic_amazing_armies:0 "Amazing Armies"
- devolved_civic_amazing_armies_desc:0 "REPLACE_ME Army Love"
+devolved_civic_amazing_armies:0 "Amazing Armies"
+devolved_civic_amazing_armies_desc:0 "REPLACE_ME Army Love"
 
- devolved_civic_army_abomination:0 "Army Abomination"
- devolved_civic_army_abomination_desc:0 "REPLACE_ME Army Hate"
+devolved_civic_army_abomination:0 "Army Abomination"
+devolved_civic_army_abomination_desc:0 "REPLACE_ME Army Hate"
+
+devolved_civic_timeless_terraforming:0 "Timeless Terraforming"
+devolved_civic_timeless_terraforming_desc:0 "REPLACE_ME Terraform Love"
 
 
 
