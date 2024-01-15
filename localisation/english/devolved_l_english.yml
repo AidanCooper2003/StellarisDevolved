@@ -125,8 +125,8 @@ devolved_civic_infrastructure_irritation_desc:0 "REPLACE_ME Buildspeed Hate"
 devolved_civic_alloy_execution:0 "Alloy Execution"
 devolved_civic_alloy_execution_desc:0 "REPLACE_ME Alloy Hate"
 
-civic_megamalice:0 "MegaMalice"
-civic_megamalice_desc:0 "REPLACE_ME Megastructure Hate"
+devolved_civic_megamalice:0 "MegaMalice"
+devolved_civic_megamalice_desc:0 "REPLACE_ME Megastructure Hate"
 
 # Councilor Positions
 
