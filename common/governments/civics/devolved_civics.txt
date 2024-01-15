@@ -16,7 +16,8 @@ devolved_civic_chonnys_charm = {
 	random_weight = { base = @civic_default_random_weight }
 	modifier = {
 		pop_citizen_happiness = -0.30
-		ship_fire_rate_mult = 0.8
+		planet_stability_add = -10
+		ship_fire_rate_mult = 1
 	}
 }
 
