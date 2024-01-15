@@ -424,6 +424,8 @@ devolved_civic_expedition_enhancement = {
     modification = no
         modifier = {
             country_minor_artifacts_produces_mult = 3
+			ship_archaeological_site_clues_add = 3
+			ship_archaeological_site_excavation_speed_mult = 0.25
         }
         random_weight = { base = 5 }
     }
@@ -651,4 +653,67 @@ devolved_civic_profit_perforation = {
 		planet_entertainers_unity_produces_add = 1
 		planet_entertainers_society_research_produces_add = 5
 	}
+}
+
+devolved_civic_infrastructure_initiation = {
+
+	modifier = {
+		shipsize_starbase_outpost_build_speed_mult = 1
+		planet_army_build_speed_mult = 1
+		planet_decision_enact_speed_mult = 1
+		planet_structures_build_speed_mult = 1
+		starbase_building_build_speed_mult = 1
+		starbase_module_build_speed_mult = 1
+		shipsize_mining_station_build_speed_mult = 1
+		shipsize_research_station_build_speed_mult = 1
+		shipsize_starbase_outpost_build_speed_mult = 1
+		megastructure_build_speed_mult = 0.1
+	}
+	random_weight = { base = 5 }
+}
+
+devolved_civic_infrastructure_irritation = {
+
+	modifier = {
+		shipsize_starbase_outpost_build_speed_mult = -0.8
+		planet_army_build_speed_mult = -0.8
+		planet_decision_enact_speed_mult = -0.8
+		planet_structures_build_speed_mult = -0.8
+		starbase_building_build_speed_mult = -0.8
+		starbase_module_build_speed_mult = -0.8
+		shipsize_mining_station_build_speed_mult = -0.8
+		shipsize_research_station_build_speed_mult = -0.8
+		shipsize_starbase_outpost_build_speed_mult = -0.8
+		megastructure_build_speed_mult = -0.1
+		ship_constructor_unity_upkeep_add = 10
+		ship_science_physics_research_upkeep_add = -2
+		ship_science_society_research_upkeep_add = -2
+		ship_science_engineering_research_upkeep_add = -2
+		country_produces_mult = 0.1
+		#Change to benefits for having less buildings
+	}
+	random_weight = { base = 5 }
+}
+
+devolved_civic_alloy_execution = {
+	modifier = {
+		country_alloys_produces_mult = -0.2
+		leaders_alloys_upkeep_add = -4
+		leaders_food_upkeep_add = 10
+		leaders_minerals_upkeep_add = 10
+		leaders_consumer_goods_upkeep_add = 10
+	}
+	random_weight = { base = 5 }
+}
+
+civic_megamalice = {
+	modification = no
+	modifier = {
+		megastructures_cost_mult = 0.5
+		megastructure_build_speed_mult = -1
+		megastructures_produces_mult = -0.2
+		station_gatherers_produces_mult = 4
+		starbase_outpost_cost_mult = -0.15
+	}
+	random_weight = { base = 5 }
 }

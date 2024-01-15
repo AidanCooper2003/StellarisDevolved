@@ -116,6 +116,18 @@ devolved_civic_omniconomy_desc:0 "All manners of the economy are left to hobbyis
  devolved_civic_profit_perforation:0 "Profit Perforation"
  devolved_civic_profit_perforation_desc:0 "REPLACE_ME Trade Value Hate"
 
+devolved_civic_infrastructure_initiation:0 "Infrastructure Initiation"
+devolved_civic_infrastructure_initiation_desc:0 "REPLACE_ME Buildspeed Focus"
+
+devolved_civic_infrastructure_irritation:0 "Infrastructure Irritation"
+devolved_civic_infrastructure_irritation_desc:0 "REPLACE_ME Buildspeed Hate"
+
+devolved_civic_alloy_execution:0 "Alloy Execution"
+devolved_civic_alloy_execution_desc:0 "REPLACE_ME Alloy Hate"
+
+civic_megamalice:0 "MegaMalice"
+civic_megamalice_desc:0 "REPLACE_ME Megastructure Hate"
+
 # Councilor Positions
 
  devolved_civic_councilor_niche_exploiter:0 "Niche Exploiter"
