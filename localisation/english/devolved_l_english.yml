@@ -105,7 +105,7 @@ devolved_civic_omniconomy_desc:0 "All manners of the economy are left to hobbyis
  devolved_civic_protein_puritans_desc:0 "REPLACE_ME Genetic Hate"
 
  devolved_civic_infinite_employment:0 "Infinite Employment"
- devolved_civic_infinite_employment_desc:0 "REPLACE_ME Job Focus"
+ devolved_civic_infinite_employment_desc:0 "REPLACE_ME Jobs Focus"
 
  devolved_civic_hyper_housing:0 "Hyper Housing"
  devolved_civic_hyper_housing_desc:0 "REPLACE_ME Housing Focus"
@@ -151,6 +151,12 @@ devolved_civic_army_abomination_desc:0 "REPLACE_ME Army Hate"
 
 devolved_civic_timeless_terraforming:0 "Timeless Terraforming"
 devolved_civic_timeless_terraforming_desc:0 "REPLACE_ME Terraform Love"
+
+devolved_civic_infinite_unemployment:0 "Infinite Unemployment"
+devolved_civic_infinite_unemployment_desc:0 "REPLACE_ME Jobs Hate"
+
+devolved_civic_demancipation_proclamation:0 "Demancipation Proclamation"
+devolved_civic_demancipation_proclamation_desc:0 "REPLACE_ME Slavery Focus"
 
 
 
