@@ -113,6 +113,9 @@ devolved_civic_omniconomy_desc:0 "All manners of the economy are left to hobbyis
  devolved_civic_sexual_singularity:0 "Sexual Singularity"
  devolved_civic_sexual_singularity_desc:0 "REPLACE_ME Machine Assembly Focus"
 
+ devolved_civic_profit_perforation:0 "Profit Perforation"
+ devolved_civic_profit_perforation_desc:0 "REPLACE_ME Trade Value Hate"
+
 # Councilor Positions
 
  devolved_civic_councilor_niche_exploiter:0 "Niche Exploiter"

@@ -634,3 +634,12 @@ devolved_civic_sexual_singularity = {
 		job_replicator_per_pop = 0.05
 	}
 }
+
+devolved_civic_profit_perforation = {
+	modifier = {
+		living_standard_trade_value_workers_add = -20
+		living_standard_trade_value_specialists_add = -20
+		living_standard_trade_value_workers_add = -20
+		trade_value_add = -100000
+	}
+}
