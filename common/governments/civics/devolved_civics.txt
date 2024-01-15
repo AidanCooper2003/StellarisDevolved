@@ -87,11 +87,11 @@ devolved_civic_energy_endowment = {
 devolved_civic_power_pit = { #TriggeredOpinionFileforOpinion
 
 		modifier = {
-			planet_technician_energy_produces_add = -0.2
-			planet_researchers_energy_produces_add = -0.2
-			planet_artisans_energy_produces_add = -0.2
-			planet_metallurgists_energy_produces_add = -0.2
-			planet_miners_energy_produces_add = -0.2
+			planet_technician_energy_produces_add = -0.5
+			planet_researchers_energy_produces_add = -0.5
+			planet_artisans_energy_produces_add = -0.5
+			planet_metallurgists_energy_produces_add = -0.5
+			planet_miners_energy_produces_add = -0.5
 			pop_citizen_happiness = 0.1
 			country_produces_mult = 0.25
 			country_energy_produces_mult = -0.5
@@ -159,8 +159,8 @@ devolved_civic_rightoid_rascality = {
 			planet_farmers_alloys_produces_add = 2
 			planet_miners_alloys_produces_add = 2
 			country_edict_fund_add = 100
-			planetary_ascension_effect_mult = 0.5
-			planetary_ascension_cost_mult = -0.2
+			planetary_ascension_effect_mult = 0.75
+			planetary_ascension_cost_mult = -0.25
 			tradition_cost_empire_size_mult = -0.25
 		}
 		random_weight = { base = 5 }
@@ -199,7 +199,7 @@ devolved_civic_starvationism = {
 		}
 	}
 		modifier = {
-			planet_farmers_food_produces_add = -2
+			planet_farmers_food_produces_add = -2.5
 			pop_amenities_usage_mult = -0.5
 			planet_structures_upkeep_mult = -0.8
 		}
@@ -230,7 +230,7 @@ devolved_civic_supermassive = {
 		empire_size_districts_mult = 0.3
 		empire_size_colonies_mult = 0.3
 		empire_size_branch_office_mult = 0.3
-		empire_size_systems_mult = 0.3
+		empire_size_systems_mult = 1
 		planet_pops_upkeep_mult = 0.15
 		pop_amenities_usage_mult = 0.15
 		ship_fire_rate_mult = 0.5
@@ -273,9 +273,10 @@ devolved_civic_omniconomy = {
 devolved_civic_expedition_enhancement = {
     modification = no
         modifier = {
-            country_minor_artifacts_produces_mult = 3
+            country_minor_artifacts_produces_mult = 5
 			ship_archaeological_site_clues_add = 3
 			ship_archaeological_site_excavation_speed_mult = 0.25
+			planet_artisans_minor_artifacts_produces_add = 0.01
         }
         random_weight = { base = 5 }
     }
@@ -296,7 +297,9 @@ devolved_civic_konsumerist_killers = {
             planet_researchers_upkeep_mult = 0.3
             country_consumer_goods_produces_mult = -0.2
             country_alloys_produces_mult = 0.2
-			council_agenda_progress_speed = 0.3
+			job_scrap_miner_add = 2
+			planet_artisans_consumer_goods_produces_add = -2
+			planet_artisans_engineering_research_produces_add = 4
         }
         random_weight = { base = 5 }
     }
@@ -338,20 +341,20 @@ devolved_civic_stratworld_despisers = {
             planet_structures_volatile_motes_cost_mult = 0.1
             planet_structures_exotic_gases_cost_mult = 0.1
             planet_structures_rare_crystals_cost_mult = 0.1
-            country_energy_produces_mult = 0.15
-            country_minerals_produces_mult = 0.15
-            country_food_produces_mult = 0.15
+            country_energy_produces_mult = 0.2
+            country_minerals_produces_mult = 0.2
+            country_food_produces_mult = 0.2
         }
         random_weight = { base = 5 }
     }
 devolved_civic_influencer_idiot = {
-
+	modification = no
         modifier = {
             planet_refiners_influence_upkeep_add = 0.1
             planet_chemists_influence_upkeep_add = 0.1
             planet_translucers_influence_upkeep_add = 0.1
-            country_influence_produces_mult = -0.5 # Doesn't currently work
-            country_resource_max_influence_add = -500
+            country_influence_produces_mult = -0.5 
+            country_resource_max_influence_add = -500 # Doesn't currently work
             commercial_pact_mult = 3
             research_sharing_mult = 3
             country_trust_growth = 0.1
@@ -362,16 +365,16 @@ devolved_civic_influencer_idiot = {
 devolved_civic_undead_upkeeper = {
 
         modifier = {
-            diplomacy_upkeep_mult = -0.1
-            pop_amenities_usage_mult = -0.1
-            planet_jobs_upkeep_mult = -0.1
-            planet_pops_upkeep_mult = -0.1
-            planet_researchers_upkeep_mult = -0.1
-            leaders_upkeep_mult = -0.1
-            ships_upkeep_mult = -0.1
-            starbases_upkeep_mult = -0.1
-            edicts_upkeep_mult = -0.1
-            planet_structures_upkeep_mult = -0.1
+            diplomacy_upkeep_mult = -0.2
+            pop_amenities_usage_mult = -0.2
+            planet_jobs_upkeep_mult = -0.2
+            planet_pops_upkeep_mult = -0.2
+            planet_researchers_upkeep_mult = -0.2
+            leaders_upkeep_mult = -0.2
+            ships_upkeep_mult = -0.2
+            starbases_upkeep_mult = -0.2
+            edicts_upkeep_mult = -0.2
+            planet_structures_upkeep_mult = -0.2
             planet_structures_cost_mult = 1
             planet_districts_cost_mult = 1
             ships_cost_mult = 0.3
@@ -382,17 +385,17 @@ devolved_civic_undead_upkeeper = {
 devolved_civic_dead_upkeeper = {
 
         modifier = {
-            diplomacy_upkeep_mult = 0.1
-            pop_amenities_usage_mult = 0.1
-            planet_jobs_upkeep_mult = 0.1
-            planet_pops_upkeep_mult = 0.1
-            planet_researchers_upkeep_mult = 0.1
-            leaders_upkeep_mult = 0.1
-            ships_upkeep_mult = 0.1
-            starbases_upkeep_mult = 0.1
-            edicts_upkeep_mult = 0.1
-            planet_structures_upkeep_mult = 0.1
-            planet_districts_upkeep_mult = 0.1
+            diplomacy_upkeep_mult = 0.2
+            pop_amenities_usage_mult = 0.2
+            planet_jobs_upkeep_mult = 0.2
+            planet_pops_upkeep_mult = 0.2
+            planet_researchers_upkeep_mult = 0.2
+            leaders_upkeep_mult = 0.2
+            ships_upkeep_mult = 0.2
+            starbases_upkeep_mult = 0.2
+            edicts_upkeep_mult = 0.2
+            planet_structures_upkeep_mult = 0.2
+            planet_districts_upkeep_mult = 0.2
             planet_structures_cost_mult = -0.6
             ships_cost_mult = -0.3
         }
