@@ -698,10 +698,10 @@ devolved_civic_infrastructure_irritation = {
 devolved_civic_alloy_execution = {
 	modifier = {
 		country_alloys_produces_mult = -0.2
-		leaders_alloys_upkeep_add = -4
-		leaders_food_upkeep_add = 10
-		leaders_minerals_upkeep_add = 10
-		leaders_consumer_goods_upkeep_add = 10
+		leaders_alloys_upkeep_add = 4
+		leaders_food_upkeep_add = -10
+		leaders_minerals_upkeep_add = -10
+		leaders_consumer_goods_upkeep_add = -10
 	}
 	random_weight = { base = 5 }
 }
@@ -713,6 +713,7 @@ civic_megamalice = {
 		megastructure_build_speed_mult = -1
 		megastructures_produces_mult = -0.2
 		station_gatherers_produces_mult = 4
+		station_researchers_produces_mult = 4
 		starbase_outpost_cost_mult = -0.15
 	}
 	random_weight = { base = 5 }
