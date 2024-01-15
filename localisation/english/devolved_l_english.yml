@@ -169,6 +169,9 @@ devolved_civic_councilor_nutrient_nullifier_desc:0 "The Nutrient Nullifier studi
 devolved_civic_councilor_metallic_maniac:0 "Metallic Maniac"
 devolved_civic_councilor_metallic_maniac_desc:0 "The Metallic Maniac is so obsessed with hoarding alloys that they streamline construction processes to both integrate automatic alloy producing machinery and decrease expenditures."
 
+devolved_civic_councilor_hugless_heirophant:0 "Hugless Heirophant"
+devolved_civic_councilor_hugless_heirophant_desc:0 "The Hugless Heirophant is the most repulsive being in the whole society, and thus has a unique vision for creating a more loving society... from the point of view of someone who was never loved."
+
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"
 triggered_opinion_cute_little_fleets:0 "Cute little fleets!"

@@ -98,3 +98,19 @@ devolved_civic_councilor_metallic_maniac = {
 		megastructures_alloys_produces_add = 10
 	}
 }
+
+devolved_civic_councilor_hugless_heirophant = {
+	leader_class = { official scientist }
+
+	is_leader_possible = {
+		OR = {
+			leader_class = scientist
+			leader_class = official
+		}
+	}
+	civic = devolved_civic_hateable_huggers
+	modifier = {
+		country_society_research_cost_mult = -0.01
+		planet_culture_workers_society_research_produces_add = 1
+	}
+}
