@@ -67,10 +67,21 @@ triggered_opinion_cute_little_fleets = {
 triggered_opinion_wholesome_100 = {
 	trigger = {
 		FROM = {
-			has_civic = devolved_wholesome_diplomats
+			has_civic = devolved_civic_wholesome_diplomats
 		}
 	}
 	opinion = {
 		base = 150 # For Power Pit
+	}
+}
+
+triggered_opinion_annoying = {
+	trigger = {
+		FROM = {
+			has_civic = devolved_civic_hateable_huggers
+		}
+	}
+	opinion = {
+		base = -150 # For Power Pit
 	}
 }

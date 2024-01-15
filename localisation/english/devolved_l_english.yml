@@ -131,13 +131,25 @@ devolved_civic_megamalice_desc:0 "REPLACE_ME Megastructure Hate"
 devolved_starbase_supremacy:0 "Starbase Supremacy"
 devolved_starbase_supremacy_desc:0 "REPLACE_ME Starbase Focus"
 
-devolved_wholesome_diplomats:0 "Wholesome Diplomats"
-devolved_wholesome_diplomats_desc:0 "REPLACE_ME Diplomacy Focus ADDITIONAL EFFECT plus 150 opinion for *all* empire types."
+devolved_civic_wholesome_diplomats:0 "Wholesome Diplomats"
+devolved_civic_wholesome_diplomats_desc:0 "REPLACE_ME Diplomacy Focus ADDITIONAL EFFECT plus 150 opinion for *all* empire types."
 
 devolved_civic_fleet_frenzy:0 "Fleet Frenzy"
 devolved_civic_fleet_frenzy_desc:0 "REPLACE_ME Fleet Focus"
+
 devolved_civic_fleet_fuckers:0 "Fleet Fuckers"
 devolved_civic_fleet_fuckers_desc:0 "REPLACE_ME Fleet Fuckers"
+
+ devolved_civic_hateable_huggers:0 "Hateable Huggers"
+ devolved_civic_hateable_huggers_desc:0 "REPLACE_ME Diplomacy Hate ADDITIONAL EFFECT minus 150 opinion for *all* empire types."
+
+ devolved_civic_amazing_armies:0 "Amazing Armies"
+ devolved_civic_amazing_armies_desc:0 "REPLACE_ME Army Love"
+
+ devolved_civic_army_abomination:0 "Army Abomination"
+ devolved_civic_army_abomination_desc:0 "REPLACE_ME Army Hate"
+
+
 
 
 # Councilor Positions
@@ -161,6 +173,7 @@ devolved_civic_councilor_metallic_maniac_desc:0 "The Metallic Maniac is so obses
 triggered_opinion_power_pit:0 "Power Pity"
 triggered_opinion_cute_little_fleets:0 "Cute little fleets!"
 triggered_opinion_wholesome_100:0 "Wholesome 100!"
+triggered_opinion_annoying:0 "Annoying Ass Empire"
 
 # Trade Conversions (maybe not necessary?)
 omni_conversion:0 "REPLACE_ME"
