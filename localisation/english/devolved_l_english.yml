@@ -128,25 +128,39 @@ devolved_civic_alloy_execution_desc:0 "REPLACE_ME Alloy Hate"
 devolved_civic_megamalice:0 "MegaMalice"
 devolved_civic_megamalice_desc:0 "REPLACE_ME Megastructure Hate"
 
+devolved_starbase_supremacy:0 "Starbase Supremacy"
+devolved_starbase_supremacy_desc:0 "REPLACE_ME Starbase Focus"
+
+devolved_wholesome_diplomats:0 "Wholesome Diplomats"
+devolved_wholesome_diplomats_desc:0 "REPLACE_ME Diplomacy Focus ADDITIONAL EFFECT plus 150 opinion for *all* empire types."
+
+devolved_civic_fleet_frenzy:0 "Fleet Frenzy"
+devolved_civic_fleet_frenzy_desc:0 "REPLACE_ME Fleet Focus"
+devolved_civic_fleet_fuckers:0 "Fleet Fuckers"
+devolved_civic_fleet_fuckers_desc:0 "REPLACE_ME Fleet Fuckers"
+
+
 # Councilor Positions
 
- devolved_civic_councilor_niche_exploiter:0 "Niche Exploiter"
- devolved_civic_councilor_niche_exploiter_desc:0 "The Niche Exploiter analyzes local economies to create more jobs to fill niches."
+devolved_civic_councilor_niche_exploiter:0 "Niche Exploiter"
+devolved_civic_councilor_niche_exploiter_desc:0 "The Niche Exploiter analyzes local economies to create more jobs to fill niches."
 
- devolved_civic_councilor_rock_remover:0 "Rock Remover"
- devolved_civic_councilor_rock_remover_desc:0 "The Rock Remover is tasked with coming up with new ways to destroy minerals, by forming them into something far greater."
+devolved_civic_councilor_rock_remover:0 "Rock Remover"
+devolved_civic_councilor_rock_remover_desc:0 "The Rock Remover is tasked with coming up with new ways to destroy minerals, by forming them into something far greater."
 
- devolved_civic_councilor_house_filler:0 "House Filler"
- devolved_civic_councilor_house_filler_desc:0 "The House Filler is dedicated to outreach programs to help get houses used by those from other worlds."
+devolved_civic_councilor_house_filler:0 "House Filler"
+devolved_civic_councilor_house_filler_desc:0 "The House Filler is dedicated to outreach programs to help get houses used by those from other worlds."
 
- devolved_civic_councilor_nutrient_nullifier:0 "Nutrient Nullifier"
- devolved_civic_councilor_nutrient_nullifier_desc:0 "The Nutrient Nullifier studies new ways to obliterate food in state of the art particle accelerators."
+devolved_civic_councilor_nutrient_nullifier:0 "Nutrient Nullifier"
+devolved_civic_councilor_nutrient_nullifier_desc:0 "The Nutrient Nullifier studies new ways to obliterate food in state of the art particle accelerators."
 
- devolved_civic_councilor_metallic_maniac:0 "Metallic Maniac"
- devolved_civic_councilor_metallic_maniac_desc:0 "The Metallic Maniac is so obsessed with hoarding alloys that they streamline construction processes to both integrate automatic alloy producing machinery and decrease expenditures."
+devolved_civic_councilor_metallic_maniac:0 "Metallic Maniac"
+devolved_civic_councilor_metallic_maniac_desc:0 "The Metallic Maniac is so obsessed with hoarding alloys that they streamline construction processes to both integrate automatic alloy producing machinery and decrease expenditures."
 
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"
+triggered_opinion_cute_little_fleets:0 "Cute little fleets!"
+triggered_opinion_wholesome_100:0 "Wholesome 100!"
 
 # Trade Conversions (maybe not necessary?)
 omni_conversion:0 "REPLACE_ME"

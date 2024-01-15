@@ -637,7 +637,13 @@ devolved_civic_sexual_singularity = {
 
 devolved_civic_profit_perforation = {
 	potential = {
-		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+		ethics = {
+			NOR = { 
+				value = ethic_gestalt_consciousness
+				value = ethic_capitalist
+				value = ethic_fanatic_capitalist
+			} 
+		}
 	}
 	# if not using trade value shouldn't be useable
 	modifier = {
@@ -717,4 +723,59 @@ devolved_civic_megamalice = {
 		starbase_outpost_cost_mult = -0.15
 	}
 	random_weight = { base = 5 }
+}
+
+devolved_starbase_supremacy = {
+    modifier = {
+        starbase_outpost_cost_mult = -0.5
+		starbase_upgrade_cost_mult = -0.2
+        starbase_energy_production_modules_energy_produces_add = 10
+        starbase_minerals_production_modules_minerals_produces_add = 10
+        starbase_food_production_modules_food_produces_add = 10
+        starbase_physics_research_modules_physics_research_produces_add = 10
+        starbase_society_research_modules_society_research_produces_add = 10
+        starbase_engineering_research_modules_engineering_research_produces_add = 10
+        planet_max_districts_add = -6
+    }
+    random_weight = { base = 5 }
+}
+
+devolved_wholesome_diplomats = {
+	possible = {
+		ethics = {
+			OR = {
+				value = ethic_fanatic_xenophile
+				value = ethic_xenophile
+			}
+		}
+	}
+	modifier = {
+		diplomacy_upkeep_mult = -0.15
+		diplo_weight_mult = 0.15
+		envoys_add = 1
+		country_insult_efficiency = -0.5
+		country_trust_growth = 0.1
+		max_rivalries = -10
+		# Universally loved opinion modifier
+	}
+}
+
+devolved_civic_fleet_frenzy = {
+    modifier = {
+        ship_fire_rate_mult = 1
+        ships_cost_mult = -0.5
+        ships_upkeep_mult = -0.5
+        country_produces_mult = -0.2
+    }
+}
+
+devolved_civic_fleet_fuckers = {
+    modifier = {
+        ship_fire_rate_mult = -2
+        ships_cost_mult = 1
+        ship_shield_add = -1000000
+        ship_armor_add = -1000000
+        country_produces_mult = 0.3
+        #Opinion Modifier
+    }
 }
