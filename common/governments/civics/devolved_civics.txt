@@ -766,6 +766,7 @@ devolved_civic_homephobia = {
 }
 
 devolved_civic_shitty_starbases = {
+	modification = no
     modifier = {
         starbase_outpost_cost_mult = 1
         starbase_upgrade_cost_mult = 1
