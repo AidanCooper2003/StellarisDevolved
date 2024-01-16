@@ -764,3 +764,23 @@ devolved_civic_homephobia = {
 		planet_pop_assembly_organic_add = 4
 	}
 }
+
+devolved_civic_shitty_starbases = {
+    modifier = {
+        starbase_outpost_cost_mult = 1
+        starbase_upgrade_cost_mult = 1
+        starbase_energy_production_modules_energy_produces_add = -10
+        starbase_minerals_production_modules_minerals_produces_add = -10
+        starbase_food_production_modules_food_produces_add = -10
+        starbase_physics_research_modules_physics_research_produces_add = -10
+        starbase_society_research_modules_society_research_produces_add = -10
+        starbase_engineering_research_modules_engineering_research_produces_add = -10
+        starbase_outpost_unity_produces_add = -10
+        starbase_upgraded_unity_produces_add = -50
+        planet_max_districts_add = 10
+        planet_max_districts_mult = 1
+        job_healthcare_per_pop = 0.0667
+        pop_citizen_happiness = 0.2
+    }
+    random_weight = { base = 5 }
+}

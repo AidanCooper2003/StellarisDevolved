@@ -158,8 +158,11 @@ devolved_civic_infinite_unemployment_desc:0 "REPLACE_ME Jobs Hate"
 devolved_civic_demancipation_proclamation:0 "Demancipation Proclamation"
 devolved_civic_demancipation_proclamation_desc:0 "REPLACE_ME Slavery Focus"
 
- devolved_civic_homephobia:0 "Homephobia"
- devolved_civic_homephobia_desc:0 "REPLACE_ME Housing Hate"
+devolved_civic_homephobia:0 "Homephobia"
+devolved_civic_homephobia_desc:0 "REPLACE_ME Housing Hate"
+
+devolved_civic_shitty_starbases:0 "Shitty Starbases"
+devolved_civic_shitty_starbases_desc:0 "REPLACE_ME Starbase Hate"
 
 
 
