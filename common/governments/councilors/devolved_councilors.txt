@@ -180,3 +180,34 @@ devolved_civic_head_homephobe = {
 		planet_pop_assembly_add = 0.3
 	}
 }
+
+devolved_civic_recursive_optimizer = {
+	leader_class = { official scientist }
+	is_leader_possible = {
+		OR = {
+			leader_class = scientist
+			leader_class = official
+		}
+	}
+	civic = devolved_civic_lucrative_leaders
+	modifier = {
+		councilor_skill_add = 0.33334
+	}
+}
+
+devolved_civic_leader_punisher = {
+	leader_class = { commander }
+	is_leader_possible = {
+		leader_class = commander
+	}
+	civic = devolved_civic_loser_leaders
+	modifier = { 
+		leader_lifespan_mult = -0.03
+		job_farmer_add = 1
+		job_technician_add = 1
+		job_miner_add = 1
+		planet_miners_engineering_research_produces_add = 1
+		planet_farmers_society_research_produces_add = 1
+		planet_technician_physics_research_produces_add = 1
+	}
+}
