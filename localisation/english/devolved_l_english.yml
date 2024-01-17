@@ -128,8 +128,8 @@ devolved_civic_alloy_execution_desc:0 "REPLACE_ME Alloy Hate"
 devolved_civic_megamalice:0 "MegaMalice"
 devolved_civic_megamalice_desc:0 "REPLACE_ME Megastructure Hate"
 
-devolved_starbase_supremacy:0 "Starbase Supremacy"
-devolved_starbase_supremacy_desc:0 "REPLACE_ME Starbase Focus"
+devolved_civic_starbase_supremacy:0 "Starbase Supremacy"
+devolved_civic_starbase_supremacy_desc:0 "REPLACE_ME Starbase Focus"
 
 devolved_civic_wholesome_diplomats:0 "Wholesome Diplomats"
 devolved_civic_wholesome_diplomats_desc:0 "REPLACE_ME Diplomacy Focus ADDITIONAL EFFECT plus 150 opinion for *all* empire types."
