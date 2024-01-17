@@ -383,6 +383,10 @@ devolved_civic_undead_upkeeper = {
             planet_structures_upkeep_mult = -0.2
             planet_structures_cost_mult = 1
             ships_cost_mult = 0.3
+			planetary_ascension_cost_mult = 0.1
+			physics_tech_cost_mult = 0.025
+			society_tech_cost_mult = 0.025
+			engineering_tech_cost_mult = 0.025
         }
         random_weight = { base = 5 }
     }
@@ -397,10 +401,15 @@ devolved_civic_dead_upkeeper = {
             leaders_upkeep_mult = 0.2
             ships_upkeep_mult = 0.2
             starbases_upkeep_mult = 0.2
-            edicts_upkeep_mult = 0.2
+            #edicts_upkeep_mult = 0.2 doesn't work
             planet_structures_upkeep_mult = 0.2
             planet_structures_cost_mult = -0.75
             ships_cost_mult = -0.3
+			megastructures_cost_mult = -0.1
+			physics_tech_cost_mult = -0.05
+			society_tech_cost_mult = -0.05
+			engineering_tech_cost_mult = -0.05
+			planetary_ascension_cost_mult = -0.1
         }
         random_weight = { base = 5 }
     }
@@ -572,7 +581,9 @@ devolved_civic_infrastructure_initiation = {
 		shipsize_starbase_outpost_build_speed_mult = 1
 		planet_army_build_speed_mult = 1
 		planet_decision_enact_speed_mult = 1
-		planet_structures_build_speed_mult = 1
+		planet_colony_development_speed_mult = 1
+		planet_building_build_speed_mult = 1
+		planet_building_build_speed_mult = 1
 		starbase_building_build_speed_mult = 1
 		starbase_module_build_speed_mult = 1
 		shipsize_mining_station_build_speed_mult = 1
@@ -589,7 +600,8 @@ devolved_civic_infrastructure_irritation = {
 		shipsize_starbase_outpost_build_speed_mult = -0.8
 		planet_army_build_speed_mult = -0.8
 		planet_decision_enact_speed_mult = -0.8
-		planet_structures_build_speed_mult = -0.8
+		planet_colony_development_speed_mult = -0.5
+		planet_building_build_speed_mult = -0.8
 		starbase_building_build_speed_mult = -0.8
 		starbase_module_build_speed_mult = -0.8
 		shipsize_mining_station_build_speed_mult = -0.8
@@ -600,7 +612,10 @@ devolved_civic_infrastructure_irritation = {
 		ship_science_physics_research_upkeep_add = -2
 		ship_science_society_research_upkeep_add = -2
 		ship_science_engineering_research_upkeep_add = -2
-		country_produces_mult = 0.1
+		country_produces_mult = 0.05
+		physics_tech_cost_mult = -0.1
+		society_tech_cost_mult = -0.1
+		engineering_tech_cost_mult = -0.1
 		#Change to benefits for having less buildings
 	}
 	random_weight = { base = 5 }
@@ -609,10 +624,9 @@ devolved_civic_infrastructure_irritation = {
 devolved_civic_alloy_execution = {
 	modifier = {
 		country_alloys_produces_mult = -0.2
-		leaders_alloys_upkeep_add = 4
-		leaders_food_upkeep_add = -10
-		leaders_minerals_upkeep_add = -10
-		leaders_consumer_goods_upkeep_add = -10
+		planet_metallurgists_alloys_produces_mult = -0.2
+		planet_districts_industrial_alloys_cost_add = 50
+		planet_districts_industrial_alloys_upkeep_add = 1
 	}
 	random_weight = { base = 5 }
 }
