@@ -25,6 +25,13 @@ devolved_civic_together_suffering = {
 	potential = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 	}
+	possible = {
+		civics = {
+			NOT = {
+				value = devolved_civic_ubiquitous_unity
+			}
+		}
+	}
 	modification = no
 	random_weight = { base = @civic_default_random_weight }
 	modifier = {
@@ -40,6 +47,13 @@ devolved_civic_together_suffering = {
 devolved_civic_ubiquitous_unity = {
 	potential = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+	}
+	possible = {
+		civics = {
+			NOT = {
+				value = devolved_civic_together_suffering
+			}
+		}
 	}
 	random_weight = { base = @civic_default_random_weight }
 	modifier = {
