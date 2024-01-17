@@ -164,6 +164,10 @@ devolved_civic_homephobia_desc:0 "REPLACE_ME Housing Hate"
 devolved_civic_shitty_starbases:0 "Shitty Starbases"
 devolved_civic_shitty_starbases_desc:0 "REPLACE_ME Starbase Hate"
 
+devolved_civic_developing_country:0 "Developing Country"
+devolved_civic_developing_country_desc:0 "Their lands and people were previously pillaged and exploited for centuries by a stronger empire, and have developed an incredible ability to curtail to other empire's demands, and find ways to get what they need out of them."
+
+
 
 
 
@@ -186,6 +190,9 @@ devolved_civic_councilor_metallic_maniac_desc:0 "The Metallic Maniac is so obses
 
 devolved_civic_councilor_hugless_heirophant:0 "Hugless Heirophant"
 devolved_civic_councilor_hugless_heirophant_desc:0 "The Hugless Heirophant is the most repulsive being in the whole society, and thus has a unique vision for creating a more loving society... from the point of view of someone who was never loved."
+
+devolved_civic_councilor_nation_pleaser:0 "Nation Pleaser"
+devolved_civic_councilor_nation_pleaser_desc:0 "The head of the nation pleasing department, which is dedicated to exploiting cultural minutae of richer empires to generate sympathy."
 
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"

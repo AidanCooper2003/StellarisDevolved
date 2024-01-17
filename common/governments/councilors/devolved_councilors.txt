@@ -115,3 +115,17 @@ devolved_civic_councilor_hugless_heirophant = {
 		planet_culture_workers_society_research_produces_add = 1
 	}
 }
+
+devolved_civic_councilor_nation_pleaser = {
+	leader_class = { official }
+
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_developing_country
+	modifier = {
+		country_trust_cap_add = 25
+		country_trust_growth = 0.2
+		diplomacy_upkeep_mult = -0.03
+	}
+}
