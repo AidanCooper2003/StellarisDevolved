@@ -655,6 +655,12 @@ devolved_civic_alloy_execution = {
 		planet_metallurgists_alloys_produces_mult = -0.2
 		planet_districts_industrial_alloys_cost_add = 50
 		planet_districts_industrial_alloys_upkeep_add = 1
+		espionage_operation_skill_add = 10
+		espionage_operation_cost_mult = -0.9
+		intel_encryption_mult = 0.2
+		intel_decryption_mult = 0.2
+		council_agenda_finishing_effect_duration_mult = 0.5
+		council_agenda_progress_speed = 0.25
 	}
 	random_weight = { base = 5 }
 }
