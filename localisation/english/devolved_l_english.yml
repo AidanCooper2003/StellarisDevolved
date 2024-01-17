@@ -167,11 +167,11 @@ devolved_civic_shitty_starbases_desc:0 "REPLACE_ME Starbase Hate"
 devolved_civic_developing_country:0 "Developing Country"
 devolved_civic_developing_country_desc:0 "Their lands and people were previously pillaged and exploited for centuries by a stronger empire, and have developed an incredible ability to curtail to other empire's demands, and find ways to get what they need out of them."
 
- devolved_civic_lucrative_leaders:0 "Lucrative Leaders"
- devolved_civic_lucrative_leaders_desc:0 "REPLACE_ME Leader Focus"
+devolved_civic_lucrative_leaders:0 "Lucrative Leaders"
+devolved_civic_lucrative_leaders_desc:0 "REPLACE_ME Leader Focus"
 
- devolved_civic_loser_leaders:0 "Loser Leaders"
- devolved_civic_loser_leaders_desc:0 "REPLACE_ME Leader Hate"
+devolved_civic_loser_leaders:0 "Loser Leaders"
+devolved_civic_loser_leaders_desc:0 "REPLACE_ME Leader Hate"
 
 
 
@@ -223,6 +223,7 @@ triggered_opinion_power_pit:0 "Power Pity"
 triggered_opinion_cute_little_fleets:0 "Cute little fleets!"
 triggered_opinion_wholesome_100:0 "Wholesome 100!"
 triggered_opinion_annoying:0 "Annoying Ass Empire"
+ triggered_opinion_developing:0 "Developing Nation"
 
 # Trade Conversions (maybe not necessary?)
 omni_conversion:0 "REPLACE_ME"
