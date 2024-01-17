@@ -502,7 +502,7 @@ devolved_civic_infinite_employment = {
 }
 
 devolved_civic_infinite_unemployment = {
-	potential = {
+	possible = {
 		ethics = {
 			NOR = {
 				value = ethic_socialism
