@@ -542,7 +542,11 @@ devolved_civic_hyper_housing = {
 }
 
 devolved_civic_sexual_singularity = {
-	# NEEDS TO BE MACHINE EMPIRE EXCLUSIVE
+	potential = {
+		authority = {
+			value = auth_machine_intelligence
+		}
+	}
 	modifier = {
 		job_replicator_per_pop = 0.05
 	}
