@@ -34,7 +34,7 @@ triggered_opinion_power_pit = {
 triggered_opinion_developing = {
 	trigger = {
 		FROM = {
-			has_civic = devolved_civic_power_pit
+			has_civic = devolved_civic_developing_country
 		}
 		# Is not a Fallen Empire, Awakened Empire or Pre-FTL Empire
 		is_country_type = default
