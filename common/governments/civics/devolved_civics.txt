@@ -832,8 +832,8 @@ devolved_civic_developing_country = {
 	modification = no
 	modifier = {
 		country_produces_mult = -0.9
-		commercial_pact_mult = 1000
-		research_sharing_mult = 1000
+		commercial_pact_mult = 100
+		research_sharing_mult = 100
 		planet_stability_add = 20
 	}
 }
