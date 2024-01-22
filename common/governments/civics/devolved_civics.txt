@@ -835,6 +835,7 @@ devolved_civic_developing_country = {
 		commercial_pact_mult = 100
 		research_sharing_mult = 100
 		planet_stability_add = 20
+		country_trade_fee = .3
 	}
 }
 
