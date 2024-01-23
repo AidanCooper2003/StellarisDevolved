@@ -176,7 +176,7 @@ devolved_civic_councilor_head_homephobe = {
 	modifier = {
 		pop_housing_usage_add = 0.02
 		planet_housing_add = -0.5
-		planet_pop_assembly_mult = 0.01
+		planet_pop_assembly_mult = 0.02
 		planet_pop_assembly_add = 0.3
 	}
 }
