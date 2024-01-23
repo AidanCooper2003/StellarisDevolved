@@ -48,7 +48,7 @@ devolved_edict_crystal_voice_deepener = {
 
 	modifier = {
 		council_agenda_progress_speed = 0.25
-		country_influence_produces_add = 1
+		country_base_influence_produces_add = 1
 	}
 
 	potential = {
