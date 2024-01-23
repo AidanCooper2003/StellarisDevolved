@@ -209,14 +209,17 @@ devolved_civic_councilor_ethical_enforcer_desc:0 "REPLACE_ME"
 devolved_civic_councilor_pleasure_pants_professional:0 "Pleasure Pants Professional"
 devolved_civic_councilor_pleasure_pants_professional_desc:0 "REPLACE_ME"
 
-devolved_civic_head_homephobe:0 "Homephobe"
-devolved_civic_head_homephobe_desc:0 "REPLACE_ME"
+devolved_civic_councilor_head_homephobe:0 "Homephobe"
+devolved_civic_councilor_head_homephobe_desc:0 "REPLACE_ME"
 
- devolved_civic_recursive_optimizer:0 "Recursive Optimizer"
- devolved_civic_recursive_optimizer_desc:0 "REPLACE_ME"
+ devolved_civic_councilor_recursive_optimizer:0 "Recursive Optimizer"
+ devolved_civic_councilor_recursive_optimizer_desc:0 "REPLACE_ME"
 
- devolved_civic_leader_punisher:0 "Leader Punisher"
- devolved_civic_leader_punisher_desc:0 "REPLACE_ME"
+ devolved_civic_councilor_leader_punisher:0 "Leader Punisher"
+ devolved_civic_councilor_leader_punisher_desc:0 "REPLACE_ME"
+
+ devolved_civic_councilor_chemical_chief:0 "Chemical Chief"
+ devolved_civic_councilor_chemical_chief_desc:0 "REPLACE_ME"
 
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"

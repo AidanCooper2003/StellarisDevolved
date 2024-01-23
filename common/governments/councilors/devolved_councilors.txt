@@ -167,7 +167,7 @@ devolved_civic_councilor_pleasure_pants_professional = {
 	}
 }
 
-devolved_civic_head_homephobe = {
+devolved_civic_councilor_head_homephobe = {
 	leader_class = { official }
 	is_leader_possible = {
 		leader_class = official
@@ -181,7 +181,7 @@ devolved_civic_head_homephobe = {
 	}
 }
 
-devolved_civic_recursive_optimizer = {
+devolved_civic_councilor_recursive_optimizer = {
 	leader_class = { official scientist }
 	is_leader_possible = {
 		OR = {
@@ -195,7 +195,7 @@ devolved_civic_recursive_optimizer = {
 	}
 }
 
-devolved_civic_leader_punisher = {
+devolved_civic_councilor_leader_punisher = {
 	leader_class = { commander }
 	is_leader_possible = {
 		leader_class = commander
@@ -209,5 +209,21 @@ devolved_civic_leader_punisher = {
 		planet_miners_engineering_research_produces_add = 1
 		planet_farmers_society_research_produces_add = 1
 		planet_technician_physics_research_produces_add = 1
+	}
+}
+
+devolved_civic_councilor_chemical_chief = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_stratworld_strategists
+	modifier = {
+		building_mote_harvesters_max = 0.5
+		building_crystal_mines_max = 0.5
+		building_gas_extractors_max = 0.5
+		country_sr_zro_produces_add = 1
+		country_sr_living_metal_produces_add = 1
+		country_sr_dark_matter_produces_add = 1
 	}
 }
