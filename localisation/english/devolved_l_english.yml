@@ -221,6 +221,12 @@ devolved_civic_councilor_head_homephobe_desc:0 "REPLACE_ME"
  devolved_civic_councilor_chemical_chief:0 "Chemical Chief"
  devolved_civic_councilor_chemical_chief_desc:0 "REPLACE_ME"
 
+ devolved_civic_councilor_anti_fleet_alderman:0 "Anti-Fleet Alderman"
+ devolved_civic_councilor_anti_fleet_alderman_desc:0 "REPLACE_ME"
+
+ devolved_civic_councilor_federation_fellow:0 "Federation Fellow"
+ devolved_civic_councilor_federation_fellow_desc:0 "REPLACE_ME"
+
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"
 triggered_opinion_cute_little_fleets:0 "Cute little fleets!"

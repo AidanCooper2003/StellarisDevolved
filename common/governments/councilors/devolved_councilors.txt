@@ -227,3 +227,28 @@ devolved_civic_councilor_chemical_chief = {
 		country_sr_dark_matter_produces_add = 1
 	}
 }
+
+devolved_civic_councilor_anti_fleet_alderman = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_fleet_fuckers
+	modifier = {
+		planet_stability_add = 1
+		job_culture_worker_add = 0.5
+	}
+}
+
+devolved_civic_councilor_federation_fellow = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_wholesome_diplomats
+	modifier = {
+		federation_experience_add = 1
+		cohesion_add = 1
+		cohesion_ethics_penalty_mult = -0.03
+	}
+}
