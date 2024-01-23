@@ -26,7 +26,7 @@ devolved_edict_diamond_chalices = {
 	}
 
 	ai_weight = {
-		weight = @EdictHighPrio
+		weight = 1000000
 	}
 }
 
@@ -56,7 +56,7 @@ devolved_edict_crystal_voice_deepener = {
 	}
 
 	ai_weight = {
-		weight = @EdictHighPrio
+		weight = 1000000
 	}
 }
 
@@ -86,7 +86,7 @@ devolved_edict_programmable_virtual_reality = {
 	}
 
 	ai_weight = {
-		weight = @EdictHighPrio
+		weight = 1000000
 	}
 }
 
