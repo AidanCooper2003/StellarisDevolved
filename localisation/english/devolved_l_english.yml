@@ -249,7 +249,6 @@ devolved_civic_councilor_head_homephobe_desc:0 "REPLACE_ME"
 
 # Custom Modifiers
 mod_devolved_war_exhaustion_fire_rate:0 "Max Fire Rate From War Exhaustion"
-mod_devolved_peace_unity_mult:0 "Unity Production During Peacetime"
 
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"
