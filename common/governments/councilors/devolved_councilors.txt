@@ -307,3 +307,31 @@ devolved_civic_councilor_jaeger = {
 		catapult_range_mult = 0.01
 	}
 }
+
+devolved_civic_councilor_test_peace = {
+	leader_class = { commander scientist }
+	is_leader_possible = {
+		OR = {
+			leader_class = commander
+			leader_class = scientist
+		}
+	}
+	civic = devolved_civic_two_councilor_test
+	modifier = {
+		country_produces_mult = 0.1
+	}
+}
+
+devolved_civic_councilor_test_hope = {
+	leader_class = { commander scientist }
+	is_leader_possible = {
+		OR = {
+			leader_class = commander
+			leader_class = scientist
+		}
+	}
+	civic = devolved_civic_two_councilor_test
+	modifier = {
+		ships_alloys_upkeep_mult = -0.1
+	}
+}

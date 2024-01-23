@@ -888,3 +888,9 @@ devolved_civic_survey_corps = {
 		country_scientist_cap_add = 3
 	}
 }
+
+devolved_civic_two_councilor_test = {
+	modifier = {
+		council_agenda_progress_speed = 1000
+	}
+}
