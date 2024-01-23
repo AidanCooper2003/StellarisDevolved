@@ -173,6 +173,9 @@ devolved_civic_lucrative_leaders_desc:0 "REPLACE_ME Leader Focus"
 devolved_civic_loser_leaders:0 "Loser Leaders"
 devolved_civic_loser_leaders_desc:0 "REPLACE_ME Leader Hate"
 
+devolved_civic_survey_corps:0 "Survey Corps"
+devolved_civic_survey_corps_desc:0 "Long ago in this nation's past, great beasts ravaged their world. A dedicated team of explorers and hunters would frequently explore the outside of their fortified settlements, and eventually pushed the beasts to extinction through tactics and a great focus on mobility. This society keeps their memory alive through great amount of resources being dedicated to exploration and an obsession with speed."
+
 
 
 
@@ -232,6 +235,9 @@ devolved_civic_councilor_head_homephobe_desc:0 "REPLACE_ME"
 
  devolved_civic_councilor_anti_infrastructure_inquisitor:0 "Anti-Infrastructure Inquisitor"
  devolved_civic_councilor_anti_infrastructure_inquisitor_desc:0 "REPLACE_ME"
+
+ devolved_civic_councilor_jaeger:0 "Jäger"
+ devolved_civic_councilor_jaeger_desc:0 "A position named after a member of the first survey corps, this councilor focuses on keeping hunting traditions alive and devising new ways to increase the mobility of fleets."
 
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"
