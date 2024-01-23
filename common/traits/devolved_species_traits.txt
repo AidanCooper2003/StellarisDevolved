@@ -24,6 +24,8 @@ devolved_trait_l_machine = {
 	}
 }
 
+
+# Doesn't currently work, will fix later
 devolved_trait_micro_influencer = {
 	cost = 2
 	allowed_archetypes = {
