@@ -895,3 +895,11 @@ devolved_civic_heavenly_whales = {
 		diplomacy_upkeep_mult = -0.1
 	}
 }
+
+devolved_civic_cuzzx_crystals = {
+	modifier = {
+		job_crystal_miner_per_pop = 0.05
+		job_crystal_miner_add = 1
+		# Custom rare crystal edicts
+	}
+}
