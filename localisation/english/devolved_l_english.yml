@@ -227,6 +227,12 @@ devolved_civic_councilor_head_homephobe_desc:0 "REPLACE_ME"
  devolved_civic_councilor_federation_fellow:0 "Federation Fellow"
  devolved_civic_councilor_federation_fellow_desc:0 "REPLACE_ME"
 
+ devolved_civic_councilor_infrastructure_idealogue:0 "Infrastructure Idealogue"
+ devolved_civic_councilor_infrastructure_idealogue_desc:0 "REPLACE_ME"
+
+ devolved_civic_councilor_anti_infrastructure_inquisitor:0 "Anti-Infrastructure Inquisitor"
+ devolved_civic_councilor_anti_infrastructure_inquisitor_desc:0 "REPLACE_ME"
+
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"
 triggered_opinion_cute_little_fleets:0 "Cute little fleets!"

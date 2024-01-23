@@ -234,7 +234,7 @@ devolved_civic_supermini = {
 			pop_amenities_usage_mult = -0.15
 			ship_fire_rate_mult = -0.5
 			planet_metallurgists_alloys_produces_add = -2
-		}
+		}f
 		random_weight = { base = 5 }
 	}
 
@@ -600,7 +600,6 @@ devolved_civic_profit_perforation = {
 }
 
 devolved_civic_infrastructure_initiation = {
-
 	modifier = {
 		planet_army_build_speed_mult = 1
 		planet_decision_enact_speed_mult = 1

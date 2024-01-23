@@ -252,3 +252,38 @@ devolved_civic_councilor_federation_fellow = {
 		cohesion_ethics_penalty_mult = -0.03
 	}
 }
+
+devolved_civic_councilor_infrastructure_idealogue = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	modifier = {
+		planet_army_build_speed_mult = 0.1
+		planet_decision_enact_speed_mult = 0.1
+		planet_colony_development_speed_mult = 0.1
+		planet_building_build_speed_mult = 0.1
+		starbase_building_build_speed_mult = 0.1
+		starbase_module_build_speed_mult = 0.1
+		shipsize_mining_station_build_speed_mult = 0.1
+		shipsize_research_station_build_speed_mult = 0.1
+		shipsize_starbase_outpost_build_speed_mult = 0.1
+		megastructure_build_speed_mult = 0.01
+	}
+}
+
+devolved_civic_councilor_anti_infrastructure_inquisitor = {
+	leader_class = { official commander }
+	is_leader_possible = {
+		OR = {
+			leader_class = official
+			leader_class = commander
+		}
+	}
+	modifier = {
+		megastructure_build_speed_mult = -0.01
+		physics_tech_cost_mult = -0.02
+		society_tech_cost_mult = -0.02
+		engineering_tech_cost_mult = -0.02
+	}
+}
