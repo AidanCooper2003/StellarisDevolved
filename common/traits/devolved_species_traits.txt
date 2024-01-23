@@ -31,7 +31,7 @@ devolved_trait_micro_influencer = {
 	}
 
 	modifier = {
-		pop_category_normal_resources_influence_produces = 0.01
+		pop_category_normal_resources_influence_produces_add = 0.01
 	}
 
 	slave_cost = {
