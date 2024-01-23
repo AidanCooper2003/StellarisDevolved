@@ -319,6 +319,7 @@ devolved_civic_councilor_whale_peace = {
 	civic = devolved_civic_heavenly_whales
 	modifier = {
 		country_unity_produces_mult = 0.05
+		devolved_peace_unity_mult = 0.05
 		# Change to unity production when at peace +x%
 	}
 }
@@ -331,6 +332,7 @@ devolved_civic_councilor_whale_hope = {
 	civic = devolved_civic_heavenly_whales
 	modifier = {
 		country_war_exhaustion_mult = -0.05
+		devolved_war_exhaustion_fire_rate = 0.2
 		# Change to alloy production when at war +x%
 	}
 }

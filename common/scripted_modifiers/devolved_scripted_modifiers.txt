@@ -1,0 +1,17 @@
+# War
+	devolved_war_exhaustion_fire_rate = {
+		#icon
+		percentage = yes
+		good = yes
+		category = country
+	}
+#
+
+# Peace
+	devolved_peace_unity_mult = {
+		#icon
+		percentage = yes
+		good = yes
+		category = country
+	}
+#
