@@ -32,6 +32,12 @@ devolved_trait_micro_influencer = {
 
 	modifier = {
 		pop_category_normal_resources_influence_produces_add = 0.01
+		planet_livestock_influence_add = 0.02
+	}
+
+	triggered_pop_modifier = {
+		pop_category_normal_resources_influence_produces_add = 0.01
+		planet_livestock_influence_add = 0.02
 	}
 
 	slave_cost = {
