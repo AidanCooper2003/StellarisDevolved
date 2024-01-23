@@ -258,6 +258,7 @@ devolved_civic_councilor_infrastructure_idealogue = {
 	is_leader_possible = {
 		leader_class = official
 	}
+	civic = devolved_civic_infrastructure_initiation
 	modifier = {
 		planet_army_build_speed_mult = 0.1
 		planet_decision_enact_speed_mult = 0.1
@@ -280,6 +281,7 @@ devolved_civic_councilor_anti_infrastructure_inquisitor = {
 			leader_class = commander
 		}
 	}
+	civic = devolved_civic_infrastructure_irritation
 	modifier = {
 		megastructure_build_speed_mult = -0.01
 		physics_tech_cost_mult = -0.02
@@ -296,6 +298,7 @@ devolved_civic_councilor_jaeger = {
 			leader_class = scientist
 		}
 	}
+	civic = devolved_civic_survey_corps
 	modifier = {
 		job_titan_hunter_add = 1
 		ship_speed_mult = 0.2
