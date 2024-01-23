@@ -809,6 +809,7 @@ devolved_civic_shitty_starbases = {
 	modification = no
     modifier = {
         starbase_outpost_cost_mult = 1
+		starbase_outpost_influence_cost_mult = 1
         starbase_upgrade_cost_mult = 1
         starbase_energy_production_modules_energy_produces_add = -10
         starbase_minerals_production_modules_minerals_produces_add = -10
@@ -889,8 +890,8 @@ devolved_civic_survey_corps = {
 	}
 }
 
-devolved_civic_two_councilor_test = {
+devolved_civic_heavenly_whales = {
 	modifier = {
-		council_agenda_progress_speed = 1000
+		diplomacy_upkeep_mult = -0.1
 	}
 }

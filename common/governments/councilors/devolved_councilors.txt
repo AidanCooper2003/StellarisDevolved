@@ -308,30 +308,29 @@ devolved_civic_councilor_jaeger = {
 	}
 }
 
-devolved_civic_councilor_test_peace = {
-	leader_class = { commander scientist }
+devolved_civic_councilor_whale_peace = {
+	leader_class = { scientist official }
 	is_leader_possible = {
 		OR = {
-			leader_class = commander
+			leader_class = official
 			leader_class = scientist
 		}
 	}
-	civic = devolved_civic_two_councilor_test
+	civic = devolved_civic_heavenly_whales
 	modifier = {
-		country_produces_mult = 0.1
+		country_unity_produces_mult = 0.05
+		# Change to unity production when at peace +x%
 	}
 }
 
-devolved_civic_councilor_test_hope = {
-	leader_class = { commander scientist }
+devolved_civic_councilor_whale_hope = {
+	leader_class = { commander }
 	is_leader_possible = {
-		OR = {
-			leader_class = commander
-			leader_class = scientist
-		}
+		leader_class = commander
 	}
-	civic = devolved_civic_two_councilor_test
+	civic = devolved_civic_heavenly_whales
 	modifier = {
-		ships_alloys_upkeep_mult = -0.1
+		country_war_exhaustion_mult = -0.05
+		# Change to alloy production when at war +x%
 	}
 }
