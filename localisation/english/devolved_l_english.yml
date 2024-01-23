@@ -4,6 +4,9 @@
 devolved_trait_l_machine:0 "L Machine"
 devolved_trait_l_machine_desc:0 "Members of this species are absolute losers, who can't understand anything and can never fully adapt to even the best environments, and are impossibly cowardly and weak soldiers."
 
+devolved_trait_micro_influencer:0 "Micro-Influencer"
+devolved_trait_micro_influencer_desc:0 "Every organism does their part to project their group's will outward."
+
 # Civics
 devolved_civic_pleasure_power:0 "Pleasure Power"
 devolved_civic_pleasure_power_desc:0 "All citizens are given mandatory stim toys made from old clothing, that give a seemingly reality breaking level of happiness to all. However, these entertainment garments can cause distraction during war, leading to less effective gunners."
