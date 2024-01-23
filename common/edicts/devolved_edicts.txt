@@ -6,11 +6,11 @@ devolved_edict_diamond_chalices = {
 	resources = {
 		category = edicts
 		cost = {
-			rare_crystals = 3
+			rare_crystals = 5
 			multiplier = value:edict_size_effect
 		}
 		upkeep = {
-			rare_crystals = @Edict1Cost
+			rare_crystals = 5
 			multiplier = value:edict_size_effect
 		}
 	}
@@ -37,11 +37,11 @@ devolved_edict_crystal_voice_deepener = {
 	resources = {
 		category = edicts
 		cost = {
-			rare_crystals = 3
+			rare_crystals = 5
 			multiplier = value:edict_size_effect
 		}
 		upkeep = {
-			rare_crystals = @Edict1Cost
+			rare_crystals = 5
 			multiplier = value:edict_size_effect
 		}
 	}
@@ -67,11 +67,11 @@ devolved_edict_programmable_virtual_reality = {
 	resources = {
 		category = edicts
 		cost = {
-			rare_crystals = 3
+			rare_crystals = 5
 			multiplier = value:edict_size_effect
 		}
 		upkeep = {
-			rare_crystals = @Edict1Cost
+			rare_crystals = 5
 			multiplier = value:edict_size_effect
 		}
 	}
