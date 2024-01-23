@@ -23,3 +23,24 @@ devolved_trait_l_machine = {
 		}
 	}
 }
+
+devolved_trait_micro_influencer = {
+	cost = 2
+	allowed_archetypes = {
+		BIOLOGICAL LITHOID REPLICANT
+	}
+
+	modifier = {
+		pop_category_normal_influence_produces = 0.01
+	}
+
+	slave_cost = {
+		energy = 1000
+	}
+
+	assembly_score = {
+		modifier = {
+			add = 0.5
+		}
+	}
+}
