@@ -1,6 +1,7 @@
 devolved_game_designer = {
 	category = ruler
 	possible_precalc = can_fill_ruler_job
+	icon = culture_worker
 	resources = {
 		category = planet_researchers
 		produces = {
