@@ -907,8 +907,10 @@ devolved_civic_cuzzx_crystals = {
 devolved_civic_god_is_a_gamer = {
 	possible = {
 		ethics = {
-			value = ethic_spiritualist
-			value = ethic_fanatic_spiritualist
+			OR = {
+				value = ethic_spiritualist
+				value = ethic_fanatic_spiritualist
+			}
 		}
 	}
 	# Custom gamer god building
