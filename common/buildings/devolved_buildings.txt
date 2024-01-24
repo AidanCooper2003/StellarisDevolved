@@ -14,7 +14,7 @@ building_game_design_college = {
 			has_modifier = crucible_colony
 		}
 		tec_ai_destroy_research_boosting_building = no
-		has_civic = devolved_civic_god_is_a_gamer
+		owner = { has_valid_civic = devolved_civic_god_is_a_gamer }
 	}
 
 	allow = {
