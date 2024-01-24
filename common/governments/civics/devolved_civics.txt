@@ -397,11 +397,14 @@ devolved_civic_undead_upkeeper = {
             edicts_upkeep_mult = -0.2
             planet_structures_upkeep_mult = -0.2
             planet_structures_cost_mult = 1
-            ships_cost_mult = 0.3
+            ships_cost_mult = 0.2
 			planetary_ascension_cost_mult = 0.1
 			physics_tech_cost_mult = 0.025
 			society_tech_cost_mult = 0.025
 			engineering_tech_cost_mult = 0.025
+			station_gatherers_cost_mult = 1
+			station_researchers_cost_mult = 1
+			deposit_blockers_cost_mult = 1
         }
         random_weight = { base = 5 }
     }
@@ -419,12 +422,15 @@ devolved_civic_dead_upkeeper = {
             #edicts_upkeep_mult = 0.2 doesn't work
             planet_structures_upkeep_mult = 0.2
             planet_structures_cost_mult = -0.75
-            ships_cost_mult = -0.3
+            ships_cost_mult = -0.2
 			megastructures_cost_mult = -0.1
 			physics_tech_cost_mult = -0.05
 			society_tech_cost_mult = -0.05
 			engineering_tech_cost_mult = -0.05
 			planetary_ascension_cost_mult = -0.1
+			station_gatherers_cost_mult = -0.5
+			station_researchers_cost_mult = -0.5
+			deposit_blockers_cost_mult = -0.5
         }
         random_weight = { base = 5 }
     }
@@ -610,6 +616,8 @@ devolved_civic_infrastructure_initiation = {
 		shipsize_mining_station_build_speed_mult = 1
 		shipsize_research_station_build_speed_mult = 1
 		shipsize_starbase_outpost_build_speed_mult = 1
+		planet_clear_blocker_speed_mult = 1
+		starbase_upgrade_speed_mult = 1
 		megastructure_build_speed_mult = 0.1
 	}
 	random_weight = { base = 5 }
@@ -627,15 +635,17 @@ devolved_civic_infrastructure_irritation = {
 		starbase_module_build_speed_mult = -0.8
 		shipsize_mining_station_build_speed_mult = -0.8
 		shipsize_research_station_build_speed_mult = -0.8
+		planet_clear_blocker_speed_mult = -0.8
+		starbase_upgrade_speed_mult = -0.8
 		megastructure_build_speed_mult = -0.1
 		ship_constructor_unity_upkeep_add = 10
 		ship_science_physics_research_upkeep_add = -2
 		ship_science_society_research_upkeep_add = -2
 		ship_science_engineering_research_upkeep_add = -2
 		country_produces_mult = 0.05
-		physics_tech_cost_mult = -0.1
-		society_tech_cost_mult = -0.1
-		engineering_tech_cost_mult = -0.1
+		physics_tech_cost_mult = -0.11
+		society_tech_cost_mult = -0.11
+		engineering_tech_cost_mult = -0.11
 		#Change to benefits for having less buildings
 	}
 	random_weight = { base = 5 }
