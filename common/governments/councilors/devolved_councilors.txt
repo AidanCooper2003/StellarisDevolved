@@ -320,7 +320,6 @@ devolved_civic_councilor_whale_peace = {
 	modifier = {
 		planet_jobs_tec_at_peace_unity_produces_mult = 0.05
 		resolution_category_rulesofwar_vote_strength_mult = 0.2
-		# Change to unity production when at peace +x%
 	}
 }
 
