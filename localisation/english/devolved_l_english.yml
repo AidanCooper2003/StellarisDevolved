@@ -267,6 +267,7 @@ edict_devolved_edict_programmable_virtual_reality_desc:0 "Provides social scient
 
 # Custom Modifiers
 mod_devolved_war_exhaustion_fire_rate:0 "Max Fire Rate From War Exhaustion"
+ mod_devolved_war_exhaustion_alloys:0 "Max Alloy Production From War Exhaustion"
 
 # Opinions
 triggered_opinion_power_pit:0 "Power Pity"

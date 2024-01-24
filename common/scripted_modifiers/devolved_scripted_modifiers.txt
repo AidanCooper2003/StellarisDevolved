@@ -5,4 +5,11 @@
 		good = yes
 		category = country
 	}
+
+	devolved_war_exhaustion_alloys = {
+		#icon
+		percentage = yes
+		good = yes
+		category = country
+	}
 #
