@@ -1,0 +1,28 @@
+devolved_game_designer = {
+	category = ruler
+	possible_precalc = can_fill_ruler_job
+	resources = {
+		category = planet_researchers
+		produces = {
+			society_research = 15
+			unity = 3
+		}
+		upkeep = {
+			consumer_goods = 4
+		}
+	}
+
+	weight = {
+		weight = @ruler_job_weight
+		modifier = {
+			factor = 2
+			has_living_standard = {
+				type = living_standard_academic_privilege
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_job = devolved_game_designer
+		}
+	}
+}

@@ -185,7 +185,8 @@ devolved_civic_heavenly_whales_desc:0 "REPLACE_ME Merryland"
 devolved_civic_cuzzx_crystals:0 "Cuzzx Crystals"
 devolved_civic_cuzzx_crystals_desc:0 "REPLACE_ME Cuzzx Clan, gives custom rare crystal edicts"
 
-
+devolved_civic_god_is_a_gamer:0 "REPLACE_ME"
+devolved_civic_god_is_a_gamer_desc:0 "REPLACE_ME"
 
 
 # Councilor Positions
@@ -284,3 +285,13 @@ trade_conversion_omni_name:0 "REPLACE_ME"
 # Policies
 trade_policy_omni_conversion:0 "Omniconomy"
 trade_policy_omni_conversion_desc:0 "The economy is rerouted so trade focuses on a little bit of everything! Each collected trade value £trade_value£ earns us a small amount of £energy£ £minerals£ £food£ £alloys£ £consumer_goods£ £physics_research£ £society_research£ £engineering_research£ £unity£ £influence£ £volatile_motes£ £exotic_gases£ £rare_crystals£ £sr_dark_matter£ £nanites£ £sr_living_metal£ £sr_zro£ £minor_artifacts£ £sr_astral_threads£"
+
+# Buildings
+building_game_design_college:0 "REPLACE_ME"
+building_game_design_college_desc:0 "REPLACE_ME"
+
+# Jobs
+job_devolved_game_designer:0 "Game Designer"
+job_devolved_game_designer_plural:0 "Game Designers"
+job_devolved_game_designer_desc:0 "If god was a gamer, he'd make life not too easy as to keep you engaged, but not too hard as to discourage you."
+mod_job_devolved_game_designer_add:0 "Game Designer Jobs"

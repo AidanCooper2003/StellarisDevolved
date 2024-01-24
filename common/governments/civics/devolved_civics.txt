@@ -903,3 +903,7 @@ devolved_civic_cuzzx_crystals = {
 		# Custom rare crystal edicts
 	}
 }
+
+devolved_civic_god_is_a_gamer = {
+	# Custom gamer god building
+}
