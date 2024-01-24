@@ -319,6 +319,7 @@ devolved_civic_councilor_whale_peace = {
 	civic = devolved_civic_heavenly_whales
 	modifier = {
 		planet_jobs_tec_at_peace_unity_produces_mult = 0.05
+		resolution_category_rulesofwar_vote_strength_mult = 0.2
 		# Change to unity production when at peace +x%
 	}
 }
@@ -331,7 +332,6 @@ devolved_civic_councilor_whale_hope = {
 	civic = devolved_civic_heavenly_whales
 	modifier = {
 		country_war_exhaustion_mult = -0.05
-		resolution_category_rulesofwar_vote_strength_mult = 0.2
 		resolution_category_sanctions_defense_war_vote_strength_mult = 0.2
 		devolved_war_exhaustion_fire_rate = 0.2
 		# Remove war exhaustion malice once war exhaustion fire rate modifier is implemented
