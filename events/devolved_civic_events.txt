@@ -1,0 +1,17 @@
+namespace = devolved_civics
+
+
+// Contingency Core from Majestic Megastructures
+country_event = {
+    id = devolved_civics.1
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        from = {is_country_type = default}
+        has_civic = devolved_civic_majestic_megastructures
+    }
+    immediate = {
+        add_relic = r_contingency_core
+    }
+}

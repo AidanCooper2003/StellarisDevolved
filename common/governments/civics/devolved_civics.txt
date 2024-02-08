@@ -963,6 +963,7 @@ devolved_civic_victors_wrath = {
 }
 
 devolved_civic_majestic_megastructures = {
+	modification = no
 	possible = {
 		ethics = {
 			OR = {
@@ -973,6 +974,8 @@ devolved_civic_majestic_megastructures = {
 	}
 	modifier = {
 		megastructure_build_speed_mult = 0.25
+		planet_pop_assembly_mult = -0.75
+		pop_growth_speed = -0.25
 	}
 }
 
