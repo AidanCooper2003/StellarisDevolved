@@ -944,3 +944,20 @@ devolved_civic_god_is_a_gamer = {
 	}
 	# Custom gamer god building
 }
+
+devolved_civic_victors_wrath = {
+	possible = {
+		ethics = {
+			OR = {
+				value = ethic_fanatic_spiritualist
+				value = ethic_spiritualist
+			}
+		}
+		# Add any other civics here that replace priests
+		civics = {
+			NOR = {
+				value = civic_death_cult
+			}
+		}
+	}
+}

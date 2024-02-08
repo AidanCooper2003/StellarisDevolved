@@ -337,3 +337,14 @@ devolved_civic_councilor_whale_hope = {
 		# Remove war exhaustion bonus and home territory fire rate once war exhaustion fire rate modifier is implemented
 	}
 }
+
+devolved_civic_councilor_religious_warlord = {
+	leader_class = { commander }
+	is_leader_possible = {
+		leader_class = commander
+	}
+	civic = devolved_civic_victors_wrath
+	modifier = {
+		planet_priests_engineering_research_produces_add = 0.5
+	}
+}
