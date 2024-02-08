@@ -46,7 +46,9 @@ priest = {
 
 	triggered_country_modifier = {
 		potential = {
-			has_civic = devolved_civic_majestic_megastructures
+			owner = {
+				has_civic = devolved_civic_majestic_megastructures
+			}
 		}
 		megastructures_produces_mult = 0.01
 		megastructures_energy_upkeep_add = 0.1
@@ -132,7 +134,9 @@ bureaucrat = {
 
 	triggered_country_modifier = {
 		potential = {
-			has_civic = devolved_civic_majestic_megastructures
+			owner = {
+				has_civic = devolved_civic_majestic_megastructures
+			}
 		}
 		megastructures_produces_mult = 0.01
 		megastructures_energy_upkeep_add = 0.1
