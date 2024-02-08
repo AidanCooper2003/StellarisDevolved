@@ -961,3 +961,18 @@ devolved_civic_victors_wrath = {
 		}
 	}
 }
+
+devolved_civic_majestic_megastructures = {
+	possible = {
+		ethics = {
+			OR = {
+				value = ethic_fanatic_industrial
+				value = ethic_industrial
+			}
+		}
+	}
+	modifier = {
+		megastructure_build_speed_mult = 0.25
+	}
+}
+

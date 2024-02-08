@@ -95,29 +95,29 @@ devolved_civic_dead_upkeeper_desc:0 "REPLACE_ME Upkeep Hate"
 devolved_civic_timeless_trading:0 "Timeless Trading"
 devolved_civic_timeless_trading_desc:0 "REPLACE_ME Trade Value Focus"
 
- devolved_civic_enlightened_edicts:0 "Enlightened Edicts"
- devolved_civic_enlightened_edicts_desc:0 "REPLACE_ME Edict Focus"
+devolved_civic_enlightened_edicts:0 "Enlightened Edicts"
+devolved_civic_enlightened_edicts_desc:0 "REPLACE_ME Edict Focus"
 
- devolved_civic_genetic_gerrymanders:0 "Genetic Gerrymanders"
- devolved_civic_genetic_gerrymanders_desc:0 "REPLACE_ME Genetic Focus"
+devolved_civic_genetic_gerrymanders:0 "Genetic Gerrymanders"
+devolved_civic_genetic_gerrymanders_desc:0 "REPLACE_ME Genetic Focus"
 
 devolved_civic_omniconomy:0 "Omniconomy"
 devolved_civic_omniconomy_desc:0 "All manners of the economy are left to hobbyist work, leading to a small gain of every resource type from a unique trade policy."
 
- devolved_civic_protein_puritans:0 "Protein Puritans"
- devolved_civic_protein_puritans_desc:0 "REPLACE_ME Genetic Hate"
+devolved_civic_protein_puritans:0 "Protein Puritans"
+devolved_civic_protein_puritans_desc:0 "REPLACE_ME Genetic Hate"
 
- devolved_civic_infinite_employment:0 "Infinite Employment"
- devolved_civic_infinite_employment_desc:0 "REPLACE_ME Jobs Focus"
+devolved_civic_infinite_employment:0 "Infinite Employment"
+devolved_civic_infinite_employment_desc:0 "REPLACE_ME Jobs Focus"
 
- devolved_civic_hyper_housing:0 "Hyper Housing"
- devolved_civic_hyper_housing_desc:0 "REPLACE_ME Housing Focus"
+devolved_civic_hyper_housing:0 "Hyper Housing"
+devolved_civic_hyper_housing_desc:0 "REPLACE_ME Housing Focus"
 
- devolved_civic_sexual_singularity:0 "Sexual Singularity"
- devolved_civic_sexual_singularity_desc:0 "REPLACE_ME Machine Assembly Focus"
+devolved_civic_sexual_singularity:0 "Sexual Singularity"
+devolved_civic_sexual_singularity_desc:0 "REPLACE_ME Machine Assembly Focus"
 
- devolved_civic_profit_perforation:0 "Profit Perforation"
- devolved_civic_profit_perforation_desc:0 "REPLACE_ME Trade Value Hate"
+devolved_civic_profit_perforation:0 "Profit Perforation"
+devolved_civic_profit_perforation_desc:0 "REPLACE_ME Trade Value Hate"
 
 devolved_civic_infrastructure_initiation:0 "Infrastructure Initiation"
 devolved_civic_infrastructure_initiation_desc:0 "REPLACE_ME Buildspeed Focus"
@@ -190,6 +190,9 @@ devolved_civic_god_is_a_gamer_desc:0 "The dominant religion in this society envi
 
 devolved_civic_victors_wrath:0 "Victor's Wrath"
 devolved_civic_victors_wrath_desc:0 "Per priest, all your ships gain 1% ship_stats_speed sublight speed and ship_stats_damage ship fire rate."
+
+devolved_civic_majestic_megastructures:0 "Majestic Megastructures"
+devolved_civic_majestic_megastructures_desc:0 "Per priest, megastructures produce £economy|1%£ require £energy|0.1£ extra upkeep."
 
 
 
