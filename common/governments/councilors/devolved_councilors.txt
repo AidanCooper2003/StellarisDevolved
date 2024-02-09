@@ -552,3 +552,62 @@ devolved_civic_councilor_mechanical_malcontent = {
 		planet_pops_consumer_goods_upkeep_mult = -0.05
 	}
 }
+
+devolved_civic_councilor_food_fanatic = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_agrarianism
+	modifier = {
+		country_food_produces_mult = 0.04
+		pop_growth_speed = 0.01
+	}
+}
+
+devolved_civic_councilor_bureaucratic_breeder = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_supermassive
+	modifier = {
+		empire_size_penalty_mult = 0.05
+		planet_pop_assembly_add = 0.25
+		planet_pop_assembly_organic_add = 0.25
+	}
+}
+
+# Change at some point since this effect may never have use
+devolved_civic_councilor_libertarian = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_supermini
+	modifier = {
+		empire_size_penalty_mult = -0.02
+	}
+}
+
+devolved_civic_councilor_influencer = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_influencer
+	modifier = {
+		planet_administrators_influence_produces_add = 0.025
+	}
+}
+
+devolved_civic_councilor_consumerism_creator = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_consumer_craze
+	modifier = {
+		planet_administrators_consumer_goods_produces_add = 0.1
+	}
+}
