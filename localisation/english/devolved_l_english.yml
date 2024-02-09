@@ -36,7 +36,7 @@ devolved_civic_mineral_lover:0 "Mineral Lover"
 devolved_civic_mineral_lover_desc:0 "All citizens are trained from birth to be expert geologists and appreciators of minerals. Many people, even children, work in the mines in their spare time, in order to be around minerals more. However, such hyperfixation on minerals leads to highly developed, specialized worlds to never reach their full potential."
 
 devolved_civic_research_radicals:0 "Research Radicals"
-devolved_civic_research_radicals_desc:0 "Knowledge is prioritized above all else in this society, so much so that rural infrastructure is totally ignored. This leads to rural workers needing to steal military equipment just to do their jobs. Such a class disparity leads to a horribly dysfunctional government."
+devolved_civic_research_radicals_desc:0 "Knowledge is prioritized above all else in this society, so much so that rural infrastructure is totally ignored. This leads to rural workers needing to steal military equipment just to do their jobs. Such a class disparity leads to a horribly dysfunctional government. There are three additional councilor positions for physics, society, and engineering research."
 
 devolved_civic_rightoid_rascality:0 "Rightoid Rascality"
 devolved_civic_rightoid_rascality_desc:0 "Knowledge is demonized and is viewed as a necessary evil. The best life consists of willful ignorance and backbreaking labor. Such attitude creates a society where planets are much more easily specialized, as no one desires to know anything beyond what is absolutely necessary to complete their jobs."
@@ -272,6 +272,34 @@ devolved_civic_councilor_chonny_jash_mind_desc:0 "REPLACE_ME"
 
 devolved_civic_councilor_chonny_jash_soul:0 "Chonny Jash Soul"
 devolved_civic_councilor_chonny_jash_soul_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_trauma_bonded_motivator:0 "Trauma Bonded Motivator"
+devolved_civic_councilor_trauma_bonded_motivator_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_unitarian:0 "Unitarian"
+devolved_civic_councilor_unitarian_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_cultural_disruptor:0 "Cultural Disruptor"
+devolved_civic_councilor_cultural_disruptor_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_engergizing_evangelist:0 "Energizing Evangelist"
+devolved_civic_councilor_engergizing_evangelist_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_patrimonial_power_pulveriser:0 "REPLACE_ME"
+devolved_civic_councilor_patrimonial_power_pulveriser_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_stone_slut:0 "Stone Slut"
+devolved_civic_councilor_stone_slut_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_physics_fanatic:0 "Physics Fanatic"
+devolved_civic_councilor_physics_fanatic_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_societal_savant:0 "Societal Savant"
+devolved_civic_councilor_societal_savant_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_engineering_erudite:0 "Engineering Erudite"
+devolved_civic_councilor_engineering_erudite_desc:0 "REPLACE_ME"
+
 
 # Edicts
 

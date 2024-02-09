@@ -57,10 +57,10 @@ devolved_civic_ubiquitous_unity = {
 	}
 	random_weight = { base = @civic_default_random_weight }
 	modifier = {
-		planet_clerks_unity_produces_add = 5
+		planet_clerks_unity_produces_add = 4
 		planet_clerks_alloys_upkeep_add = 1
 		planet_clerks_minerals_upkeep_add = 3
-		planet_jobs_unity_produces_mult = 0.20
+		planet_jobs_unity_produces_mult = 0.10
 	}
 }
 
@@ -125,7 +125,7 @@ devolved_civic_mineral_hater = {
 			job_miner_add = -5
 			district_mining_max = -5
 			country_edict_fund_add = 100
-			ascension_perks_add = 3
+			ascension_perks_add = 10
 		}
 		random_weight = { base = 5 }
 	}
@@ -149,14 +149,11 @@ devolved_civic_research_radicals = {
 			planet_researchers_physics_research_produces_add = 2
 			planet_researchers_society_research_produces_add = 2
 			planet_researchers_engineering_research_produces_add = 2
-			planet_technician_physics_research_produces_add = 1
-			planet_technician_society_research_produces_add = 1
-			planet_technician_engineering_research_produces_add = 1
 			planet_farmers_alloys_produces_add = -1
 			planet_miners_alloys_produces_add = -1
-			country_edict_fund_add = -150
+			country_edict_fund_add = -200
 			planetary_ascension_effect_mult = -0.5
-			planetary_ascension_cost_mult = 0.25
+			planetary_ascension_cost_mult = 0.5
 			tradition_cost_empire_size_mult = 1
 		}
 		random_weight = { base = 5 }

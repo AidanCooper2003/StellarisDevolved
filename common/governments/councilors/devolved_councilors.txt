@@ -358,6 +358,7 @@ devolved_civic_councilor_chonny_jash_heart = {
 	modifier = {
 		country_trust_cap_add = 5
 		diplomacy_upkeep_mult = -0.02
+		pop_happiness = -0.005
 	}
 }
 
@@ -370,6 +371,7 @@ devolved_civic_councilor_chonny_jash_mind = {
 	modifier = {
 		country_physics_tech_research_speed = 0.02
 		country_engineering_tech_research_speed = 0.02
+		pop_happiness = -0.02
 	}
 }
 
@@ -382,5 +384,126 @@ devolved_civic_councilor_chonny_jash_soul = {
 	modifier = {
 		job_telepath_add = 0.333334
 		planet_telepaths_sr_zro_produces_add = 0.01
+		pop_happiness = -0.01
+	}
+}
+
+devolved_civic_councilor_trauma_bonded_motivator = {
+	leader_class = { commander }
+	is_leader_possible = {
+		leader_class = commander
+	}
+	civic = devolved_civic_together_suffering
+	modifier = {
+		country_produces_mult = 0.01
+		pop_habitability = -0.005
+	}
+}
+
+devolved_civic_councilor_unitarian = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_ubiquitous_unity
+	modifier = {
+		megastructures_unity_produces_mult = 0.1
+		planet_metallurgists_unity_produces_add = 0.1
+	}
+}
+
+devolved_civic_councilor_cultural_disruptor = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_unity_unaliving
+	modifier = {
+		country_unity_produces_mult = -0.01
+		planet_administrators_volatile_motes_produces_add = 0.1
+		planet_administrators_exotic_gases_produces_add = 0.1
+		planet_administrators_rare_crystals_produces_add = 0.1
+		planet_administrators_physics_research_produces_add = 0.2
+		planet_administrators_society_research_produces_add = 0.2
+		planet_administrators_engineering_research_produces_add = 0.2
+
+	}
+}
+
+devolved_civic_councilor_engergizing_evangelist = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_energy_endowment
+	modifier = {
+		country_energy_produces_mult = 0.02
+		planet_technician_energy_produces_add = 0.33
+		country_trade_fee = -0.01
+	}
+}
+
+devolved_civic_councilor_patrimonial_power_pulveriser = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_power_pit
+	modifier = {
+		country_energy_produces_mult = -0.005
+		empire_size_districts_mult = -0.05
+		empire_size_colonies_mult = -0.05
+		empire_size_pops_mult = -0.025
+	}
+}
+
+devolved_civic_councilor_stone_slut = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_mineral_lover
+	modifier = {
+		megastructures_minerals_produces_mult = 0.20
+		planet_miners_minerals_produces_add = 0.33
+		country_minerals_produces_mult = 0.02
+		planet_metallurgists_minerals_upkeep_add = -0.25
+		planet_artisans_minerals_upkeep_add = -0.25
+		country_edict_fund_add = -5
+		planetary_ascension_effect_mult = -0.02
+	}
+}
+
+devolved_civic_councilor_physics_fanatic = {
+	leader_class = { scientist }
+	is_leader_possible = {
+		leader_class = scientist
+	}
+	civic = devolved_civic_research_radicals
+	modifier = {
+		physics_tech_cost_mult = -0.02
+	}
+}
+
+devolved_civic_councilor_societal_savant = {
+	leader_class = { scientist }
+	is_leader_possible = {
+		leader_class = scientist
+	}
+	civic = devolved_civic_research_radicals
+	modifier = {
+		society_tech_cost_mult = -0.02
+
+	}
+}
+
+devolved_civic_councilor_engineering_erudite = {
+	leader_class = { scientist }
+	is_leader_possible = {
+		leader_class = scientist
+	}
+	civic = devolved_civic_research_radicals
+	modifier = {
+		engineering_tech_cost_mult = -0.02
 	}
 }
