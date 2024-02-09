@@ -1,5 +1,5 @@
 on_country_created = {
 	events = {
-		devolved_civics_events.1
+		devolved_civic_events.1
 	}
 }

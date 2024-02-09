@@ -2,7 +2,7 @@ namespace = devolved_civic_events
 
 # Contingency Core from Majestic Megastructures
 country_event = {
-    id = devolved_civics_events.1
+    id = devolved_civic_events.1
     hide_window = yes
     is_triggered_only = yes
     trigger = {
