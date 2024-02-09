@@ -396,7 +396,7 @@ devolved_civic_councilor_trauma_bonded_motivator = {
 	civic = devolved_civic_together_suffering
 	modifier = {
 		country_produces_mult = 0.01
-		pop_habitability = -0.005
+		pop_environment_tolerance = -0.005
 	}
 }
 
