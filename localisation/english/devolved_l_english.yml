@@ -192,7 +192,7 @@ devolved_civic_victors_wrath:0 "Victor's Wrath"
 devolved_civic_victors_wrath_desc:0 "Per priest, all your ships gain 1% ship_stats_speed sublight speed and ship_stats_damage ship fire rate."
 
 devolved_civic_majestic_megastructures:0 "Majestic Megastructures"
-devolved_civic_majestic_megastructures_desc:0 "Per bureaucrat and priest, megastructures gain 1% £economy£ output and require 0.1 £energy£ extra upkeep."
+devolved_civic_majestic_megastructures_desc:0 "Per bureaucrat and priest, megastructures gain 1% £economy£ output and require 0.1 £energy£ extra upkeep. Start with the contingency core relic."
 
 
 
