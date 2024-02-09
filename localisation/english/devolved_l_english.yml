@@ -63,7 +63,7 @@ devolved_civic_ethical_adherance:0 "Ethical Adherance"
 devolved_civic_ethical_adherance_desc:0 "Citizens naturally pressure each other to strictly adhere to the government's ideology, and will rarely faulter. Even on conquered worlds, a relentless propoganda machine, whether run by the state or by citizen groups, quickly assimilates any xeno."
 
 devolved_civic_oppositionalism:0 "Radical Oppositionalism"
-devolved_civic_oppositionalism_desc:0 "The government actively encourages all to not follow the ideology of the government. This leads to a power structure so unique that it greatly improves social research."
+devolved_civic_oppositionalism_desc:0 "The government actively encourages all to not follow the ideology of the government. Any city in the empire may have a completely different ideology than another. This leads to many pockets of the empire being pockets of illegal experimentation and kidnapping of enemy scientists, leading to insane technological growth in physics and engineering."
 
 devolved_civic_expedition_enhancement:0 "Expedition Enhancement"
 devolved_civic_expedition_enhancement_desc:0 "REPLACE_ME Minor Artifacts Focus"
@@ -308,6 +308,21 @@ devolved_civic_councilor_sociological_skeptic_desc:0 "REPLACE_ME"
 
 devolved_civic_councilor_mechanical_malcontent:0 "Mechanical Malcontent"
 devolved_civic_councilor_mechanical_malcontent_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_food_fanatic:0 "Food Fanatic"
+devolved_civic_councilor_food_fanatic_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_bureaucratic_breeder:0 "Bureaucratic Breeder"
+devolved_civic_councilor_bureaucratic_breeder_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_libertarian:0 "Libertarian"
+devolved_civic_councilor_libertarian_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_influencer:0 "Influencer"
+devolved_civic_councilor_influencer_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_consumerism_creator:0 "Consumerism Creator"
+devolved_civic_councilor_consumerism_creator_desc:0 "REPLACE_ME"
 
 
 # Edicts
