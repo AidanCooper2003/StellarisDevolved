@@ -234,7 +234,7 @@ devolved_civic_supermini = {
 			pop_amenities_usage_mult = -0.15
 			ship_fire_rate_mult = -0.5
 			planet_metallurgists_alloys_produces_add = -2
-		}f
+		}
 		random_weight = { base = 5 }
 	}
 
@@ -638,7 +638,6 @@ devolved_civic_infrastructure_irritation = {
 		planet_clear_blocker_speed_mult = -0.8
 		starbase_upgrade_speed_mult = -0.8
 		megastructure_build_speed_mult = -0.1
-		ship_constructor_unity_upkeep_add = 10
 		ship_science_physics_research_upkeep_add = -2
 		ship_science_society_research_upkeep_add = -2
 		ship_science_engineering_research_upkeep_add = -2
@@ -844,7 +843,6 @@ devolved_civic_shitty_starbases = {
         starbase_society_research_modules_society_research_produces_add = -10
         starbase_engineering_research_modules_engineering_research_produces_add = -10
 		empire_size_systems_mult = 20
-		starbase_upgraded_unity_cost_add = 500
 		country_starbase_capacity_mult = -0.65
         planet_max_districts_add = 5
         planet_max_districts_mult = 1

@@ -1,4 +1,4 @@
-on_country_created = {
+on_game_start_country = {
 	events = {
 		devolved_civic_events.1
 	}
