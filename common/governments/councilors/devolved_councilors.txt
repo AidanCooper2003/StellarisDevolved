@@ -352,7 +352,7 @@ devolved_civic_councilor_religious_warlord = {
 devolved_civic_councilor_chonny_jash_heart = {
 	leader_class = { official }
 	is_leader_possible = {
-		leader_class = scientist
+		leader_class = official
 	}
 	civic = devolved_civic_chonnys_charm
 	modifier = {
