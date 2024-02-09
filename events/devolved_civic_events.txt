@@ -7,7 +7,6 @@ country_event = {
     is_triggered_only = yes
     trigger = {
         is_country_type = default
-        from = {is_country_type = default}
         has_civic = devolved_civic_majestic_megastructures
     }
     immediate = {
