@@ -348,3 +348,39 @@ devolved_civic_councilor_religious_warlord = {
 		planet_priests_engineering_research_produces_add = 0.5
 	}
 }
+
+devolved_civic_councilor_chonny_jash_heart = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = scientist
+	}
+	civic = devolved_civic_chonnys_charm
+	modifier = {
+		country_trust_cap_add = 5
+		diplomacy_upkeep_mult = -0.02
+	}
+}
+
+devolved_civic_councilor_chonny_jash_mind = {
+	leader_class = { scientist }
+	is_leader_possible = {
+		leader_class = scientist
+	}
+	civic = devolved_civic_chonnys_charm
+	modifier = {
+		country_physics_tech_research_speed = 0.02
+		country_engineering_tech_research_speed = 0.02
+	}
+}
+
+devolved_civic_councilor_chonny_jash_soul = {
+	leader_class = { commander }
+	is_leader_possible = {
+		leader_class = commander
+	}
+	civic = devolved_civic_chonnys_charm
+	modifier = {
+		job_telepath_add = 0.333334
+		planet_telepaths_sr_zro_produces_add = 0.01
+	}
+}

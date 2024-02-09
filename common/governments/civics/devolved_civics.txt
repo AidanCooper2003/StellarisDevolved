@@ -4,7 +4,7 @@ devolved_civic_pleasure_power = {
 	}
 	random_weight = { base = @civic_default_random_weight }
 	modifier = {
-		pop_citizen_happiness = 0.30
+		pop_citizen_happiness = 0.3
 		ship_fire_rate_mult = -0.25
 	}
 }
