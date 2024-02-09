@@ -222,9 +222,9 @@ devolved_civic_councilor_chemical_chief = {
 		building_mote_harvesters_max = 0.5
 		building_crystal_mines_max = 0.5
 		building_gas_extractors_max = 0.5
-		country_sr_zro_produces_add = 1
-		country_sr_living_metal_produces_add = 1
-		country_sr_dark_matter_produces_add = 1
+		planet_culture_workers_sr_zro_produces_add = 0.01
+		planet_culture_workers_sr_living_metal_produces_add = 0.01
+		planet_culture_workers_sr_dark_matter_produces_add = 0.01
 	}
 }
 
@@ -609,5 +609,46 @@ devolved_civic_councilor_consumerism_creator = {
 	civic = devolved_civic_consumer_craze
 	modifier = {
 		planet_administrators_consumer_goods_produces_add = 0.1
+	}
+}
+
+devolved_civic_councilor_konsumerist_khan = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_konsumerist_killers
+	modifier = {
+		planet_jobs_consumer_goods_upkeep_mult = 0.2
+		planet_researchers_produces_mult = 0.2
+		planet_administrators_produces_mult = 0.2
+		planet_priests_produces_mult = 0.2
+		planet_culture_workers_produces_mult = 0.2
+	}
+}
+
+devolved_civic_councilor_orgy_ordinator = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_beastly_breeders
+	modifier = {
+		pop_growth_speed = 0.05
+		planet_pop_assembly_organic_mult = 0.05
+		planet_pops_upkeep_mult = 0.02
+	}
+}
+
+devolved_civic_councilor_strategical_sufferer = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_stratworld_despisers
+	modifier = {
+		planet_researchers_food_produces_add = 0.1
+		planet_researchers_minerals_produces_add = 0.1
+		planet_researchers_energy_produces_add = 0.1
 	}
 }
