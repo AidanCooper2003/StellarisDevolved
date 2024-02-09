@@ -507,3 +507,48 @@ devolved_civic_councilor_engineering_erudite = {
 		engineering_tech_cost_mult = -0.02
 	}
 }
+
+devolved_civic_councilor_particle_pagan = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_rightoid_rascality
+	modifier = {
+		physics_tech_cost_mult = 0.025
+		country_physics_research_produces_add = -10
+		planetary_ascension_effect_mult = 0.05
+		planetary_ascension_cost_mult = -0.025
+	}
+}
+
+devolved_civic_councilor_sociological_skeptic = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_rightoid_rascality
+	modifier = {
+		society_tech_cost_mult = 0.025
+		country_society_research_produces_add = -10
+		planet_farmers_produces_mult = 0.1
+		planet_miners_produces_mult = 0.1
+		planet_technician_produces_mult = 0.1
+		planet_metallurgists_alloys_produces_mult = 0.05
+		planet_artisans_produces_mult = 0.05
+	}
+}
+
+devolved_civic_councilor_mechanical_malcontent = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_rightoid_rascality
+	modifier = {
+		engineering_tech_cost_mult = 0.025
+		country_engineering_research_produces_add = -10
+		pop_growth_speed = 0.025
+		planet_pops_consumer_goods_upkeep_mult = -0.05
+	}
+}
