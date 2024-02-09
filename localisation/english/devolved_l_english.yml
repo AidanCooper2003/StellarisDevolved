@@ -300,6 +300,15 @@ devolved_civic_councilor_societal_savant_desc:0 "REPLACE_ME"
 devolved_civic_councilor_engineering_erudite:0 "Engineering Erudite"
 devolved_civic_councilor_engineering_erudite_desc:0 "REPLACE_ME"
 
+devolved_civic_councilor_particle_pagan:0 "Particle Pagan"
+devolved_civic_councilor_particle_pagan_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_sociological_skeptic:0 "Sociological Skeptic"
+devolved_civic_councilor_sociological_skeptic_desc:0 "REPLACE_ME"
+
+devolved_civic_councilor_mechanical_malcontent:0 "Mechanical Malcontent"
+devolved_civic_councilor_mechanical_malcontent_desc:0 "REPLACE_ME"
+
 
 # Edicts
 
