@@ -1,0 +1,5 @@
+on_country_created = {
+	events = {
+		devolved_civics_events.1
+	}
+}
