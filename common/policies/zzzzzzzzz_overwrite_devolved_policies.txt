@@ -79,6 +79,9 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 				}
 			}
 			has_tradition = tr_mercantile_adaptive_economic_policies
+			NOT = {
+				has_civic = devolved_civic_power_pit
+			}
 		}
 
 		policy_flags = {
@@ -112,6 +115,9 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 			has_federation = yes
 			federation = {
 				has_federation_perk = trade_federation_passive 
+			}
+			NOT = {
+				has_civic = devolved_civic_power_pit
 			}
 		}
 
@@ -150,6 +156,9 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 		name = "trade_policy_mutual_aid"
 		potential = {
 			is_worker_coop_empire = yes
+			NOT = {
+				has_civic = devolved_civic_power_pit
+			}
 		}
 
 		policy_flags = {
@@ -167,6 +176,12 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 	#Social Development
 	option = {
 		name = "trade_policy_social"
+
+		potential = {
+			NOT = {
+				has_civic = devolved_civic_power_pit
+			}
+		}
 		
 		policy_flags = {
 			trade_conversion_social
@@ -189,6 +204,12 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 	#Infrastructure Development
 	option = {
 		name = "trade_policy_infrastructure"
+
+		potential = {
+			NOT = {
+				has_civic = devolved_civic_power_pit
+			}
+		}
 
 		policy_flags = {
 			trade_conversion_infrastructure
@@ -213,6 +234,9 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 				custom_tooltip = "civic_tooltip_materialist"
 				is_materialist = yes
 				is_gestalt = yes
+			}
+			NOT = {
+				has_civic = devolved_civic_power_pit
 			}
 		}
 
@@ -258,6 +282,9 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 				is_ecologist = yes
 				has_ethic = ethic_gestalt_preservation
 			}
+			NOT = {
+				has_civic = devolved_civic_power_pit
+			}
 		}
 
 		valid = {
@@ -290,6 +317,9 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 				custom_tooltip = "civic_tooltip_industrialist"
 				is_industrialist = yes
 				has_ethic = ethic_gestalt_disregard
+			}
+			NOT = {
+				has_civic = devolved_civic_power_pit
 			}
 		}
 
@@ -328,6 +358,9 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 		}
 	}
 
+
+	# --------------------------------------- Power Pit Trade Policies -----------------------------------
+
 	# Power Pit Consumer Goods
 	option = {
 		name = "trade_policy_consumer_goods"
@@ -365,7 +398,7 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 		modifier = {}
 
 		AI_weight = {
-			factor = 1
+			factor = 10
 			modifier = {
 				mult = 0
 				is_regular_empire = yes
@@ -374,6 +407,7 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 		}
 	}
 
+	# Power Pit Research
 	option = {
 		name = "trade_policy_no_energy_research"
 		
@@ -398,7 +432,6 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 			}
 			NOR = {
 				has_valid_civic = civic_tec_regular_immutable_hierarchy
-				has_civic = devolved_civic_power_pit
 			}
 			#	NOR = {
 			#		has_policy_flag = "economic_stance_market"
@@ -410,7 +443,52 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 		}
 		
 		AI_weight = {
-			factor = 1
+			factor = 10
+		}
+	}
+
+	# Power Pit Unity
+	option = {
+		name = "trade_policy_unity"
+		potential = {
+			OR = {
+				has_federation = no
+				AND = {
+					has_federation = yes
+					federation = {
+						NOR = {
+							has_federation_perk = trade_federation_passive
+							has_federation_perk = unity_trade_1
+						}
+					}
+				}
+			}
+			has_tradition = tr_mercantile_adaptive_economic_policies
+			has_civic = devolved_civic_power_pit
+		}
+
+		policy_flags = {
+			trade_conversion_no_energy_unity
+		}
+		
+		valid = {
+			tec_is_default_country = yes
+		#	NOR = {
+		#		has_policy_flag = "economic_stance_market"
+		#		has_policy_flag = "economic_stance_planned"
+		#	}
+		}
+
+		modifier = {
+		}
+
+		AI_weight = {
+			factor = 10
+			modifier = {
+				add = 1
+				is_regular_empire = yes
+				tec_is_aquatic_empire = yes
+			}
 		}
 	}
 }
