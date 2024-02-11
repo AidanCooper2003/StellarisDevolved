@@ -194,6 +194,8 @@ devolved_civic_victors_wrath_desc:0 "Per priest, all your ships gain 1% ship_sta
 devolved_civic_majestic_megastructures:0 "Majestic Megastructures"
 devolved_civic_majestic_megastructures_desc:0 "Per bureaucrat and priest, megastructures gain 1% £economy£ output and require 0.1 £energy£ extra upkeep. Start with the contingency core relic."
 
+devolved_civic_agenda_acceleration:0 "Agenda Acceleration"
+devolved_civic_agenda_acceleration_desc:0 "REPLACE_ME"
 
 
 # Councilor Positions
@@ -393,6 +395,9 @@ devolved_civic_councilor_starbase_serenader_desc:0 "REPLACE_ME"
  devolved_civic_councilor_megastructure_manufacturer:0 "Megastructure Manufacturer"
  devolved_civic_councilor_megastructure_manufacturer_desc:0 "REPLACE_ME"
 
+ devolved_civic_councilor_agenda_accelerator:0 "Agenda Accelerator"
+ devolved_civic_councilor_agenda_accelerator_desc:0 "REPLACE_ME"
+
 # Edicts
 
 edict_devolved_edict_crystal_voice_deepener:0 "Crystal Voice Deepener"
@@ -424,6 +429,21 @@ trade_conversion_omni_name:0 "REPLACE_ME"
 # Policies
 trade_policy_omni_conversion:0 "Omniconomy"
 trade_policy_omni_conversion_desc:0 "The economy is rerouted so trade focuses on a little bit of everything! Each collected trade value £trade_value£ earns us a small amount of £energy£ £minerals£ £food£ £alloys£ £consumer_goods£ £physics_research£ £society_research£ £engineering_research£ £unity£ £influence£ £volatile_motes£ £exotic_gases£ £rare_crystals£ £sr_dark_matter£ £nanites£ £sr_living_metal£ £sr_zro£ £minor_artifacts£ £sr_astral_threads£"
+
+ trade_policy_no_energy_research:0 "No Energy Innovation"
+ trade_policy_no_energy_research_desc:0 "0.25 £physics_research£ £society_research£ £engineering_research£"
+
+ trade_policy_no_energy_trade_league:0 "No Energy Trade League"
+ trade_policy_no_energy_trade_league_desc:0 "0.5 £consumer_goods£ £unity£"
+
+ trade_policy_no_energy_food:0 "No Energy Agricultural Subsidies"
+ trade_policy_no_energy_food_desc:0 "1 £food£"
+
+ trade_policy_no_energy_mining:0 "No Energy Mining Subsidies"
+ trade_policy_no_energy_mining_desc:0 "1 £minerals£"
+
+ trade_policy_no_energy_omni_conversion:0 "No Energy Omniconomy"
+ trade_policy_no_energy_omni_conversion_desc:0 "Slightly more of each of the following, £minerals£ £food£ £alloys£ £consumer_goods£ £physics_research£ £society_research£ £engineering_research£ £unity£ £influence£ £volatile_motes£ £exotic_gases£ £rare_crystals£ £sr_dark_matter£ £nanites£ £sr_living_metal£ £sr_zro£ £minor_artifacts£ £sr_astral_threads£"
 
 # Buildings
 building_game_design_college:0 "Game Design College"
