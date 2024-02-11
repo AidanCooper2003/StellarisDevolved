@@ -365,22 +365,19 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 	option = {
 		name = "trade_policy_consumer_goods"
 		potential = {
-			AND = {
-				OR = {
-					has_federation = no
-					AND = {
-						has_federation = yes
-						federation = {
-							NOT = {
-								has_federation_perk = trade_federation_passive 
-							}
+			OR = {
+				has_federation = no
+				AND = {
+					has_federation = yes
+					federation = {
+						NOT = {
+							has_federation_perk = trade_federation_passive 
 						}
 					}
 				}
-				has_tradition = tr_mercantile_adaptive_economic_policies
-				has_civic = devolved_civic_power_pit
 			}
-
+			has_tradition = tr_mercantile_adaptive_economic_policies
+			has_civic = devolved_civic_power_pit
 		}
 		
 		valid = {
