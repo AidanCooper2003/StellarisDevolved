@@ -522,6 +522,7 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 		potential = {
 			has_federation = yes
 			federation = { has_federation_perk = unity_trade_1 }
+			has_civic = devolved_civic_power_pit
 		}
 
 		policy_flags = {
@@ -570,9 +571,7 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 				is_ecologist = yes
 				has_ethic = ethic_gestalt_preservation
 			}
-			NOT = {
-				has_civic = devolved_civic_power_pit
-			}
+			has_civic = devolved_civic_power_pit
 		}
 
 		valid = {
@@ -606,9 +605,7 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 				is_industrialist = yes
 				has_ethic = ethic_gestalt_disregard
 			}
-			NOT = {
-				has_civic = devolved_civic_power_pit
-			}
+			has_civic = devolved_civic_power_pit
 		}
 
 		valid = {
