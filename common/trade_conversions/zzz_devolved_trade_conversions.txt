@@ -140,7 +140,7 @@ devolved_no_energy_minerals = {
 
 devolved_no_energy_social = {
 	potential = {
-		has_policy_flag = trade_conversion_no_energy_social
+		has_policy_flag = trade_conversion_no_energy_omni
 	}
 	weight = {
 		weight = 10

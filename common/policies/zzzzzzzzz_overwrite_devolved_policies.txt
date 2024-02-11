@@ -665,6 +665,7 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 
 		potential = { # Will change to civic specific later.
 			has_civic = devolved_civic_omniconomy
+			has_civic = devolved_civic_power_pit
 		}
 
 		AI_weight = {
