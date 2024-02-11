@@ -810,3 +810,123 @@ devolved_civic_councilor_starbase_serenader = {
 		pop_growth_speed = -0.01
 	}
 }
+
+devolved_civic_councilor_fleet_former = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_fleet_frenzy
+	modifier = {
+		ship_armor_mult = 0.02 #Change to Hull
+	}
+}
+
+devolved_civic_councilor_army_anticipator = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_amazing_armies
+	modifier = {
+		planet_army_build_speed_mult = 0.5
+        	army_damage_mult = 0.04
+        	army_defense_damage_mult = 0.04
+        	army_morale = 0.04
+        	army_health = 0.04
+        	army_collateral_damage_mult = 0.04
+        	army_attack_damage_mult = 0.04
+        	army_defense_morale_mult = 0.04
+        	army_defense_health_mult = 0.04
+	}
+}
+
+devolved_civic_councilor_army_annihilator = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_army_abomination
+	modifier = {
+		army_health = -0.1
+		planet_artisans_consumer_goods_produces_add = 0.2
+        	planet_artisans_food_produces_add = 0.1
+		planet_artisans_unity_produces_add = 0.1
+	}
+}
+
+devolved_civic_councilor_terraforming_terry = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_timeless_terraforming
+	modifier = {
+		terraforming_energy_cost_mult = -100
+		terraforming_influence_cost_add = -10
+		terraforming_sr_dark_matter_cost_add = -10
+		terraforming_sr_zro_cost_add = -10
+		terraforming_sr_living_metal_cost_add = -10
+		terraforming_nanites_cost_add = -10
+		terraform_speed_mult = 1
+	}
+}
+
+devolved_civic_councilor_enhancing_enslaver = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_demancipation_proclamation
+	modifier = {
+		planet_jobs_slave_produces_mult = 0.05
+	}
+}
+
+devolved_civic_councilor_starbase_smusher = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_shitty_starbases
+	modifier = {
+		starbases_upkeep_mult = 0.1
+		planet_max_districts_add = 0.5
+		planet_structures_cost_mult = -0.1
+		planet_jobs_worker_produces_mult = 0.02
+	}
+}
+
+devolved_civic_councilor_cuzzx_crystalmaker = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_cuzzx_crystals
+	modifier = {
+		country_rare_crystals_produces_mult = 0.1
+	}
+}
+
+devolved_civic_councilor_castronova_TA = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_god_is_a_gamer
+	modifier = {
+		planet_devolved_game_designer_produces_mult = 0.1
+	}
+}
+
+devolved_civic_councilor_megastructure_manufacturer = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_majestic_megastructures
+	modifier = {
+		pop_growth_speed_reduction = 0.04
+		megastructures_produces_mult = 0.1
+	}
+}
