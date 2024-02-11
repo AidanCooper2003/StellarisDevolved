@@ -373,4 +373,44 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 			}
 		}
 	}
+
+	option = {
+		name = "trade_policy_no_energy_research"
+		
+		potential = {
+			OR = {
+				custom_tooltip = "civic_tooltip_materialist"
+				is_materialist = yes
+				is_gestalt = yes
+			}
+		}
+
+		policy_flags = {
+			trade_conversion_no_energy_research
+		}
+
+		valid = {
+			tec_is_default_country = yes
+			OR = {
+				custom_tooltip = "civic_tooltip_materialist"
+				is_materialist = yes
+				is_gestalt = yes
+			}
+			NOR = {
+				has_valid_civic = civic_tec_regular_immutable_hierarchy
+				has_civic = devolved_civic_power_pit
+			}
+			#	NOR = {
+			#		has_policy_flag = "economic_stance_market"
+			#		has_policy_flag = "economic_stance_planned"
+			#	}
+		}
+		
+		modifier = {
+		}
+		
+		AI_weight = {
+			factor = 1
+		}
+	}
 }
