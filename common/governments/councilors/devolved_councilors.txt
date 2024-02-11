@@ -652,3 +652,161 @@ devolved_civic_councilor_strategical_sufferer = {
 		planet_researchers_energy_produces_add = 0.1
 	}
 }
+
+devolved_civic_councilor_influence_hater = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_influencer_idiot
+	modifier = {
+		commercial_pact_mult = 0.1
+            	research_sharing_mult = 0.1
+            	country_trust_growth = 0.1
+		planet_politicians_influence_upkeep_add = 0.04
+		megastructures_influence_upkeep_add = 0.1
+	}
+}
+
+devolved_civic_councilor_upkeeping_umpire = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_undead_upkeeper
+	modifier = {
+		planet_jobs_upkeep_mult = -0.02
+            	planet_pops_upkeep_mult = -0.02
+            	planet_researchers_upkeep_mult = -0.02
+            	leaders_upkeep_mult = -0.02
+            	ships_upkeep_mult = -0.02
+            	ships_cost_mult = 0.01
+	}
+}
+
+devolved_civic_councilor_cost_saving_colonizer = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_dead_upkeeper
+	modifier = {
+		planet_jobs_upkeep_mult = 0.01
+            	planet_pops_upkeep_mult = 0.01
+            	ships_cost_mult = -0.02
+		planet_structures_cost_mult = -0.01
+		planetary_ascension_cost_mult = -0.01
+	}
+}
+
+devolved_civic_councilor_trading_tim = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_timeless_trading
+	modifier = {
+		pop_job_trade_mult = 0.01
+		living_standard_trade_value_specialists_add = 0.1
+		living_standard_trade_value_workers_add = 0.075
+	}
+}
+
+devolved_civic_councilor_edictarian = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_enlightened_edicts
+	modifier = {
+		country_edict_fund_mult = 0.05
+		edicts_upkeep_mult = -0.02
+	}
+}
+
+devolved_civic_councilor_gentern = {
+	leader_class = { scientist }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_genetic_gerrymanders
+	modifier = {
+		BIOLOGICAL_species_trait_points_add = 0.25
+		LITHOID_species_trait_points_add = 0.25
+		BIOLOGICAL_species_trait_picks_add = 0.5
+		LITHOID_species_trait_picks_add = 0.5
+		modify_species_cost_mult = -0.02
+	}
+}
+
+devolved_civic_councilor_witch_hunter = {
+	leader_class = { commander }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_protein_puritans
+	modifier = {
+		planet_priests_produces_mult = 0.05
+	}
+}
+
+devolved_civic_councilor_professional_perforator = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_profit_perforation
+	modifier = {
+		planet_entertainers_unity_produces_add = 0.25
+		planet_entertainers_society_research_produces_add = 0.25
+	}
+}
+
+devolved_civic_councilor_metallic_macerator = {
+	leader_class = { commander scientist }
+	is_leader_possible = {
+		OR = {
+			leader_class = commander
+			leader_class = scientist
+		}
+	}
+	civic = devolved_civic_alloy_execution
+	modifier = {
+		planet_researchers_alloys_upkeep_add = 0.25
+		planet_researchers_engineering_research_produces_add = 1
+		planet_researchers_unity_produces_add = 0.05
+		intel_encryption_mult = 0.1
+		intel_decryption_mult = 0.1
+	}
+}
+
+devolved_civic_councilor_mega_hater = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_megamalice
+	modifier = {
+		megastructures_produces_mult = -0.02
+		megastructures_upkeep_mult = 0.2
+		station_gatherers_unity_produces_add = 0.1 #Don't know if this and next line work
+		station_researchers_unity_produces_add = 0.1 
+	}
+}
+
+devolved_civic_councilor_starbase_serenader = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_starbase_supremacy
+	modifier = {
+		starbase_energy_production_modules_energy_produces_add = 0.5
+		starbase_minerals_production_modules_minerals_produces_add = 0.5
+		starbase_food_production_modules_food_produces_add = 0.5
+		starbase_physics_research_modules_physics_research_produces_add = 0.5
+		starbase_society_research_modules_society_research_produces_add = 0.5
+		starbase_engineering_research_modules_engineering_research_produces_add = 0.5
+		pop_growth_speed = -0.01
+	}
+}
