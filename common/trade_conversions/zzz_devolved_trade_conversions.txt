@@ -50,9 +50,9 @@ devolved_no_energy_research_conversion = {
 		weight = 10
 	}
 	conversion_rate = {
-		physics_research = 0.3
-		society_research = 0.3
-		engineering_research = 0.3
+		physics_research = 0.25
+		society_research = 0.25
+		engineering_research = 0.25
 	}
 	economic_category = trade_routes
 }
@@ -66,6 +66,88 @@ devolved_no_energy_unity_conversion = {
 	}
 	conversion_rate = {
 		unity = 0.5
+	}
+	economic_category = trade_routes
+}
+
+
+devolved_no_energy_league_conversion = {
+	potential = {
+		has_policy_flag = trade_conversion_no_energy_trade_league
+	}
+	weight = {
+		weight = 10
+	}
+	conversion_rate = {
+		unity = 0.5
+		consumer_goods = 0.5
+	}
+	economic_category = trade_routes
+}
+
+devolved_no_energy_holy_conversion = {
+	potential = {
+		has_policy_flag = trade_conversion_no_energy_holy_covenant
+	}
+	weight = {
+		weight = 10
+	}
+	conversion_rate = {
+		unity = 1
+	}
+	economic_category = trade_routes
+}
+
+devolved_no_energy_mutual_aid = {
+	potential = {
+		has_policy_flag = trade_conversion_no_energy_mutual_aid
+	}
+	weight = {
+		weight = 10
+	}
+	conversion_rate = {
+		food = 0.7
+		minerals = 0.7
+	}
+	economic_category = trade_routes
+}
+
+devolved_no_energy_food = {
+	potential = {
+		has_policy_flag = trade_conversion_no_energy_food
+	}
+	weight = {
+		weight = 10
+	}
+	conversion_rate = {
+		food = 1
+	}
+	economic_category = trade_routes
+}
+
+devolved_no_energy_minerals = {
+	potential = {
+		has_policy_flag = trade_conversion_no_energy_mining
+	}
+	weight = {
+		weight = 10
+	}
+	conversion_rate = {
+		minerals = 1
+	}
+	economic_category = trade_routes
+}
+
+devolved_no_energy_social = {
+	potential = {
+		has_policy_flag = trade_conversion_no_energy_social
+	}
+	weight = {
+		weight = 10
+	}
+	conversion_rate = {
+		unity = 0.4
+		society_research = 0.4
 	}
 	economic_category = trade_routes
 }
