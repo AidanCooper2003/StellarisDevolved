@@ -363,7 +363,7 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 
 	# Power Pit Consumer Goods
 	option = {
-		name = "trade_policy_consumer_goods"
+		name = "trade_policy_no_energy_consumer_goods"
 		potential = {
 			OR = {
 				has_federation = no
@@ -447,7 +447,7 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 
 	# Power Pit Unity
 	option = {
-		name = "trade_policy_unity"
+		name = "trade_policy_no_energy_unity"
 		potential = {
 			OR = {
 				has_federation = no
@@ -515,7 +515,7 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 
 	# Power Pit Holy Covenant
 	option = {
-		name = "trade_policy_holy_covenant"
+		name = "trade_policy_no_energy_holy_covenant"
 		potential = {
 			has_federation = yes
 			federation = { has_federation_perk = unity_trade_1 }
@@ -536,7 +536,7 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 
 	# Power Pit Mutual Aid
 	option = {
-		name = "trade_policy_mutual_aid"
+		name = "trade_policy_no_energy_mutual_aid"
 		potential = {
 			is_worker_coop_empire = yes
 			has_civic = devolved_civic_power_pit
@@ -621,7 +621,7 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 
 	# Power Pit Social Development
 	option = {
-		name = "trade_policy_social"
+		name = "trade_policy_no_energy_social"
 
 		potential = {
 			NOT = {
