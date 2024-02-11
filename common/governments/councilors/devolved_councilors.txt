@@ -931,3 +931,15 @@ devolved_civic_councilor_megastructure_manufacturer = {
 		megastructures_produces_mult = 0.1
 	}
 }
+
+devolved_civic_councilor_agenda_accelerator = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = devolved_civic_agenda_acceleration
+	modifier = {
+		council_agenda_finishing_effect_duration_mult = 0.2
+		council_agenda_progress_speed = 0.4
+	}
+}
