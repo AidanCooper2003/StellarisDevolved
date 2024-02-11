@@ -650,4 +650,25 @@ trade_policy = { # OVERWRITES EVOLVED TRADE POLICIES, IF GAME IS UPDATED THIS MU
 			factor = 0
 		}
 	}
+
+	# Power Pit Omniconomy
+	option = {
+		name = "trade_policy_no_energy_omni_conversion"
+
+		policy_flags = {
+			trade_conversion_no_energy_omni
+		}
+
+		modifier = {
+			
+		}
+
+		potential = { # Will change to civic specific later.
+			has_civic = devolved_civic_omniconomy
+		}
+
+		AI_weight = {
+			factor = 10000
+		}
+	}
 }

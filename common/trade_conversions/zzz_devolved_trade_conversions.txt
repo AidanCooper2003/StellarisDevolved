@@ -151,3 +151,33 @@ devolved_no_energy_social = {
 	}
 	economic_category = trade_routes
 }
+
+no_energy_omni_conversion = {
+	potential = {
+		has_policy_flag = trade_conversion_no_energy_omni
+	}
+	weight = {
+		weight = 10
+	}
+	conversion_rate = {
+		minerals = 0.08
+		food = 0.08
+		alloys = 0.035
+		consumer_goods = 0.035
+		physics_research = 0.035
+		society_research = 0.035
+		engineering_research = 0.035
+		unity = 0.055
+		influence = 0.0055
+		volatile_motes = 0.0055
+		exotic_gases = 0.0055
+		rare_crystals = 0.0055
+		sr_dark_matter = 0.0012
+		nanites = 0.0012
+		sr_living_metal = 0.0012
+		sr_zro = 0.0012
+		minor_artifacts = 0.0012
+		astral_threads = 0.0012
+	}
+	economic_category = trade_routes
+}
