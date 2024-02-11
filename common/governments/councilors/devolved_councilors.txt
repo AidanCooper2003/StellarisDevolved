@@ -915,7 +915,8 @@ devolved_civic_councilor_castronova_TA = {
 	}
 	civic = devolved_civic_god_is_a_gamer
 	modifier = {
-		planet_devolved_game_designer_produces_mult = 0.1
+		planet_building_game_design_college_build_speed_mult = 0.5
+		planet_priests_society_research_produces_add = 0.2
 	}
 }
 

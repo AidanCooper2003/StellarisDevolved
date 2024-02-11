@@ -5,12 +5,20 @@ devolved_game_designer = {
 	resources = {
 		category = planet_researchers
 		produces = {
-			society_research = 15
+			society_research = 12
 			unity = 3
 		}
 		upkeep = {
 			consumer_goods = 4
 		}
+	}
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_civic = devolved_civic_victors_wrath
+			}
+		}
+		planet_jobs_society_research_produces_mult = 0.02
 	}
 
 	weight = {
