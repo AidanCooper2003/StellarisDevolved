@@ -522,7 +522,7 @@ devolved_civic_infinite_unemployment = {
 	}
 	modification = no
 	modifier = {
-		country_produces_mult = 1
+		country_produces_mult = 0.5
 		planet_stability_add = 300
 		job_farmer_add = -1000
 		job_miner_add = -1000
