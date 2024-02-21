@@ -324,7 +324,7 @@ devolved_civic_beastly_breeders = {
         modifier = {
             pop_growth_speed = 0.3
             planet_pop_assembly_organic_add = 1
-            planet_pops_upkeep_mult = 0.2
+            planet_pops_upkeep_mult = 0.3
         }
         random_weight = { base = 5 }
     }
@@ -391,8 +391,8 @@ devolved_civic_undead_upkeeper = {
             starbases_upkeep_mult = -0.2
             edicts_upkeep_mult = -0.2
             planet_structures_upkeep_mult = -0.2
-            planet_structures_cost_mult = 1
-            ships_cost_mult = 0.2
+            		planet_structures_cost_mult = 1
+            		ships_cost_mult = 0.2
 			planetary_ascension_cost_mult = 0.1
 			physics_tech_cost_mult = 0.025
 			society_tech_cost_mult = 0.025
@@ -416,8 +416,8 @@ devolved_civic_dead_upkeeper = {
             starbases_upkeep_mult = 0.2
             #edicts_upkeep_mult = 0.2 doesn't work
             planet_structures_upkeep_mult = 0.2
-            planet_structures_cost_mult = -0.75
-            ships_cost_mult = -0.2
+            		planet_structures_cost_mult = -0.75
+           		ships_cost_mult = -0.2
 			megastructures_cost_mult = -0.1
 			physics_tech_cost_mult = -0.05
 			society_tech_cost_mult = -0.05
@@ -653,8 +653,8 @@ devolved_civic_alloy_execution = {
 		planet_districts_industrial_alloys_upkeep_add = 1
 		espionage_operation_skill_add = 10
 		espionage_operation_cost_mult = -0.9
-		intel_encryption_mult = 0.2
-		intel_decryption_mult = 0.2
+		intel_encryption_mult = 0.3
+		intel_decryption_mult = 0.3
 		council_agenda_finishing_effect_duration_mult = 0.5
 		council_agenda_progress_speed = 0.25
 	}
@@ -683,20 +683,20 @@ devolved_civic_starbase_supremacy = {
 		}
 	}
     modifier = {
-		shipclass_starbase_build_speed_mult = 0.2
         starbase_outpost_cost_mult = -0.5
 		country_starbase_influence_cost_distance_mult = -0.3
 		country_starbase_influence_cost_mult = -0.25
 		starbase_upgrade_cost_mult = -0.2
 		starbases_upkeep_mult = -0.25
 		piracy_growth_mult = -0.15
+		shipsize_starbase_outpost_build_speed_mult = 0.2
         starbase_energy_production_modules_energy_produces_add = 10
         starbase_minerals_production_modules_minerals_produces_add = 10
         starbase_food_production_modules_food_produces_add = 10
         starbase_physics_research_modules_physics_research_produces_add = 10
         starbase_society_research_modules_society_research_produces_add = 10
         starbase_engineering_research_modules_engineering_research_produces_add = 10
-        planet_max_districts_add = -6
+        	planet_max_districts_add = -6
 		planet_max_buildings_add = -2
 		planet_structures_cost_mult = 0.5
 		planet_crime_mult = 1
@@ -778,17 +778,17 @@ devolved_civic_amazing_armies = {
 
 devolved_civic_army_abomination = {
     modifier = {
-        planet_army_build_speed_mult = -0.8
-        army_damage_mult = -0.8
-        army_defense_damage_mult = -0.8
-        army_morale = -0.8
-        army_health = -0.8
-        army_collateral_damage_mult = -0.8
-        army_attack_damage_mult = -0.8
-        army_defense_morale_mult = -0.8
-        army_defense_health_mult = -0.8
-        planet_artisans_consumer_goods_produces_add = 2
-        planet_artisans_food_produces_add = 1
+        	planet_army_build_speed_mult = -0.8
+        	army_damage_mult = -0.8
+        	army_defense_damage_mult = -0.8
+        	army_morale = -0.8
+        	army_health = -0.8
+        	army_collateral_damage_mult = -0.8
+        	army_attack_damage_mult = -0.8
+        	army_defense_morale_mult = -0.8
+        	army_defense_health_mult = -0.8
+        	planet_artisans_consumer_goods_produces_add = 2
+        	planet_artisans_food_produces_add = 1
 		planet_artisans_unity_produces_add = 1
     }
 }
@@ -827,13 +827,12 @@ devolved_civic_homephobia = {
 devolved_civic_shitty_starbases = {
 	modification = no
     modifier = {
-		shipsize_starbase_outpost_build_speed_mult = -0.95
         starbase_outpost_cost_mult = 1
-		shipclass_starbase_build_speed_mult = -0.5
 		starbase_outpost_influence_cost_mult = 1
         starbase_upgrade_cost_mult = 1
 		country_starbase_influence_cost_distance_mult = 1
 		starbases_upkeep_mult = 2
+	shipsize_starbase_outpost_build_speed_mult = -0.95 #Added because the outpost cost isn't working
         starbase_energy_production_modules_energy_produces_add = -10
         starbase_minerals_production_modules_minerals_produces_add = -10
         starbase_food_production_modules_food_produces_add = -10
@@ -841,7 +840,7 @@ devolved_civic_shitty_starbases = {
         starbase_society_research_modules_society_research_produces_add = -10
         starbase_engineering_research_modules_engineering_research_produces_add = -10
 		empire_size_systems_mult = 20
-		country_starbase_capacity_mult = -0.65
+		country_starbase_capacity_mult = -1
         planet_max_districts_add = 5
         planet_max_districts_mult = 1
         job_healthcare_per_pop = 0.0667
@@ -978,7 +977,6 @@ devolved_civic_majestic_megastructures = {
 }
 
 devolved_civic_agenda_acceleration = {
-	modification = no
 	possible = {
 		ethics = {
 			OR = {
@@ -988,7 +986,32 @@ devolved_civic_agenda_acceleration = {
 		}
 	}
 	modifier = {
-		council_agenda_finishing_effect_duration_mult = 5
+		council_agenda_finishing_effect_duration_mult = 3
 		council_agenda_progress_speed = 1
+	}
+}
+
+devolved_civic_yesmen = {
+	modification = no
+	modifier = {
+		diplo_action_acceptance_add = 2000
+		country_produces_mult = -0.95
+		planet_stability_add = 20
+	}
+}
+
+devolved_civic_accelerated_ascenders = {
+	modification = no
+	modifier = {
+		planetary_ascension_effect_mult = 5
+		planetary_ascension_cost_mult = -0.5
+	}
+}
+
+devolved_civic_amplified_ascenders = {
+	modification = no
+	modifier = {
+		planetary_ascension_effect_mult = 999
+		planetary_ascension_cost_mult = -0.5
 	}
 }
