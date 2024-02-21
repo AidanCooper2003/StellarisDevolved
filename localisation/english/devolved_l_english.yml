@@ -368,35 +368,44 @@ devolved_civic_councilor_mega_hater_desc:0 "REPLACE_ME"
 devolved_civic_councilor_starbase_serenader:0 "Starbase Serenader"
 devolved_civic_councilor_starbase_serenader_desc:0 "REPLACE_ME"
 
- devolved_civic_councilor_fleet_former:0 "Fleet Former"
- devolved_civic_councilor_fleet_former_desc:0 "REPLACE_ME"
+devolved_civic_councilor_fleet_former:0 "Fleet Former"
+devolved_civic_councilor_fleet_former_desc:0 "REPLACE_ME"
 
- devolved_civic_councilor_army_anticipator:0 "Army Anticipator"
- devolved_civic_councilor_army_anticipator_desc:0 "REPLACE_ME"
+devolved_civic_councilor_army_anticipator:0 "Army Anticipator"
+devolved_civic_councilor_army_anticipator_desc:0 "REPLACE_ME"
 
- devolved_civic_councilor_army_annihilator:0 "Army Annihilator"
- devolved_civic_councilor_army_annihilator_desc:0 "REPLACE_ME"
+devolved_civic_councilor_army_annihilator:0 "Army Annihilator"
+devolved_civic_councilor_army_annihilator_desc:0 "REPLACE_ME"
 
- devolved_civic_councilor_terraforming_terry:0 "Terraforming Terry"
- devolved_civic_councilor_terraforming_terry_desc:0 "REPLACE_ME"
+devolved_civic_councilor_terraforming_terry:0 "Terraforming Terry"
+devolved_civic_councilor_terraforming_terry_desc:0 "REPLACE_ME"
 
- devolved_civic_councilor_enhancing_enslaver:0 "Enhancing Enslaver"
- devolved_civic_councilor_enhancing_enslaver_desc:0 "REPLACE_ME"
+devolved_civic_councilor_enhancing_enslaver:0 "Enhancing Enslaver"
+devolved_civic_councilor_enhancing_enslaver_desc:0 "REPLACE_ME"
 
- devolved_civic_councilor_starbase_smusher:0 "Starbase Smusher"
- devolved_civic_councilor_starbase_smusher_desc:0 "REPLACE_ME"
+devolved_civic_councilor_starbase_smusher:0 "Starbase Smusher"
+devolved_civic_councilor_starbase_smusher_desc:0 "REPLACE_ME"
 
- devolved_civic_councilor_cuzzx_crystalmaker:0 "Cuzzx Crystalmaker"
- devolved_civic_councilor_cuzzx_crystalmaker_desc:0 "REPLACE_ME"
+devolved_civic_councilor_cuzzx_crystalmaker:0 "Cuzzx Crystalmaker"
+devolved_civic_councilor_cuzzx_crystalmaker_desc:0 "REPLACE_ME"
 
- devolved_civic_councilor_castronova_TA:0 "Castronova's TA"
- devolved_civic_councilor_castronova_TA_desc:0 "REPLACE_ME"
+devolved_civic_councilor_castronova_TA:0 "Castronova's TA"
+devolved_civic_councilor_castronova_TA_desc:0 "REPLACE_ME"
 
- devolved_civic_councilor_megastructure_manufacturer:0 "Megastructure Manufacturer"
- devolved_civic_councilor_megastructure_manufacturer_desc:0 "REPLACE_ME"
+devolved_civic_councilor_megastructure_manufacturer:0 "Megastructure Manufacturer"
+devolved_civic_councilor_megastructure_manufacturer_desc:0 "REPLACE_ME"
 
- devolved_civic_councilor_agenda_accelerator:0 "Agenda Accelerator"
- devolved_civic_councilor_agenda_accelerator_desc:0 "REPLACE_ME"
+devolved_civic_councilor_agenda_accelerator:0 "Agenda Accelerator"
+devolved_civic_councilor_agenda_accelerator_desc:0 "REPLACE_ME"
+
+devolved_civic_yesmen:0 "Yesmen"
+devolved_civic_yesmen_desc:0 "REPLACE_ME VERY ODD DON'T USE IN NORMAL GAME"
+
+devolved_civic_accelerated_ascenders:0 "Accelerated Ascenders"
+devolved_civic_accelerated_ascenders_desc:0 "REPLACE_ME OP DON'T USE IN NORMAL GAME"
+
+devolved_civic_amplified_ascenders:0 "Amplified Ascenders"
+devolved_civic_amplified_ascenders_desc:0 "REPLACE_ME VERY OP DON'T USE IN NORMAL GAME"
 
 # Edicts
 
