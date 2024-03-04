@@ -197,6 +197,9 @@ devolved_civic_majestic_megastructures_desc:0 "Per bureaucrat and priest, megast
 devolved_civic_agenda_acceleration:0 "Agenda Acceleration"
 devolved_civic_agenda_acceleration_desc:0 "REPLACE_ME"
 
+devolved_civic_lander_test:0 "Landerianism"
+devolved_civic_lander_test_desc:0 "TEST CIVIC ADDS NEW TRADITIONS, GUI IN PROGRESS"
+
 
 # Councilor Positions
 
@@ -486,3 +489,14 @@ job_devolved_game_designer:0 "Game Designer"
 job_devolved_game_designer_plural:0 "Game Designers"
 job_devolved_game_designer_desc:0 "If god was a gamer, he'd make life not too easy as to keep you engaged, but not too hard as to discourage you."
 mod_job_devolved_game_designer_add:0 "Game Designer Jobs"
+
+# Traditions
+unitussy:0 "Unitussy"
+unitussy_desc:0 "A tradition tree focused on increasing unity using Landerian methods."
+tr_unitussy_adopt:0 "Unitussy Adopt"
+tr_unitussy_finish:0 "Unitussy Finisher"
+tr_unitussy_cultural_phenomenon:0 "Cultural Phenomenon"
+tr_unitussy_unity_districts:0 "Unity Districts"
+tr_unitussy_bloody_unity:0 "Bloody Unity"
+tr_unitussy_leader_wage_cut:0 "Wage Cut"
+tr_unitussy_mega_art_mania:0 "Art Mania"
