@@ -1015,3 +1015,8 @@ devolved_civic_amplified_ascenders = {
 		planetary_ascension_cost_mult = -0.5
 	}
 }
+
+devolved_civic_lander_test = {
+	modification = no
+	# New traditions
+}
