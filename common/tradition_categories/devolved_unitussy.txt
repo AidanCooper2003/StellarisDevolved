@@ -14,12 +14,11 @@ unitussy = {
 		"tr_unitussy_mega_art_mania"
 	}
 
-	# Readd after we know tradition works
-	#potential = {
-	#	has_civic = devolved_civic_lander_test
-	#}
+	potential = {
+		has_civic = devolved_civic_lander_test
+	}
 
 	ai_weight = {
-		factor = 0
+		factor = 10000
 	}
 }
