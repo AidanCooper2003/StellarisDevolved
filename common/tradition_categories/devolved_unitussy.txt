@@ -1,7 +1,7 @@
 # common\tradition_categories\zz_devolved_unitussy.txt
 
 unitussy = {
-	tree_template = "tree_21_11"
+	tree_template = "unitussy"
 
 	adoption_bonus = "tr_unitussy_adopt"
 	finish_bonus = "tr_unitussy_finish"
