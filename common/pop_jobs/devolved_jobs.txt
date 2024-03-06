@@ -334,6 +334,8 @@ devolved_cooperian_culturalist = {
 		planet_amenities_add = 0.1
 		planet_crime_add = -0.1
 		planet_decision_enact_speed_mult = 0.02
+		planet_building_build_speed_mult = 0.02
+		planet_pops_upkeep_mult = -0.01
 	}
 	# Fanatic Cooperative
 	triggered_country_modifier = {
@@ -346,6 +348,8 @@ devolved_cooperian_culturalist = {
 		planet_amenities_add = 0.2
 		planet_crime_add = -0.2
 		planet_decision_enact_speed_mult = 0.04
+		planet_building_build_speed_mult = 0.04
+		planet_pops_upkeep_mult = -0.02
 	}
 	weight = {
 		weight = @specialist_job_weight
