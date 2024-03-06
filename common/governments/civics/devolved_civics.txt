@@ -1022,12 +1022,14 @@ devolved_civic_lander_test = {
 }
 
 devolved_civic_trade_trollers = {
+	modification = no
 	modifier = {
 		country_trade_attractiveness = 5
 	}
 }
 
 devolved_civic_arbitration_duplication = {
+	modification = no
 	modifier = {
 		monthly_trades_alloys_produces_mult = 1
 		monthly_trades_energy_produces_mult = 1
