@@ -1039,14 +1039,3 @@ devolved_civic_arbitration_duplication = {
 		monthly_trades_rare_crystals_produces_mult = 1
 	}
 }
-
-devolved_civic_traddition = {
-	modifier = {
-		monthly_trades_unity_produces_add = 5
-		monthly_trades_influence_produces_add = 1
-		monthly_trades_minor_artifacts_produces_add = 1
-		monthly_trades_physics_research_produces_add = 5
-		monthly_trades_society_research_produces_add = 5
-		monthly_trades_engineering_research_produces_add = 5
-	}
-}
