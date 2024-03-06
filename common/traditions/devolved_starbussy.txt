@@ -71,7 +71,7 @@ tr_starbussy_starbase_hardener = {
 tr_starbussy_defense_damage = {
 
 	modifier = {
-		shipclass_military_station_damage_mult = 0.25
+		shipclass_military_station_damage_mult = 0.5
 	}
 
 	ai_weight = {

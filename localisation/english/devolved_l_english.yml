@@ -200,14 +200,23 @@ devolved_civic_agenda_acceleration_desc:0 "REPLACE_ME"
 devolved_civic_lander_test:0 "Landerianism"
 devolved_civic_lander_test_desc:0 "TEST CIVIC ADDS NEW TRADITIONS, GUI IN PROGRESS"
 
-devolved_civic_trade_trollers:0 "REPLACE_ME"
+devolved_civic_trade_trollers:0 "Trade Trollers"
 devolved_civic_trade_trollers_desc:0 "REPLACE_ME"
 
-devolved_civic_arbitration_duplication:0 "REPLACE_ME"
+devolved_civic_arbitration_duplication:0 "Arbitration Duplication"
 devolved_civic_arbitration_duplication_desc:0 "REPLACE_ME"
 
-devolved_civic_cooperian_culture:0 "REPLACE_ME"
-devolved_civic_cooperian_culture_desc:0 "REPLACE_ME"
+devolved_civic_cooperian_culture:0 "Cooperian Culture"
+devolved_civic_cooperian_culture_desc:0 "Adds 'Cooperian Culturalists' that provide country wide bonuses based on the empire's ethics."
+
+devolved_civic_yesmen:0 "Yesmen"
+devolved_civic_yesmen_desc:0 "REPLACE_ME VERY ODD DON'T USE IN NORMAL GAME"
+
+devolved_civic_accelerated_ascenders:0 "Accelerated Ascenders"
+devolved_civic_accelerated_ascenders_desc:0 "REPLACE_ME OP DON'T USE IN NORMAL GAME"
+
+devolved_civic_amplified_ascenders:0 "Amplified Ascenders"
+devolved_civic_amplified_ascenders_desc:0 "REPLACE_ME VERY OP DON'T USE IN NORMAL GAME"
 
 
 # Councilor Positions
@@ -410,14 +419,10 @@ devolved_civic_councilor_megastructure_manufacturer_desc:0 "REPLACE_ME"
 devolved_civic_councilor_agenda_accelerator:0 "Agenda Accelerator"
 devolved_civic_councilor_agenda_accelerator_desc:0 "REPLACE_ME"
 
-devolved_civic_yesmen:0 "Yesmen"
-devolved_civic_yesmen_desc:0 "REPLACE_ME VERY ODD DON'T USE IN NORMAL GAME"
 
-devolved_civic_accelerated_ascenders:0 "Accelerated Ascenders"
-devolved_civic_accelerated_ascenders_desc:0 "REPLACE_ME OP DON'T USE IN NORMAL GAME"
 
-devolved_civic_amplified_ascenders:0 "Amplified Ascenders"
-devolved_civic_amplified_ascenders_desc:0 "REPLACE_ME VERY OP DON'T USE IN NORMAL GAME"
+ devolved_civic_councilor_tumbled_technocrat:0 "REPLACE_ME"
+ devolved_civic_councilor_tumbled_technocrat_desc:0 "REPLACE_ME"
 
 # Edicts
 
@@ -489,15 +494,27 @@ trade_policy_no_energy_mutual_aid_desc:0 "0.7 £food£ £minerals"
 trade_policy_no_energy_social:0 "No Energy Social Development"
 trade_policy_no_energy_social_desc:0 "0.4 £unity£ £society_research£"
 
+
 # Buildings
 building_game_design_college:0 "Game Design College"
 building_game_design_college_desc:0 "The galaxy's most talented game designers are cultivated here."
+
+building_cooperian_culture_center:0 "Cooperian Culture Center"
+building_cooperian_culture_center_desc:0 "An agency dedicated to boosting the ideals of the empire."
+
+building_cooperian_culture_complex:0 "Cooperian Culture Complex"
+building_cooperian_culture_complex_desc:0 "Aerials built around the Cooperian Culture Center that greatly increases the capacity of cooperian culturalists to do their work."
 
 # Jobs
 job_devolved_game_designer:0 "Game Designer"
 job_devolved_game_designer_plural:0 "Game Designers"
 job_devolved_game_designer_desc:0 "If god was a gamer, he'd make life not too easy as to keep you engaged, but not too hard as to discourage you."
 mod_job_devolved_game_designer_add:0 "Game Designer Jobs"
+
+job_devolved_cooperian_culturalist:0 "Cooperian Culturalist"
+job_devolved_cooperian_culturalist_plural:0 "Cooperian Culturalists"
+job_devolved_cooperian_culturalist_desc:0 "The Cooperian Culturalists are top of the line artists and influencers dedicated to refining the ideals of the empire."
+mod_job_devolved_cooperian_culturalist_add:0 "Cooperian Culturalist Jobs"
 
 # Traditions
 unitussy:0 "Unitussy"
@@ -509,3 +526,23 @@ tr_unitussy_unity_districts:0 "Unity Districts"
 tr_unitussy_bloody_unity:0 "Bloody Unity"
 tr_unitussy_leader_wage_cut:0 "Wage Cut"
 tr_unitussy_mega_art_mania:0 "Art Mania"
+
+ascensionussy:0 "Ascensionussy"
+ascensionussy_desc:0 "A tradition tree focused on boosting planetary ascension."
+tr_ascensionussy_adopt:0 "Ascensionussy Adopt"
+tr_ascensionussy_finish:0 "Ascensionussy Finisher"
+tr_ascensionussy_ascending_andy:0 "Ascending Andy"
+tr_ascensionussy_ascending_andrew:0 "Ascending Andrew"
+tr_ascensionussy_ascending_april:0 "Ascending April"
+tr_ascensionussy_ascending_arlo:0 "Ascending Arlo"
+tr_ascensionussy_ascending_aidan:0 "Ascending Aidan"
+
+starbussy:0 "Starbussy"
+starbussy_desc:0 "A tradition tree focused on improving starbases."
+tr_starbussy_adopt:0 "Starbussy Adopt"
+tr_starbussy_finish:0 "Starbussy Finisher"
+tr_starbussy_cheap_defense:0 "Cheap Defense"
+tr_starbussy_stronger_starbases:0 "Stronger Starbases"
+tr_starbussy_cheapy_weapy:0 "Alloy Alfalfas"
+tr_starbussy_starbase_hardener:0 "Starbase Hardener"
+tr_starbussy_defense_damage:0 "Defense Damage"
