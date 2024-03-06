@@ -301,8 +301,8 @@ devolved_cooperian_culturalist = {
 			}
 		}
 		planet_jobs_upkeep_mult = -0.02
-		pop_environment_tolerance = 0.01
-		terraform_speed_mult = 0.01
+		pop_environment_tolerance = 0.02
+		terraform_speed_mult = 0.02
 	}
 
 	# Competitive
