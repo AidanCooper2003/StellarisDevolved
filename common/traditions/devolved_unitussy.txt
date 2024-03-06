@@ -14,7 +14,7 @@ tr_unitussy_adopt = {
 tr_unitussy_finish = {
 	modifier = {
 		ascension_perks_add = 1
-		planet_researchers_unity_produces_add = 0.25
+		planet_researchers_unity_produces_add = 0.2
 	}
 }
 

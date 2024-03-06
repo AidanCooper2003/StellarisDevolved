@@ -19,6 +19,6 @@ unitussy = {
 	}
 
 	ai_weight = {
-		factor = 10000
+		factor = 1000
 	}
 }
