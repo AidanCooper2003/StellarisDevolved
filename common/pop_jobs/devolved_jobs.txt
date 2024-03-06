@@ -15,7 +15,7 @@ devolved_game_designer = {
 	triggered_country_modifier = {
 		potential = {
 			owner = {
-				has_civic = devolved_civic_victors_wrath
+				has_ethic = ethic_fanatic_spiritualist
 			}
 		}
 		planet_jobs_society_research_produces_mult = 0.02
@@ -32,6 +32,332 @@ devolved_game_designer = {
 		modifier = {
 			factor = 1.5
 			has_job = devolved_game_designer
+		}
+	}
+}
+
+devolved_cooperian_culturalist = {
+	category = specialist
+	possible_precalc = can_fill_specialist_job
+	icon = culture_worker
+	resources = {
+		category = planet_culture_workers
+		upkeep = {
+			consumer_goods = 2
+		}
+	}
+
+	# Spiritualist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_spiritualist
+			}
+		}
+		planetary_ascension_effect_mult = 0.005
+	}
+
+	# Fanatic Spiritualist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_spiritualist
+			}
+		}
+		planetary_ascension_effect_mult = 0.01
+	}
+
+	# Materialist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_materialist
+			}
+		}
+		all_technology_research_speed = 0.005
+		num_tech_alternatives_add = 0.025
+	}
+
+	# Fanatic Materialist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_materialist
+			}
+		}
+		all_technology_research_speed = 0.01
+		num_tech_alternatives_add = 0.05
+	}
+
+	# Elitist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_elitist
+			}
+		}
+		councilor_skill_add = 0.01
+	}
+
+	# Fanatic Elitist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_elitist
+			}
+		}
+		councilor_skill_add = 0.02
+	}
+
+	# Pluralist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_pluralist
+			}
+		}
+		species_leader_exp_gain = 0.01
+		country_official_cap_add = 0.025
+		country_scientist_cap_add = 0.025
+		country_commander_cap_add = 0.025
+	}
+
+	# Fanatic Pluralist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_pluralist
+			}
+		}
+		species_leader_exp_gain = 0.02
+		country_official_cap_add = 0.05
+		country_scientist_cap_add = 0.05
+		country_commander_cap_add = 0.05
+	}
+
+	# Authoritarian
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_authoritarian
+			}
+		}
+		planet_jobs_slave_produces_mult = 0.02
+	}
+
+	# Fanatic Authoritarian
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_authoritarian
+			}
+		}
+		planet_jobs_slave_produces_mult = 0.04
+	}
+
+	# Egalitarian
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_egalitarian
+			}
+		}
+		pop_factions_produces_mult = 0.03
+	}
+
+	# Fanatic Egalitarian
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_egalitarian
+			}
+		}
+		pop_factions_produces_mult = 0.06
+	}
+
+	# Xenophobe
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_xenophobe
+			}
+		}
+		pop_growth_speed = 0.01
+		planet_pop_assembly_mult = 0.01
+	}
+
+	# Fanatic Xenophobe
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+		pop_growth_speed = 0.02
+		planet_pop_assembly_mult = 0.02
+	}
+
+	# Xenophile
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_xenophile
+			}
+		}
+		pop_growth_from_immigration = 0.02
+	}
+
+	# Fanatic Xenophile
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_xenophile
+			}
+		}
+		pop_growth_from_immigration = 0.04
+	}
+
+	# Pacifist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_pacifist
+			}
+		}
+		planet_stability_add = 0.05
+	}
+
+	# Fanatic Pacifist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_pacifist
+			}
+		}
+		planet_stability_add = 0.1
+	}
+
+	# Militarist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_militarist
+			}
+		}
+		ship_speed_mult = 0.01
+		ship_tracking_mult = 0.001
+		country_naval_cap_mult = 0.001
+	}
+
+	# Fanatic Militarist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_militarist
+			}
+		}
+		ship_speed_mult = 0.02
+		ship_tracking_mult = 0.001
+		country_naval_cap_mult = 0.002 
+	}
+
+	# Industrialist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_industrial
+			}
+		}
+		planet_max_districts_add = 0.025
+	}
+
+	# Fanatic Industrialist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_industrial
+			}
+		}
+		planet_max_districts_add = 0.05
+	}
+
+	# Ecologist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_green
+			}
+		}
+		planet_jobs_upkeep_mult = -0.01
+		pop_habitability = 0.01
+		terraform_speed_mult = 0.01
+	}
+
+	# Fanatic Ecologist
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_green
+			}
+		}
+		planet_jobs_upkeep_mult = -0.02
+		pop_habitability = 0.01
+		terraform_speed_mult = 0.01
+	}
+
+	# Competitive
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_capitalist
+			}
+		}
+		pop_job_trade_mult = 0.01
+	}
+	# Fanatic Competitive
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_capitalist
+			}
+		}
+		pop_job_trade_mult = 0.02
+	}
+	# Cooperative
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_socialist
+			}
+		}
+		planet_housing_add = 0.1
+		planet_amenities_add = 0.1
+		planet_crime_add = -0.1
+		planet_decision_enact_speed_mult = 0.02
+	}
+	# Fanatic Cooperative
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_ethic = ethic_fanatic_socialist
+			}
+		}
+		planet_housing_add = 0.2
+		planet_amenities_add = 0.2
+		planet_crime_add = -0.2
+		planet_decision_enact_speed_mult = 0.04
+	}
+	weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 4
+			has_living_standard = {
+				type = living_standard_academic_privilege
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_job = devolved_cooperian_culturalist
 		}
 	}
 }

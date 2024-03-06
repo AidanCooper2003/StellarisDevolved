@@ -810,8 +810,6 @@ devolved_civic_demancipation_proclamation = {
 		living_standard_trade_value_slaves_add = 1
 		slave_market_cost_mult = -0.5
 		planet_jobs_slave_produces_mult = 0.5
-		planet_jobs_slave_food_produces_add = 1
-		planet_jobs_slave_energy_produces_add = 1
 		pop_happiness = -0.15
 	}
 }
@@ -1039,5 +1037,12 @@ devolved_civic_arbitration_duplication = {
 		monthly_trades_volatile_motes_produces_mult = 1
 		monthly_trades_exotic_gases_produces_mult = 1
 		monthly_trades_rare_crystals_produces_mult = 1
+	}
+}
+
+devolved_civic_cooperian_culture = {
+	# New job/building type
+	modifier = {
+		job_devolved_cooperian_culturalist_per_pop = 0.02
 	}
 }

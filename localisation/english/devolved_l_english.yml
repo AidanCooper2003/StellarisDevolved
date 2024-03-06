@@ -200,6 +200,15 @@ devolved_civic_agenda_acceleration_desc:0 "REPLACE_ME"
 devolved_civic_lander_test:0 "Landerianism"
 devolved_civic_lander_test_desc:0 "TEST CIVIC ADDS NEW TRADITIONS, GUI IN PROGRESS"
 
+devolved_civic_trade_trollers:0 "REPLACE_ME"
+devolved_civic_trade_trollers_desc:0 "REPLACE_ME"
+
+devolved_civic_arbitration_duplication:0 "REPLACE_ME"
+devolved_civic_arbitration_duplication_desc:0 "REPLACE_ME"
+
+devolved_civic_cooperian_culture:0 "REPLACE_ME"
+devolved_civic_cooperian_culture_desc:0 "REPLACE_ME"
+
 
 # Councilor Positions
 
