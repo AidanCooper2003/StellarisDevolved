@@ -218,6 +218,15 @@ devolved_civic_accelerated_ascenders_desc:0 "REPLACE_ME OP DON'T USE IN NORMAL G
 devolved_civic_amplified_ascenders:0 "Amplified Ascenders"
 devolved_civic_amplified_ascenders_desc:0 "REPLACE_ME VERY OP DON'T USE IN NORMAL GAME"
 
+devolved_civic_l_machine_neo:0 "L Machine Neo"
+devolved_civic_l_machine_neo_desc:0 "REPLACE_ME VERY... UP?"
+
+devolved_civic_g_machine:0 "G Machine"
+devolved_civic_g_machine_desc:0 "REPLACE_ME VERY OP DON'T USE IN NORMAL GAME"
+
+devolved_civic_sg_machine:0 "SG Machine"
+devolved_civic_sg_machine_desc:0 "REPLACE_ME VERY OP DON'T USE IN NORMAL GAME"
+
 
 # Councilor Positions
 
@@ -420,9 +429,16 @@ devolved_civic_councilor_agenda_accelerator:0 "Agenda Accelerator"
 devolved_civic_councilor_agenda_accelerator_desc:0 "REPLACE_ME"
 
 
+devolved_civic_councilor_leader_obliterator:0 "Leader Obliterator"
+devolved_civic_councilor_leader_obliterator_desc:0 "REPLACE_ME"
 
- devolved_civic_councilor_tumbled_technocrat:0 "REPLACE_ME"
- devolved_civic_councilor_tumbled_technocrat_desc:0 "REPLACE_ME"
+devolved_civic_councilor_aidz_aristocrat:0 "Aidz Aristocrat"
+devolved_civic_councilor_aidz_aristocrat_desc:0 "REPLACE_ME"
+
+
+
+devolved_civic_councilor_tumbled_technocrat:0 "Tumbled Onyx"
+devolved_civic_councilor_tumbled_technocrat_desc:0 "REPLACE_ME"
 
 # Edicts
 
