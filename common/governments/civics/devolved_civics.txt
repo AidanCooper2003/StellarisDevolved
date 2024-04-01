@@ -987,6 +987,7 @@ devolved_civic_majestic_megastructures = {
 		pop_growth_speed_reduction = 0.25
 		planet_pop_assembly_organic_reduction = 0.25 
 	}
+	# Recieve Contigency Core at start of game
 }
 
 devolved_civic_agenda_acceleration = {
