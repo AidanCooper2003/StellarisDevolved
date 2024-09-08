@@ -313,7 +313,7 @@ devolved_cooperian_culturalist = {
 	triggered_country_modifier = {
 		potential = {
 			owner = {
-				has_ethic = ethic_capitalism
+				has_ethic = ethic_competitive
 			}
 		}
 		pop_job_trade_mult = 0.02
@@ -322,7 +322,7 @@ devolved_cooperian_culturalist = {
 	triggered_country_modifier = {
 		potential = {
 			owner = {
-				has_ethic = ethic_fanatic_capitalism
+				has_ethic = ethic_fanatic_competitive
 			}
 		}
 		pop_job_trade_mult = 0.04
@@ -331,7 +331,7 @@ devolved_cooperian_culturalist = {
 	triggered_country_modifier = {
 		potential = {
 			owner = {
-				has_ethic = ethic_socialism
+				has_ethic = ethic_cooperative
 			}
 		}
 		planet_housing_add = 0.2
@@ -345,7 +345,7 @@ devolved_cooperian_culturalist = {
 	triggered_country_modifier = {
 		potential = {
 			owner = {
-				has_ethic = ethic_fanatic_socialism
+				has_ethic = ethic_fanatic_cooperative
 			}
 		}
 		planet_housing_add = 0.4
