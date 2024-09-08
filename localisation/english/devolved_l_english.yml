@@ -227,6 +227,9 @@ devolved_civic_g_machine_desc:0 "REPLACE_ME VERY OP DON'T USE IN NORMAL GAME"
 devolved_civic_sg_machine:0 "SG Machine"
 devolved_civic_sg_machine_desc:0 "REPLACE_ME VERY OP DON'T USE IN NORMAL GAME"
 
+devolved_civic_cheater_contract:0 "Cheater Contract"
+devolved_civic_cheater_contract_desc:0 "Allows cheating civics to be used."
+
 
 # Councilor Positions
 

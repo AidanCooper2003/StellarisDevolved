@@ -1006,6 +1006,11 @@ devolved_civic_agenda_acceleration = {
 }
 
 devolved_civic_yesmen = {
+	possible = {
+		civics = {
+			value = devolved_civic_cheater_contract
+		}
+	}
 	modification = no
 	modifier = {
 		diplo_action_acceptance_add = 2000
@@ -1015,6 +1020,11 @@ devolved_civic_yesmen = {
 }
 
 devolved_civic_accelerated_ascenders = {
+	possible = {
+		civics = {
+			value = devolved_civic_cheater_contract
+		}
+	}
 	modification = no
 	modifier = {
 		planetary_ascension_effect_mult = 5
@@ -1023,6 +1033,11 @@ devolved_civic_accelerated_ascenders = {
 }
 
 devolved_civic_amplified_ascenders = {
+	possible = {
+		civics = {
+			value = devolved_civic_cheater_contract
+		}
+	}
 	modification = no
 	modifier = {
 		planetary_ascension_effect_mult = 999
@@ -1093,6 +1108,11 @@ devolved_civic_l_machine_neo = {
 }
 
 devolved_civic_g_machine = {
+	possible = {
+		civics = {
+			value = devolved_civic_cheater_contract
+		}
+	}
 	modification = no
 	modifier = {
 		pop_citizen_happiness = 2
@@ -1178,6 +1198,11 @@ devolved_civic_g_machine = {
 }
 
 devolved_civic_sg_machine = {
+	possible = {
+		civics = {
+			value = devolved_civic_cheater_contract
+		}
+	}
 	modification = no
 	modifier = {
 		pop_citizen_happiness = 2
@@ -1259,4 +1284,8 @@ devolved_civic_sg_machine = {
 		edicts_upkeep_mult = -2
 		councilor_skill_add = 999
 	}
+}
+
+devolved_civic_cheater_contract = {
+	modification = no
 }
