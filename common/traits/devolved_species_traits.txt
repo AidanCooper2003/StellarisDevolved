@@ -25,7 +25,6 @@ devolved_trait_l_machine = {
 }
 
 
-# Doesn't currently work, will fix later
 devolved_trait_micro_influencer = {
 	cost = 2
 	allowed_archetypes = {
@@ -44,6 +43,31 @@ devolved_trait_micro_influencer = {
 
 	slave_cost = {
 		energy = 1000
+	}
+
+	assembly_score = {
+		modifier = {
+			add = 0.5
+		}
+	}
+}
+
+devolved_trait_mineral_despising = {
+	cost = -4
+	allowed_archetypes = {
+		BIOLOGICAL LITHOID REPLICANT
+	}
+
+	modifier = {
+		pop_category_normal_resources_mineral_produces_add = -1
+	}
+
+	triggered_pop_modifier = {
+		pop_category_normal_resources_mineral_produces_add = -1
+	}
+
+	slave_cost = {
+		energy = -5000
 	}
 
 	assembly_score = {
