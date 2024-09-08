@@ -59,11 +59,11 @@ devolved_trait_mineral_despising = {
 	}
 
 	modifier = {
-		pop_category_normal_resources_mineral_produces_add = -1
+		pop_category_normal_resources_minerals_produces_add = -1
 	}
 
 	triggered_pop_modifier = {
-		pop_category_normal_resources_mineral_produces_add = -1
+		pop_category_normal_resources_minerals_produces_add = -1
 	}
 
 	slave_cost = {
