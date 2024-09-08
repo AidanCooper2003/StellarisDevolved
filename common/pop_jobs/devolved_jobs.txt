@@ -269,7 +269,7 @@ devolved_cooperian_culturalist = {
 	triggered_country_modifier = {
 		potential = {
 			owner = {
-				has_ethic = ethic_industrial
+				has_ethic = ethic_industrialist
 			}
 		}
 		planet_max_districts_add = 0.025
@@ -279,7 +279,7 @@ devolved_cooperian_culturalist = {
 	triggered_country_modifier = {
 		potential = {
 			owner = {
-				has_ethic = ethic_fanatic_industrial
+				has_ethic = ethic_fanatic_industrialist
 			}
 		}
 		planet_max_districts_add = 0.05
@@ -289,7 +289,7 @@ devolved_cooperian_culturalist = {
 	triggered_country_modifier = {
 		potential = {
 			owner = {
-				has_ethic = ethic_green
+				has_ethic = ethic_ecologist
 			}
 		}
 		planet_jobs_upkeep_mult = -0.01
@@ -301,7 +301,7 @@ devolved_cooperian_culturalist = {
 	triggered_country_modifier = {
 		potential = {
 			owner = {
-				has_ethic = ethic_fanatic_green
+				has_ethic = ethic_fanatic_ecologist
 			}
 		}
 		planet_jobs_upkeep_mult = -0.02
