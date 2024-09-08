@@ -7,6 +7,12 @@ devolved_trait_l_machine_desc:0 "Members of this species are absolute losers, wh
 devolved_trait_micro_influencer:0 "Micro-Influencer"
 devolved_trait_micro_influencer_desc:0 "Every organism does their part to project their group's will outward."
 
+devolved_trait_mineral_despising:0 "Mineral Despising"
+devolved_trait_mineral_despising_desc:0 "Every member of this species will go out of their way to violently destroy minerals."
+
+devolved_trait_violent_depression:0 "Violent Depression"
+devolved_trait_violent_depression_desc:0 "No member of this species can stand to live, and must be given extreme care to kept from a state of just apathy."
+
 # Civics
 devolved_civic_pleasure_power:0 "Pleasure Power"
 devolved_civic_pleasure_power_desc:0 "All citizens are given mandatory stim toys made from old clothing, that give a seemingly reality breaking level of happiness to all. However, these entertainment garments can cause distraction during war, leading to less effective gunners."

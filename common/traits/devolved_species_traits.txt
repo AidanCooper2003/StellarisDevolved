@@ -76,3 +76,16 @@ devolved_trait_mineral_despising = {
 		}
 	}
 }
+
+devolved_trait_violent_depression = {
+	cost = -10
+	allowed_archetypes = {
+		BIOLOGICAL LITHOID REPLICANT
+	}
+
+	modifier = {
+		pop_amenities_usage_base = 1
+		pop_amenities_usage_mult = 1
+		pop_happiness = -1
+	}
+}
