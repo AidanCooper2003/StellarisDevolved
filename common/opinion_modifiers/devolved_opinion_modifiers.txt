@@ -118,3 +118,14 @@ triggered_opinion_annoying = {
 		base = -150 # For Power Pit
 	}
 }
+
+triggered_opinion_semigod_worship = {
+	trigger = {
+		FROM = {
+			has_civic = devolved_civic_sg_machine
+		}
+	}
+	opinion = {
+		base = 100000
+	}
+}

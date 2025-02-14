@@ -1309,6 +1309,7 @@ devolved_civic_sg_machine = {
 		catapult_range_mult = 100
 		catapult_spread_mult = 0
 		quantum_catapult_empire_windup_mult = 0
+		first_contact_clues_add = 50
     }
 }
 
