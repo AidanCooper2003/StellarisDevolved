@@ -1,0 +1,10 @@
+resolution_category_chaos = {
+    group = sg_resolutions
+    icon = GFX_resolution_purges
+
+    resolution_types = {
+        "resolution_project_extinction"
+        "resolution_project_anarchy"
+        "resolution_project_poverty"
+    }
+}

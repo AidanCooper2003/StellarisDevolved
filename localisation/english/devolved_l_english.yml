@@ -572,3 +572,16 @@ tr_starbussy_stronger_starbases:0 "Stronger Starbases"
 tr_starbussy_cheapy_weapy:0 "Alloy Alfalfas"
 tr_starbussy_starbase_hardener:0 "Starbase Hardener"
 tr_starbussy_defense_damage:0 "Defense Damage"
+
+# Resolutions
+resolution_project_extinction:0 "Project Extinction"
+resolution_project_extinction_desc:0 "Destroy all ecosystems."
+resolution_project_poverty:0 "Project Poverty"
+resolution_project_poverty_desc:0 "Destroy all economies."
+resolution_project_anarchy:0 "Project Anarchy"
+resolution_project_anarchy_desc:0 "Destroy all order."
+
+resolution_category_chaos:0 "Chaos"
+
+sg_resolutions:0 "SemiGod Projects"
+

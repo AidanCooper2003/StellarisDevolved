@@ -1247,7 +1247,6 @@ devolved_civic_sg_machine = {
         planet_max_buildings_add = 10
         planet_crime_mult = -1
         diplo_weight_mult = 1
-		diplo_weight_naval_mult = -1.9
         country_insult_efficiency = 999
         country_trust_growth = 999
         ship_shield_add = 999

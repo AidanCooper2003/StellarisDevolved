@@ -1,0 +1,74 @@
+resolution_project_extinction = {
+	icon = "GFX_resolution_ecological_protection"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = 50
+		}
+	}
+	target = no
+	level = 1
+
+	modifier = {
+		pop_environment_tolerance = -2
+	}
+
+	potential = {
+		has_civic = devolved_civic_sg_machine
+	}
+
+	ai_weight = {
+		base = -10000
+	}
+}
+
+resolution_project_anarchy = {
+	icon = "GFX_resolution_ecological_protection"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = 50
+		}
+	}
+	target = no
+	level = 1
+
+	modifier = {
+		planet_stability_add = -200
+	}
+
+	potential = {
+		has_civic = devolved_civic_sg_machine
+	}
+
+	ai_weight = {
+		base = -10000
+	}
+}
+
+resolution_project_poverty = {
+	icon = "GFX_resolution_ecological_protection"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = 50
+		}
+	}
+	target = no
+	level = 1
+
+	modifier = {
+		country_produces_mult = -2
+	}
+
+	potential = {
+		has_civic = devolved_civic_sg_machine
+	}
+
+	ai_weight = {
+		base = -10000
+	}
+}
