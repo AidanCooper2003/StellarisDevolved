@@ -1202,7 +1202,7 @@ devolved_civic_sg_machine = {
         ship_fire_rate_mult = 999
         habitability_ceil_add = 1
         pop_environment_tolerance = 3
-        country_produces_mult = 10
+        country_produces_mult = 50
         envoys_add = 20
         ship_home_territory_fire_rate_mult = 999
         country_edict_fund_add = 5000
@@ -1246,7 +1246,8 @@ devolved_civic_sg_machine = {
         planet_max_districts_add = 999
         planet_max_buildings_add = 10
         planet_crime_mult = -1
-        diplo_weight_mult = 99
+        diplo_weight_mult = 1
+		diplo_weight_naval_mult = -1.9
         country_insult_efficiency = 999
         country_trust_growth = 999
         ship_shield_add = 999
@@ -1310,6 +1311,9 @@ devolved_civic_sg_machine = {
 		catapult_spread_mult = 0
 		quantum_catapult_empire_windup_mult = 0
 		first_contact_clues_add = 50
+		shipsize_juggernaut_build_speed_mult = 1000
+		shipsize_colossus_build_speed_mult = 1000
+		shipsize_star_eater_build_speed_mult = 1000
     }
 }
 
