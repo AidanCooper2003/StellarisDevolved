@@ -72,3 +72,93 @@ resolution_project_poverty = {
 		base = -10000
 	}
 }
+
+resolution_project_extinction_repeal = {
+	icon = "GFX_repeal_blue"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = 50
+		}
+	}
+	target = no
+	fire_and_forget = yes
+
+	effect = {
+		custom_tooltip = resolution_project_extinction_repeal_success
+
+		hidden_effect = {
+			cancel_resolution = "resolution_project_extinction"
+		}
+	}
+
+	potential = {
+		is_active_resolution = "resolution_project_extinction"
+		has_civic = devolved_civic_sg_machine
+	}
+
+	ai_weight = {
+		base = 10000
+	}
+}
+
+resolution_project_anarchy_repeal = {
+	icon = "GFX_repeal_blue"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = 50
+		}
+	}
+	target = no
+	fire_and_forget = yes
+
+	effect = {
+		custom_tooltip = resolution_project_anarchy_repeal_success
+
+		hidden_effect = {
+			cancel_resolution = "resolution_project_anarchy"
+		}
+	}
+
+	potential = {
+		is_active_resolution = "resolution_project_anarchy"
+		has_civic = devolved_civic_sg_machine
+	}
+
+	ai_weight = {
+		base = 10000
+	}
+}
+
+resolution_project_poverty_repeal = {
+	icon = "GFX_repeal_blue"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = 50
+		}
+	}
+	target = no
+	fire_and_forget = yes
+
+	effect = {
+		custom_tooltip = resolution_project_poverty_repeal_success
+
+		hidden_effect = {
+			cancel_resolution = "resolution_project_poverty"
+		}
+	}
+
+	potential = {
+		is_active_resolution = "resolution_project_poverty"
+		has_civic = devolved_civic_sg_machine
+	}
+
+	ai_weight = {
+		base = 10000
+	}
+}

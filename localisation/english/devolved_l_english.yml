@@ -477,33 +477,33 @@ omni_conversion:0 "REPLACE_ME"
 omni_conversion_desc:0 "REPLACE_ME"
 omni_conversion_name:0 "REPLACE_ME"
 trade_conversion_omni_name:0 "REPLACE_ME"
- trade_conversion_no_energy_research_name:0 "REPLACE_ME"
- trade_conversion_no_energy_unity_name:0 "REPLACE_ME"
- trade_conversion_no_energy_trade_league_name:0 "REPLACE_ME"
- trade_conversion_no_energy_holy_covenant_name:0 "REPLACE_ME"
- trade_conversion_no_energy_mutual_aid_name:0 "REPLACE_ME"
- trade_conversion_no_energy_food_name:0 "REPLACE_ME"
- trade_conversion_no_energy_mining_name:0 "REPLACE_ME"
- trade_conversion_no_energy_social_name:0 "REPLACE_ME"
+trade_conversion_no_energy_research_name:0 "REPLACE_ME"
+trade_conversion_no_energy_unity_name:0 "REPLACE_ME"
+trade_conversion_no_energy_trade_league_name:0 "REPLACE_ME"
+trade_conversion_no_energy_holy_covenant_name:0 "REPLACE_ME"
+trade_conversion_no_energy_mutual_aid_name:0 "REPLACE_ME"
+trade_conversion_no_energy_food_name:0 "REPLACE_ME"
+trade_conversion_no_energy_mining_name:0 "REPLACE_ME"
+trade_conversion_no_energy_social_name:0 "REPLACE_ME"
 
 # Policies
 trade_policy_omni_conversion:0 "Omniconomy"
 trade_policy_omni_conversion_desc:0 "The economy is rerouted so trade focuses on a little bit of everything! Each collected trade value £trade_value£ earns us a small amount of £energy£ £minerals£ £food£ £alloys£ £consumer_goods£ £physics_research£ £society_research£ £engineering_research£ £unity£ £influence£ £volatile_motes£ £exotic_gases£ £rare_crystals£ £sr_dark_matter£ £nanites£ £sr_living_metal£ £sr_zro£ £minor_artifacts£ £sr_astral_threads£"
 
- trade_policy_no_energy_research:0 "No Energy Innovation"
- trade_policy_no_energy_research_desc:0 "0.25 £physics_research£ £society_research£ £engineering_research£"
+trade_policy_no_energy_research:0 "No Energy Innovation"
+trade_policy_no_energy_research_desc:0 "0.25 £physics_research£ £society_research£ £engineering_research£"
 
- trade_policy_no_energy_trade_league:0 "No Energy Trade League"
- trade_policy_no_energy_trade_league_desc:0 "0.5 £consumer_goods£ £unity£"
+trade_policy_no_energy_trade_league:0 "No Energy Trade League"
+trade_policy_no_energy_trade_league_desc:0 "0.5 £consumer_goods£ £unity£"
 
- trade_policy_no_energy_food:0 "No Energy Agricultural Subsidies"
- trade_policy_no_energy_food_desc:0 "1 £food£"
+trade_policy_no_energy_food:0 "No Energy Agricultural Subsidies"
+trade_policy_no_energy_food_desc:0 "1 £food£"
 
- trade_policy_no_energy_mining:0 "No Energy Mining Subsidies"
- trade_policy_no_energy_mining_desc:0 "1 £minerals£"
+trade_policy_no_energy_mining:0 "No Energy Mining Subsidies"
+trade_policy_no_energy_mining_desc:0 "1 £minerals£"
 
- trade_policy_no_energy_omni_conversion:0 "No Energy Omniconomy"
- trade_policy_no_energy_omni_conversion_desc:0 "Slightly more of each of the following, £minerals£ £food£ £alloys£ £consumer_goods£ £physics_research£ £society_research£ £engineering_research£ £unity£ £influence£ £volatile_motes£ £exotic_gases£ £rare_crystals£ £sr_dark_matter£ £nanites£ £sr_living_metal£ £sr_zro£ £minor_artifacts£ £sr_astral_threads£"
+trade_policy_no_energy_omni_conversion:0 "No Energy Omniconomy"
+trade_policy_no_energy_omni_conversion_desc:0 "Slightly more of each of the following, £minerals£ £food£ £alloys£ £consumer_goods£ £physics_research£ £society_research£ £engineering_research£ £unity£ £influence£ £volatile_motes£ £exotic_gases£ £rare_crystals£ £sr_dark_matter£ £nanites£ £sr_living_metal£ £sr_zro£ £minor_artifacts£ £sr_astral_threads£"
 
 trade_policy_no_energy_consumer_goods:0 "No Energy Consumer Benefits"
 trade_policy_no_energy_consumer_goods_desc:0 "0.5 £consumer_goods£"
@@ -519,6 +519,7 @@ trade_policy_no_energy_mutual_aid_desc:0 "0.7 £food£ £minerals"
 
 trade_policy_no_energy_social:0 "No Energy Social Development"
 trade_policy_no_energy_social_desc:0 "0.4 £unity£ £society_research£"
+
 
 
 # Buildings
@@ -574,14 +575,26 @@ tr_starbussy_starbase_hardener:0 "Starbase Hardener"
 tr_starbussy_defense_damage:0 "Defense Damage"
 
 # Resolutions
-resolution_project_extinction:0 "Project Extinction"
-resolution_project_extinction_desc:0 "Destroy all ecosystems."
-resolution_project_poverty:0 "Project Poverty"
-resolution_project_poverty_desc:0 "Destroy all economies."
-resolution_project_anarchy:0 "Project Anarchy"
-resolution_project_anarchy_desc:0 "Destroy all order."
-
-resolution_category_chaos:0 "Chaos"
 
 sg_resolutions:0 "SemiGod Projects"
 
+resolution_project_extinction:0 "Project Extinction"
+resolution_project_extinction_desc:0 "Destroy all ecosystems."
+resolution_category_extinction:0 "Project Extinction"
+resolution_project_extinction_repeal:0 "Repeal Project Extinction"
+resolution_project_extinction_repeal_desc:0 "Community members will no longer be forced to destroy their own worlds."
+resolution_project_extinction_repeal_success:0 "Project Extinction has been successfully repealed!"
+
+resolution_project_poverty:0 "Project Poverty"
+resolution_project_poverty_desc:0 "Destroy all economies."
+resolution_category_poverty:0 "Project Poverty"
+resolution_project_poverty_repeal:0 "Repeal Project Poverty"
+resolution_project_poverty_repeal_desc:0 "Community members will no longer be forced to eliminate all semblances of economy and dump remaining economic output into the nearest black hole."
+resolution_project_anarchy_repeal_success:0 "Project Anarchy has been successfully repealed!"
+
+resolution_project_anarchy:0 "Project Anarchy"
+resolution_project_anarchy_desc:0 "Destroy all order."
+resolution_category_anarchy:0 "Project Anarchy"
+resolution_project_anarchy_repeal:0 "Repeal Project Anarchy"
+resolution_project_anarchy_repeal_desc:0 "Community members will no longer be forced to prevent any form of power structure and incite rebellion."
+resolution_project_poverty_repeal_success:0 "Project Poverty has been successfully repealed!"
