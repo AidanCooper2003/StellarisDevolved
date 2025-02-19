@@ -20,6 +20,16 @@ resolution_project_extinction = {
 
 	ai_weight = {
 		base = -10000
+		modifier = {
+			factor = -1
+			AND = {
+				has_civic = devolved_civic_sg_machine
+				OR = {
+					has_ethic = ethic_xenophobe
+					has_ethic = ethic_fanatic_xenophobe
+				}
+			}
+		}
 	}
 }
 
@@ -45,6 +55,16 @@ resolution_project_anarchy = {
 
 	ai_weight = {
 		base = -10000
+		modifier = {
+			factor = -1
+			AND = {
+				has_civic = devolved_civic_sg_machine
+				OR = {
+					has_ethic = ethic_xenophobe
+					has_ethic = ethic_fanatic_xenophobe
+				}
+			}
+		}
 	}
 }
 
@@ -70,6 +90,16 @@ resolution_project_poverty = {
 
 	ai_weight = {
 		base = -10000
+		modifier = {
+			factor = -1
+			AND = {
+				has_civic = devolved_civic_sg_machine
+				OR = {
+					has_ethic = ethic_xenophobe
+					has_ethic = ethic_fanatic_xenophobe
+				}
+			}
+		}
 	}
 }
 
@@ -94,12 +124,25 @@ resolution_project_extinction_repeal = {
 	}
 
 	potential = {
-		is_active_resolution = "resolution_project_extinction"
-		has_civic = devolved_civic_sg_machine
+		AND = {
+			is_active_resolution = "resolution_project_extinction"
+			has_civic = devolved_civic_sg_machine
+		}
+
 	}
 
 	ai_weight = {
 		base = 10000
+		modifier = {
+			factor = -1
+			AND = {
+				has_civic = devolved_civic_sg_machine
+				OR = {
+					has_ethic = ethic_xenophobe
+					has_ethic = ethic_fanatic_xenophobe
+				}
+			}
+		}
 	}
 }
 
@@ -124,12 +167,25 @@ resolution_project_anarchy_repeal = {
 	}
 
 	potential = {
-		is_active_resolution = "resolution_project_anarchy"
-		has_civic = devolved_civic_sg_machine
+		AND = {
+			is_active_resolution = "resolution_project_extinction"
+			has_civic = devolved_civic_sg_machine
+		}
+
 	}
 
 	ai_weight = {
 		base = 10000
+		modifier = {
+			factor = -1
+			AND = {
+				has_civic = devolved_civic_sg_machine
+				OR = {
+					has_ethic = ethic_xenophobe
+					has_ethic = ethic_fanatic_xenophobe
+				}
+			}
+		}
 	}
 }
 
@@ -154,11 +210,24 @@ resolution_project_poverty_repeal = {
 	}
 
 	potential = {
-		is_active_resolution = "resolution_project_poverty"
-		has_civic = devolved_civic_sg_machine
+		AND = {
+			is_active_resolution = "resolution_project_extinction"
+			has_civic = devolved_civic_sg_machine
+		}
+
 	}
 
 	ai_weight = {
 		base = 10000
+		modifier = {
+			factor = -1
+			AND = {
+				has_civic = devolved_civic_sg_machine
+				OR = {
+					has_ethic = ethic_xenophobe
+					has_ethic = ethic_fanatic_xenophobe
+				}
+			}
+		}
 	}
 }
