@@ -1186,6 +1186,7 @@ devolved_civic_g_machine = {
 		ship_speed_mult = 999
 		edicts_upkeep_mult = -2
 		councilor_skill_add = 999
+		ship_windup_mult = -1
 	}
 }
 
@@ -1309,6 +1310,64 @@ devolved_civic_sg_machine = {
 		catapult_range_mult = 100
 		catapult_spread_mult = 0
 		quantum_catapult_empire_windup_mult = 0
+		first_contact_clues_add = 50
+		shipsize_juggernaut_build_speed_mult = 1000
+		shipsize_colossus_build_speed_mult = 1000
+		shipsize_star_eater_build_speed_mult = 1000
+		ship_windup_mult = -1
+    }
+}
+
+devolved_civic_c_machine = {
+    possible = {
+        civics = {
+            value = devolved_civic_cheater_contract
+        }
+    }
+    modification = no
+    modifier = {
+        ship_archaeological_site_excavation_speed_mult = 999
+        modify_species_cost_mult = -1
+        planet_army_build_speed_mult = 999
+        planet_decision_enact_speed_mult = 999
+        planet_building_build_speed_mult = 999
+        starbase_building_build_speed_mult = 999
+        starbase_module_build_speed_mult = 999
+        shipsize_mining_station_build_speed_mult = 999
+        shipsize_research_station_build_speed_mult = 999
+        shipsize_starbase_outpost_build_speed_mult = 999
+        planet_clear_blocker_speed_mult = 999
+        starbase_upgrade_speed_mult = 999
+        megastructure_build_speed_mult = 999
+        shipsize_military_station_small_build_speed_mult = 999
+        shipclass_military_build_speed_mult = 999
+        shipclass_military_station_build_speed = 999
+        planet_army_build_speed_mult = 999
+        terraform_speed_mult = 999
+        planet_colony_development_speed_mult = 999
+        ship_anomaly_research_speed_mult = 999
+        science_ship_survey_speed = 999
+        ship_speed_mult = 9999
+		jump_drive_cooldown = -0.99
+		ship_windup_mult = -1
+		ship_hyperlane_range_add = 400
+		planet_hyperlane_range_add = 400
+		shipclass_science_ship_build_speed_mult = 100
+		shipclass_colonizer_build_speed_mult = 100
+		shipclass_constructor_build_speed_mult = 100
+		espionage_operation_speed_mult = 1000
+		country_subject_integration_speed_add = 1000
+		cloaking_cooldown = -1
+		veto_cooldown_mult = -1
+		shroud_cooldown = -1
+		shroud_delve_cooldown = -1
+		gravity_snare_cooldown_mult = -1
+		artifact_sell_cooldown = -1
+		relic_activation_cooldown = -1
+		emergency_measures_cooldown_mult = -1
+		arcane_deciphering_cooldown = -1
+		artifact_precursor_insight_cooldown = -1
+		quantum_catapult_empire_windup_mult = -1
 		first_contact_clues_add = 50
 		shipsize_juggernaut_build_speed_mult = 1000
 		shipsize_colossus_build_speed_mult = 1000

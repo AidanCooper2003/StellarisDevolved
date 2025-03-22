@@ -236,6 +236,9 @@ devolved_civic_sg_machine_desc:0 "REPLACE_ME VERY OP DON'T USE IN NORMAL GAME"
 devolved_civic_cheater_contract:0 "Cheater Contract"
 devolved_civic_cheater_contract_desc:0 "Allows cheating civics to be used."
 
+devolved_civic_c_machine:0 "Convenience Machine"
+devolved_civic_c_machine_desc:0 "VERY OP, GIVES ONLY CONVENIENCE (mostly speed) RELATED BUFFS"
+
 
 # Councilor Positions
 
