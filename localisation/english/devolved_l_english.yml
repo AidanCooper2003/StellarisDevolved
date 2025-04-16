@@ -468,6 +468,9 @@ devolved_civic_society_sanctuary_desc:0 "REPLACE_ME"
 devolved_civic_exagerated_engineering:0 "Exagerated Engineering"
 devolved_civic_exagerated_engineering_desc:0 "REPLACE_ME"
 
+devolved_civic_inflation_initiation:0 "Inflation Initiation"
+devolved_civic_inflation_initiation_desc:0 "Crazy output bonuses, but overtime inflation will cause all your costs to increase."
+
 # Edicts
 
 edict_devolved_edict_crystal_voice_deepener:0 "Crystal Voice Deepener"
