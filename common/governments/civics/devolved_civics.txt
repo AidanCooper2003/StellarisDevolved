@@ -1405,7 +1405,7 @@ devolved_civic_divine_districts = {
         planet_districts_prison_industrial_alloys_produces_add = 1
         planet_districts_prison_industrial_unity_produces_add = 1
         planet_max_districts_add = 5
-        planet_max_buildings_add = -100
+        planet_buildings_cost_mult = 10000
 		planet_building_build_speed_mult = 2
     }
 }

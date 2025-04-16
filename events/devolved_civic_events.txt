@@ -24,11 +24,12 @@ country_event = {
         is_country_type = default
         has_civic = devolved_civic_inflation_initiation
     }
+
     immediate = {
+        remove_modifier = increasing_inflation
         add_modifier = {
             modifier = increasing_inflation
-            mult = years_passed
-            years = 1
+            years = 5
         }
     }
 }
