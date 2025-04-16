@@ -13,3 +13,32 @@ country_event = {
         add_relic = r_contingency_core
     }
 }
+
+country_event = {
+    id = devolved_civic_events.2
+    hide_window = yes
+    mean_time_to_happen = {
+        years = 1
+    }
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_inflation_initiation
+    }
+    immediate = {
+        add_modifier = {
+            modifier = {
+                country_cost_mult = years_passed * 5 / 100
+                physics_tech_cost_mult = years_passed * 5 / 100
+                society_tech_cost_mult = years_passed * 5 / 100
+                engineering_tech_cost_mult = years_passed * 5 / 100
+                planetary_ascension_cost_mult = years_passed * 5 / 100
+                ships_upkeep_mult = years_passed * 5 / 100
+                leaders_upkeep_mult = years_passed * 5 / 100
+                planet_structures_upkeep_mult = years_passed * 5 / 100
+                starbases_upkeep_mult = years_passed * 5 / 100
+                edicts_upkeep_mult = years_passed * 5 / 100
+                planet_jobs_upkeep_mult = years_passed * 5 / 100
+            }
+            years = 1
+        }
+}

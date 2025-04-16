@@ -1505,3 +1505,12 @@ devolved_civic_exagerated_engineering = {
 		country_society_research_produces_mult = -2
 	}
 }
+
+devolved_civic_inflation_initiation = {
+	modification = no
+
+	# Adds inflation event thing
+	modifier = {
+		country_produces_mult = 2
+	}
+}
