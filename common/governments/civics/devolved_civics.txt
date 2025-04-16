@@ -1378,3 +1378,130 @@ devolved_civic_c_machine = {
 devolved_civic_cheater_contract = {
 	modification = no
 }
+
+devolved_civic_divine_districts = {
+    modifier = {
+		# Factory and Foundry doesn't work
+		planet_districts_industrial_consumer_goods_produces_add = 0.75
+        planet_districts_industrial_volatile_motes_produces_add = 0.05
+        planet_districts_industrial_unity_produces_add = 0.25
+        planet_districts_industrial_alloys_produces_add = 0.5
+		planet_districts_industrial_engineering_research_produces_add = 1
+        planet_districts_farming_food_produces_add = 1
+        planet_districts_farming_unity_produces_add = 1
+		planet_districts_farming_society_research_produces_add = 2
+        planet_districts_mining_minerals_produces_add = 1
+        planet_districts_mining_unity_produces_add = 0.25
+        planet_districts_mining_exotic_gases_produces_add = 0.1
+        planet_districts_mining_rare_crystals_produces_add = 0.1
+		planet_districts_mining_engineering_research_produces_add = 2
+        planet_districts_city_physics_research_produces_add = 10
+        planet_districts_city_society_research_produces_add = 10
+        planet_districts_city_engineering_research_produces_add = 10
+        planet_districts_generator_energy_produces_add = 1
+		planet_districts_generator_physics_research_produces_add = 2
+        planet_districts_resort_trade_value_produces_add = 10
+        planet_districts_prison_physics_research_produces_add = 10
+        planet_districts_prison_society_research_produces_add = 10
+        planet_districts_prison_engineering_research_produces_add = 10
+        planet_districts_prison_industrial_consumer_goods_produces_add = 1
+        planet_districts_prison_industrial_alloys_produces_add = 1
+        planet_districts_prison_industrial_unity_produces_add = 1
+        planet_max_districts_add = 5
+        planet_max_buildings_add = -100
+		planet_building_build_speed_mult = 2
+    }
+}
+
+devolved_civic_physics_psycho = {
+    possible = {
+        civics = {
+            value = devolved_civic_cheater_contract
+        }
+    }
+    modification = no
+
+	modifier = {
+		physics_tech_cost_mult = -2
+		society_tech_cost_mult = 20
+		engineering_tech_cost_mult = 20
+		country_society_research_produces_mult = -2
+		country_engineering_research_produces_mult = -2
+	}
+}
+
+devolved_civic_society_sociopath = {
+    possible = {
+        civics = {
+            value = devolved_civic_cheater_contract
+        }
+    }
+    modification = no
+
+	modifier = {
+		physics_tech_cost_mult = 20
+		society_tech_cost_mult = -2
+		engineering_tech_cost_mult = 20
+		country_physics_research_produces_mult = -2
+		country_engineering_research_produces_mult = -2
+	}
+}
+
+devolved_civic_engineering_evil_doer = {
+    possible = {
+        civics = {
+            value = devolved_civic_cheater_contract
+        }
+    }
+    modification = no
+
+	modifier = {
+		physics_tech_cost_mult = 20
+		society_tech_cost_mult = 20
+		engineering_tech_cost_mult = -2
+		country_physics_research_produces_mult = -2
+		country_society_research_produces_mult = -2
+	}
+}
+
+devolved_civic_physics_fandom = {
+    modification = no
+
+	modifier = {
+		physics_tech_cost_mult = -0.75
+		society_tech_cost_mult = 3
+		engineering_tech_cost_mult = 3
+		country_physics_tech_research_speed = 1
+		country_engineering_research_produces_mult = -2
+		country_physics_research_produces_mult = 1
+		country_society_research_produces_mult = -2
+	}
+}
+
+devolved_civic_society_sanctuary = {
+    modification = no
+
+	modifier = {
+		physics_tech_cost_mult = 3
+		engineering_tech_cost_mult = 3
+		society_tech_cost_mult = -0.75
+		country_physics_tech_research_speed = 1
+		country_engineering_research_produces_mult = -2
+		country_physics_research_produces_mult = -2
+		country_society_research_produces_mult = 1
+	}
+}
+
+devolved_civic_exagerated_engineering = {
+    modification = no
+
+	modifier = {
+		physics_tech_cost_mult = 3
+		society_tech_cost_mult = 3
+		engineering_tech_cost_mult = -0.75
+		country_engineering_tech_research_speed = 1
+		country_engineering_research_produces_mult = 1
+		country_physics_research_produces_mult = -2
+		country_society_research_produces_mult = -2
+	}
+}

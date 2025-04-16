@@ -452,6 +452,22 @@ devolved_civic_councilor_aidz_aristocrat_desc:0 "REPLACE_ME"
 devolved_civic_councilor_tumbled_technocrat:0 "Tumbled Onyx"
 devolved_civic_councilor_tumbled_technocrat_desc:0 "REPLACE_ME"
 
+devolved_civic_divine_districts:0 "Divine Districts"
+devolved_civic_divine_districts_desc:0 "REPLACE_ME District Love"
+
+devolved_civic_physics_psycho:0 "Physics Psycho"
+devolved_civic_physics_psycho_desc:0 "REPLACE_ME"
+devolved_civic_society_sociopath:0 "Society Sociopath"
+devolved_civic_society_sociopath_desc:0 "REPLACE_ME"
+devolved_civic_engineering_evil_doer:0 "Engineering Evil Doer"
+devolved_civic_engineering_evil_doer_desc:0 "REPLACE_ME"
+devolved_civic_physics_fandom:0 "Physics Fandom"
+devolved_civic_physics_fandom_desc:0 "REPLACE_ME"
+devolved_civic_society_sanctuary:0 "Society Sanctuary"
+devolved_civic_society_sanctuary_desc:0 "REPLACE_ME"
+devolved_civic_exagerated_engineering:0 "Exagerated Engineering"
+devolved_civic_exagerated_engineering_desc:0 "REPLACE_ME"
+
 # Edicts
 
 edict_devolved_edict_crystal_voice_deepener:0 "Crystal Voice Deepener"
