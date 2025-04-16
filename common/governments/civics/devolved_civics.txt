@@ -870,7 +870,7 @@ devolved_civic_developing_country = {
 		country_produces_mult = -0.9
 		commercial_pact_mult = 60
 		research_sharing_mult = 60
-		planet_stability_add = 25
+		planet_stability_add = 40
 		country_trade_fee = 0.5
 	}
 }
