@@ -620,3 +620,6 @@ resolution_category_anarchy:0 "Project Anarchy"
 resolution_project_anarchy_repeal:0 "Repeal Project Anarchy"
 resolution_project_anarchy_repeal_desc:0 "Community members will no longer be forced to prevent any form of power structure and incite rebellion."
 resolution_project_poverty_repeal_success:0 "Project Poverty has been successfully repealed!"
+
+# Modifiers
+increasing_inflation:0 "Increasing Inflation"

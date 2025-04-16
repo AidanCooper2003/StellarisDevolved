@@ -1,0 +1,13 @@
+increasing_inflation = {
+	country_cost_mult = 0.05
+	physics_tech_cost_mult = 0.05
+	society_tech_cost_mult = 0.05
+	engineering_tech_cost_mult = 0.05
+	planetary_ascension_cost_mult = 0.05
+	ships_upkeep_mult = 0.05
+	leaders_upkeep_mult = 0.05
+	planet_structures_upkeep_mult = 0.05
+	starbases_upkeep_mult = 0.05
+	edicts_upkeep_mult = 0.05
+	planet_jobs_upkeep_mult = 0.05
+}

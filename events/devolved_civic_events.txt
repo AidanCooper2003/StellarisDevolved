@@ -26,19 +26,9 @@ country_event = {
     }
     immediate = {
         add_modifier = {
-            modifier = {
-                country_cost_mult = years_passed * 5 / 100
-                physics_tech_cost_mult = years_passed * 5 / 100
-                society_tech_cost_mult = years_passed * 5 / 100
-                engineering_tech_cost_mult = years_passed * 5 / 100
-                planetary_ascension_cost_mult = years_passed * 5 / 100
-                ships_upkeep_mult = years_passed * 5 / 100
-                leaders_upkeep_mult = years_passed * 5 / 100
-                planet_structures_upkeep_mult = years_passed * 5 / 100
-                starbases_upkeep_mult = years_passed * 5 / 100
-                edicts_upkeep_mult = years_passed * 5 / 100
-                planet_jobs_upkeep_mult = years_passed * 5 / 100
-            }
+            modifier = increasing_inflation
+            mult = years_passed
             years = 1
         }
+    }
 }

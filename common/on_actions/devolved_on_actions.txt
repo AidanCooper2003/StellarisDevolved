@@ -3,3 +3,9 @@ on_game_start_country = {
 		devolved_civic_events.1
 	}
 }
+
+on_yearly_pulse = {
+	events = {
+		devolved_civic_events.2
+	}
+}
