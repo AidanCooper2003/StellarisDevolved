@@ -29,7 +29,7 @@ country_event = {
         remove_modifier = increasing_inflation
         add_modifier = {
             modifier = increasing_inflation
-            multiplier = years_passed
+            multiplier = trigger:years_passed
             years = 5
         }
     }
