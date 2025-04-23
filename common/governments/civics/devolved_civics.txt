@@ -60,7 +60,6 @@ devolved_civic_ubiquitous_unity = {
 		planet_clerks_unity_produces_add = 3
 		planet_clerks_alloys_upkeep_add = 1
 		planet_clerks_minerals_upkeep_add = 3
-		planet_jobs_unity_produces_mult = 0.10
 	}
 }
 
@@ -181,11 +180,10 @@ devolved_civic_rightoid_rascality = {
 devolved_civic_alloy_amelioration = {
 
 		modifier = {
-			country_alloys_produces_mult = 0.1
 			planet_enforcers_alloys_produces_add = 1
 			planet_culture_workers_alloys_produces_add = 0.5
 			planet_criminals_alloys_produces_add = 1 # IDE says invalid, this works though
-			planet_traders_alloys_produces_add = 0.5
+			planet_traders_alloys_produces_add = 0.25
 			planet_entertainers_alloys_produces_add = 0.5
 			planet_politicians_alloys_produces_add = 0.5
 		}

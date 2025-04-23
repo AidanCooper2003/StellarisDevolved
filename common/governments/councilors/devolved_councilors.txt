@@ -96,7 +96,7 @@ devolved_civic_councilor_metallic_maniac = {
 		ships_alloys_upkeep_mult = -0.03
 		megastructures_alloys_cost_mult = -0.015
 		planet_districts_industrial_alloys_produces_add = 0.5
-		megastructures_alloys_produces_add = 4
+		megastructures_alloys_produces_add = 1
 	}
 }
 
