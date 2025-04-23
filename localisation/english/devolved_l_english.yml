@@ -468,8 +468,14 @@ devolved_civic_society_sanctuary_desc:0 "REPLACE_ME"
 devolved_civic_exagerated_engineering:0 "Exagerated Engineering"
 devolved_civic_exagerated_engineering_desc:0 "REPLACE_ME"
 
-devolved_civic_inflation_initiation:0 "Inflation Initiation"
-devolved_civic_inflation_initiation_desc:0 "Crazy output bonuses, but overtime inflation will cause all your costs to increase."
+devolved_civic_inflation_initiation_easy:0 "Inflation Initiation I"
+devolved_civic_inflation_initiation_easy_desc:0 "Crazy output bonuses, but overtime inflation will cause all your costs to increase 5% per year."
+
+devolved_civic_inflation_initiation_medium:0 "Inflation Initiation II"
+devolved_civic_inflation_initiation_medium_desc:0 "Crazy output bonuses, but overtime inflation will cause all your costs to increase 10% per year."
+
+devolved_civic_inflation_initiation_hard:0 "Inflation Initiation III"
+devolved_civic_inflation_initiation_hard_desc:0 "Crazy output bonuses, but overtime inflation will cause all your costs to increase 15% per year."
 
 # Edicts
 
@@ -622,4 +628,6 @@ resolution_project_anarchy_repeal_desc:0 "Community members will no longer be fo
 resolution_project_poverty_repeal_success:0 "Project Poverty has been successfully repealed!"
 
 # Modifiers
-increasing_inflation:0 "Increasing Inflation"
+increasing_inflation_easy:0 "Increasing Inflation I"
+increasing_inflation_medium:0 "Increasing Inflation II"
+increasing_inflation_hard:0 "Increasing Inflation III"

@@ -14,23 +14,60 @@ country_event = {
     }
 }
 
+# Inflation Updates
 country_event = {
     id = devolved_civic_events.2
     hide_window = yes
-    mean_time_to_happen = {
-        years = 1
-    }
+    is_triggered_only = yes
     trigger = {
         is_country_type = default
-        has_civic = devolved_civic_inflation_initiation
+        has_civic = devolved_civic_inflation_initiation_easy
     }
 
     immediate = {
-        remove_modifier = increasing_inflation
+        remove_modifier = increasing_inflation_easy
         add_modifier = {
-            modifier = increasing_inflation
+            modifier = increasing_inflation_easy
             multiplier = trigger:years_passed
-            years = 5
+            years = 10
+        }
+    }
+}
+
+country_event = {
+    id = devolved_civic_events.3
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_inflation_initiation_medium
+    }
+
+    immediate = {
+        remove_modifier = increasing_inflation_medium
+        add_modifier = {
+            modifier = increasing_inflation_medium
+            multiplier = trigger:years_passed
+            years = 10
+        }
+    }
+}
+
+country_event = {
+    id = devolved_civic_events.4
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_inflation_initiation_hard
+    }
+
+    immediate = {
+        remove_modifier = increasing_inflation_hard
+        add_modifier = {
+            modifier = increasing_inflation_hard
+            multiplier = trigger:years_passed
+            years = 10
         }
     }
 }

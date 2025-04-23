@@ -1503,7 +1503,25 @@ devolved_civic_exagerated_engineering = {
 	}
 }
 
-devolved_civic_inflation_initiation = {
+devolved_civic_inflation_initiation_easy = {
+	modification = no
+
+	# Adds inflation event thing
+	modifier = {
+		country_produces_mult = 2
+	}
+}
+
+devolved_civic_inflation_initiation_medium = {
+	modification = no
+
+	# Adds inflation event thing
+	modifier = {
+		country_produces_mult = 2
+	}
+}
+
+devolved_civic_inflation_initiation_hard = {
 	modification = no
 
 	# Adds inflation event thing
