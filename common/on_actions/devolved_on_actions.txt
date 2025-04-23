@@ -4,8 +4,10 @@ on_game_start_country = {
 	}
 }
 
-on_yearly_pulse = {
+on_yearly_pulse_country = {
 	events = {
 		devolved_civic_events.2
+		devolved_civic_events.3
+		devolved_civic_events.4
 	}
 }
