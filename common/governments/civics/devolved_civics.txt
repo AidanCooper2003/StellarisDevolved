@@ -1610,3 +1610,9 @@ devolved_civic_throughput_lovers = {
 
 	# increases resource output and upkeep
 }
+
+devolved_civic_district_dynasty = {
+	modification = no
+
+	# Adds district district
+}
