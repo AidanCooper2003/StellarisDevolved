@@ -1,6 +1,7 @@
 on_game_start_country = {
 	events = {
 		devolved_civic_events.1
+		devolved_civic_events.6
 	}
 }
 

@@ -984,3 +984,26 @@ devolved_civic_councilor_aidz_aristocrat = {
 		megastructures_produces_mult = 0.02
 	}
 }
+
+devolved_civic_councilor_specimen_sanctifier = {
+	leader_class = { scientist }
+	is_leader_possible = {
+		leader_class = scientist
+	}
+	civic = devloved_civic_superb_specimens
+	modifier = {
+		specimens_produces_mult = 0.2
+		planet_jobs_produces_mult = -0.01
+	}
+}
+
+devolved_civic_councilor_surveyor_purveyor = {
+	leader_class = { scientist }
+	is_leader_possible = {
+		leader_class = scientist
+	}
+	civic = devolved_civic_despotic_deposits
+	modifier = {
+		relic_activation_cooldown = -0.03
+	}
+}

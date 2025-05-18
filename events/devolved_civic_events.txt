@@ -71,3 +71,40 @@ country_event = {
         }
     }
 }
+
+# Deflation Update
+country_event = {
+    id = devolved_civic_events.5
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_deflation_initiation
+    }
+
+    immediate = {
+        remove_modifier = increasing_deflation
+        add_modifier = {
+            modifier = increasing_deflation
+            multiplier = trigger:years_passed
+            years = 10
+        }
+    }
+}
+
+
+# Add surveyor relics for despotic deposits
+country_event = {
+    id = devolved_civic_events.6
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_despotic_deposits
+    }
+    immediate = {
+        add_relic = r_surveyor
+        add_relic = r_surveyor
+        add_relic = r_surveyor
+    }
+}

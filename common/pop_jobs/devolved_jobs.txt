@@ -369,3 +369,70 @@ devolved_cooperian_culturalist = {
 		}
 	}
 }
+
+devolved_specimen_scientist = {
+	category = specialist
+	possible_precalc = can_fill_specialist_job
+	icon = gfx/interface/icons/modifiers/mod_job_primitive_researcher_add.dds
+	resources = {
+		category = planet_researchers
+		produces = {
+			society_research = 1
+		}
+		upkeep = {
+			consumer_goods = 3
+		}
+	}
+	triggered_country_modifier = {
+		specimens_produces_mult = 0.01
+	}
+
+	weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 2
+			has_living_standard = {
+				type = living_standard_academic_privilege
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_job = devolved_specimen_scientist
+		}
+	}
+}
+
+devolved_deep_space_worker = {
+	category = worker
+	possible_precalc = can_fill_worker_job
+	icon = gfx/interface/icons/modifiers/mod_job_primitive_researcher_add.dds
+	resources = {
+		category = planet_researchers
+		upkeep = {
+			engineering_research = 0.5
+		}
+	}
+
+	triggered_planet_modifier = {
+		planet_amenities_add = -0.5
+	}
+
+	triggered_country_modifier = {
+		station_gatherers_produces_mult = 0.05
+		station_researchers_produces_mult = 0.05
+	}
+
+	weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 2
+			has_living_standard = {
+				type = living_standard_academic_privilege
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_job = devolved_specimen_scientist
+		}
+	}
+}

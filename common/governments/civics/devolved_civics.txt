@@ -1527,3 +1527,33 @@ devolved_civic_inflation_initiation_hard = {
 		country_produces_mult = 2
 	}
 }
+
+devloved_civic_superb_specimens = {
+
+	# Adds job type that increases specimen production
+	modifier = {
+		specimens_produces_mult = 0.2
+		job_devolved_specimen_scientist_per_pop = 0.1
+	}
+}
+
+devolved_civic_deflation_initiation = {
+	modification = no
+	modifier = {
+		country_produces_mult = -3
+		planet_stability_add = 40
+	}
+}
+
+devolved_civic_despotic_deposits = {
+
+	# Adds surveyor relic and job type to increase mining/research station output
+	modification = no
+	modifier = {
+		job_devolved_deep_space_worker_add = 1
+		relic_activation_cooldown = -0.05
+		planet_max_districts_mult = -0.2
+		planet_stability_add = -10
+		planet_housing_mult = -0.1
+	}
+}

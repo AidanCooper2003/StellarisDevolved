@@ -87,3 +87,7 @@ increasing_inflation_hard = {
 	operations_upkeep_mult = 0.15
 	planet_pops_upkeep_mult = 0.15
 }
+
+increasing_deflation = {
+	country_produces_mult = 0.05
+}
