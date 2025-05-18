@@ -178,8 +178,8 @@ country_event = {
 
     immediate = {
         random_list = {
-				90 = { country_event = { id = story.335 } }
-				10 = {}
+				20 = { country_event = { id = story.335 } }
+				80 = {}
 			}
     }
 }
