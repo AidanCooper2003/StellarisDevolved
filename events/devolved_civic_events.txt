@@ -104,7 +104,31 @@ country_event = {
     }
     immediate = {
         add_relic = r_surveyor
+    }
+    immediate = {
         add_relic = r_surveyor
+    }
+    immediate = {
         add_relic = r_surveyor
+    }
+}
+
+# Sexponential Growth Update
+country_event = {
+    id = devolved_civic_events.7
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_sexponential_growth
+    }
+
+    immediate = {
+        remove_modifier = sexponential_growth
+        add_modifier = {
+            modifier = sexponential_growth
+            multiplier = trigger:years_passed
+            years = 10
+        }
     }
 }

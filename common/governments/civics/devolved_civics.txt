@@ -1557,3 +1557,14 @@ devolved_civic_despotic_deposits = {
 		planet_housing_mult = -0.1
 	}
 }
+
+devolved_civic_sexponential_growth = {
+	modification = no
+	possible = {
+		civics = {
+			value = devolved_civic_cheater_contract
+		}
+	}
+
+	# Exponential pop growth multipliers
+}

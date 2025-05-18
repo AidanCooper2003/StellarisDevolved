@@ -79,3 +79,12 @@ increasing_inflation_hard = {
 increasing_deflation = {
 	country_produces_mult = 0.05
 }
+
+sexponential_growth = {
+	pop_growth_speed = 0.1
+	pop_growth_from_immigration = 0.1
+	planet_pop_assembly_mult = 0.1
+	planet_pop_assembly_add = 0.2
+	planet_pop_assembly_organic_mult = 0.1
+	planet_pop_assembly_organic_add = 0.2
+}
