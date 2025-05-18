@@ -51,6 +51,9 @@ district_deep_space_relay = {
 
 	planet_modifier = {
 		planet_housing_add = 2
+	}
+
+	triggered_planet_modifier = {
 		job_devolved_deep_space_worker_add = 2
 	}
 
@@ -168,6 +171,9 @@ district_museum_arcology = {
 
 	planet_modifier = {
 		planet_housing_add = 5
+	}
+
+	triggered_planet_modifier = {
 		job_devolved_specimen_scientist_add = 5
 	}
 
