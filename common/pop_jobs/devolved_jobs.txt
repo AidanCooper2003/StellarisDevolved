@@ -370,7 +370,7 @@ devolved_cooperian_culturalist = {
 	}
 }
 
-devolved_specimen_scientist = {
+devolved_geologist_guru = {
 	category = specialist
 	possible_precalc = can_fill_specialist_job
 	icon = gfx/interface/icons/modifiers/mod_job_primitive_researcher_add.dds
@@ -379,9 +379,12 @@ devolved_specimen_scientist = {
 		produces = {
 			society_research = 1
 		}
+		upkeep = {
+			consumer_goods = 1
+		}
 	}
 	triggered_country_modifier = {
-		specimens_produces_mult = 0.01
+		xeno_geology_specimens_produces_mult = 0.05
 	}
 
 	weight = {
@@ -394,7 +397,71 @@ devolved_specimen_scientist = {
 		}
 		modifier = {
 			factor = 1.5
-			has_job = devolved_specimen_scientist
+			has_job = devolved_geologist_guru
+		}
+	}
+}
+
+devolved_humble_historian = {
+	category = specialist
+	possible_precalc = can_fill_specialist_job
+	icon = gfx/interface/icons/modifiers/mod_job_primitive_researcher_add.dds
+	resources = {
+		category = planet_researchers
+		produces = {
+			society_research = 1
+		}
+		upkeep = {
+			consumer_goods = 1
+		}
+	}
+	triggered_country_modifier = {
+		historical_item_specimens_produces_mult = 0.05
+	}
+
+	weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 2
+			has_living_standard = {
+				type = living_standard_academic_privilege
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_job = devolved_humble_historian
+		}
+	}
+}
+
+devolved_sensitive_aesthete = {
+	category = specialist
+	possible_precalc = can_fill_specialist_job
+	icon = gfx/interface/icons/modifiers/mod_job_primitive_researcher_add.dds
+	resources = {
+		category = planet_researchers
+		produces = {
+			society_research = 1
+		}
+		upkeep = {
+			consumer_goods = 1
+		}
+	}
+	triggered_country_modifier = {
+		aesthetic_wonder_specimens_produces_mult = 0.05
+	}
+
+	weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 2
+			has_living_standard = {
+				type = living_standard_academic_privilege
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_job = devolved_sensitive_aesthete
 		}
 	}
 }
