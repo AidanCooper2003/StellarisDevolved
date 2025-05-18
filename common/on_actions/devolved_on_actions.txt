@@ -14,8 +14,8 @@ on_yearly_pulse_country = {
 		devolved_civic_events.5
 		devolved_civic_events.8
 		devolved_civic_events.9
-
-
+		devolved_civic_events.10
+		devolved_civic_events.11
 		
 
 	}

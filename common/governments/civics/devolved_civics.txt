@@ -1572,6 +1572,14 @@ devolved_civic_sexponential_growth = {
 devolved_civic_endgame_enhancers = {
 	modification = no
 
+	possible = {
+		civics = {
+			NOT = {
+				value = devolved_civic_mineral_hater
+			}
+		}
+	}
+
 	# Adds crazy end game ascension perks
 }
 
@@ -1595,4 +1603,10 @@ devolved_civic_oligarchic_obsession = {
 	modifier = {
 		planet_stability_add = -25
 	}
+}
+
+devolved_civic_throughput_lovers = {
+	modification = no
+
+	# increases resource output and upkeep
 }

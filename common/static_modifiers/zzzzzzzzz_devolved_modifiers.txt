@@ -96,3 +96,8 @@ leader_leveling_slow = {
 leader_leveling_fast = {
 	councilor_skill_add = 1
 }
+
+throughput_improved = {
+	planet_jobs_produces_mult = 0.1
+	planet_jobs_upkeep_mult = 0.1
+}
