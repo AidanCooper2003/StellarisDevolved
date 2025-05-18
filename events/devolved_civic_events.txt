@@ -105,12 +105,6 @@ country_event = {
     immediate = {
         add_relic = r_surveyor
     }
-    immediate = {
-        add_relic = r_surveyor
-    }
-    immediate = {
-        add_relic = r_surveyor
-    }
 }
 
 # Sexponential Growth Update
@@ -127,6 +121,44 @@ country_event = {
         remove_modifier = sexponential_growth
         add_modifier = {
             modifier = sexponential_growth
+            multiplier = trigger:years_passed
+            years = 10
+        }
+    }
+}
+
+country_event = {
+    id = devolved_civic_events.8
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_oligarchic_interest
+    }
+
+    immediate = {
+        remove_modifier = leader_leveling_slow
+        add_modifier = {
+            modifier = leader_leveling_slow
+            multiplier = trigger:years_passed
+            years = 10
+        }
+    }
+}
+
+country_event = {
+    id = devolved_civic_events.9
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_oligarchic_obsession
+    }
+
+    immediate = {
+        remove_modifier = leader_leveling_fast
+        add_modifier = {
+            modifier = leader_leveling_fast
             multiplier = trigger:years_passed
             years = 10
         }

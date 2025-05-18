@@ -1568,3 +1568,31 @@ devolved_civic_sexponential_growth = {
 
 	# Exponential pop growth multipliers
 }
+
+devolved_civic_endgame_enhancers = {
+	modification = no
+
+	# Adds crazy end game ascension perks
+}
+
+devolved_civic_oligarchic_interest = {
+	modification = no
+
+	modifier = {
+		planet_stability_add = -25
+	}
+}
+
+devolved_civic_oligarchic_obsession = {
+	modification = no
+
+	possible = {
+		civics = {
+			value = devolved_civic_cheater_contract
+		}
+	}
+
+	modifier = {
+		planet_stability_add = -25
+	}
+}

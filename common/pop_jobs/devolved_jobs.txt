@@ -379,9 +379,6 @@ devolved_specimen_scientist = {
 		produces = {
 			society_research = 1
 		}
-		upkeep = {
-			consumer_goods = 3
-		}
 	}
 	triggered_country_modifier = {
 		specimens_produces_mult = 0.01

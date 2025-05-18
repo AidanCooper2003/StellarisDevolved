@@ -1004,6 +1004,6 @@ devolved_civic_councilor_surveyor_purveyor = {
 	}
 	civic = devolved_civic_despotic_deposits
 	modifier = {
-		relic_activation_cooldown = -0.03
+		deposit_increase_on_survey_chance_mult = 0.5
 	}
 }
