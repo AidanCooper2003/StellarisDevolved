@@ -7,7 +7,7 @@ devolved_ap_diplomatic_destroyers = {
 	possible = {
 		custom_tooltip = {
 			fail_text = "Requires 17 previous ascension perks."
-			num_ascension_perks >= 17
+			num_ascension_perks >= 18
 		}
 	}
 
@@ -28,7 +28,7 @@ devolved_ap_merciless_military = {
 	possible = {
 		custom_tooltip = {
 			fail_text = "Requires 17 previous ascension perks."
-			num_ascension_perks >= 17
+			num_ascension_perks >= 18
 		}
 	}
 
@@ -53,7 +53,7 @@ devolved_ap_economic_engine = {
 	possible = {
 		custom_tooltip = {
 			fail_text = "Requires 17 previous ascension perks."
-			num_ascension_perks >= 17
+			num_ascension_perks >= 18
 		}
 	}
 
