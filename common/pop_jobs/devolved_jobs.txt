@@ -496,7 +496,7 @@ devolved_deep_space_worker = {
 		}
 		modifier = {
 			factor = 1.5
-			has_job = devolved_specimen_scientist
+			has_job = devolved_deep_space_worker
 		}
 	}
 }
