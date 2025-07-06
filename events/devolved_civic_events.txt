@@ -202,3 +202,21 @@ country_event = {
         }
     }
 }
+
+# Continue Randivist Loop and pick event
+country_event = {
+    id = devolved_civic_events.13
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+        random_list = {
+            5 = { country_event = { id = devolved_random_event_modifier } }
+            1 = { country_event = { id = devolved_random_event_A_1 } }
+        }
+    }
+}

@@ -1612,6 +1612,10 @@ devolved_civic_throughput_lovers = {
 
 devolved_civic_district_dynasty = {
 	modification = no
-
 	# Adds district district
+}
+
+devolved_civic_randivist_principles = {
+	modification = no
+	# Affected by triannual random events, ranging from crazy good to downright horrendous.
 }

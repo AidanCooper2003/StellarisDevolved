@@ -1,0 +1,65 @@
+country_event = {
+	id = devolved_random_event_modifier
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+        add_modifier = {
+			random_list = {
+				1 = {modifier = random_event_modifier_A_1}
+				1 = {modifier = random_event_modifier_B_1}
+				1 = {modifier = random_event_modifier_C_1}
+				1 = {modifier = random_event_modifier_D_1}
+				1 = {modifier = random_event_modifier_F_1}
+			}
+			random_list = {
+				80 = {multiplier = 1}
+				9 = {multiplier = 0.5}
+				9 = {multiplier = 2}
+				2 = {multiplier = 10}
+			}
+			random_list = {
+				33 = {years = 5}
+				33 = {years = 3}
+				33 = {years = 1}
+				1 = {years = 25}
+			}
+		}
+	}     
+}
+
+
+# Mass Surveyor
+country_event = {
+	id = devolved_random_event_A_1
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+	immediate = {
+		country_event = { id = story.335 }
+		country_event = { id = story.335 }
+		country_event = { id = story.335 }
+		country_event = { id = story.335 }
+		country_event = { id = story.335 }
+		country_event = { id = story.335 years = 1}
+		country_event = { id = story.335 years = 1}
+		country_event = { id = story.335 years = 1}
+		country_event = { id = story.335 years = 1}
+		country_event = { id = story.335 years = 1}
+		country_event = { id = story.335 years = 2}
+		country_event = { id = story.335 years = 2}
+		country_event = { id = story.335 years = 2}
+		country_event = { id = story.335 years = 2}
+		country_event = { id = story.335 years = 2}
+	}
+}
