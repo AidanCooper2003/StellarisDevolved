@@ -102,3 +102,99 @@ throughput_improved = {
 	planet_jobs_upkeep_mult = 0.1
 }
 
+
+
+# RANDOMIZATION MODIFIERS WRITE THESE WITH HALVED VALUES
+
+# Metallurgic mania
+random_event_modifier_A_1 = {
+	planet_metallurgists_alloys_produces_add = 2
+	planet_metallurgists_minerals_upkeep_add = -3
+	planet_metallurgists_produces_mult = 0.5
+}
+
+# Self Actualization
+random_event_modifier_B_1 = {
+	planet_amenities_add = 10
+	planet_stability_add = 2.5
+}
+
+# Artisan Overdrive
+random_event_modifier_C_1 = {
+	planet_artisans_consumer_goods_produces_add = 1
+	planet_artisans_energy_upkeep_add = 1
+}
+
+# Age of Stagnation
+random_event_modifier_D_1 = {
+	planet_researchers_physics_research_produces_add = -1
+	planet_researchers_society_research_produces_add = -1
+	planet_researchers_engineering_research_produces_add = -1
+}
+
+# Bloated Bureau
+random_event_modifier_F_1 = {
+	empire_size_mult = 25
+}
+
+# Upkeep Elimination
+random_event_modifier_A_2 = {
+	planet_pops_upkeep_mult = -2
+	planet_jobs_upkeep_mult = -2
+	ships_upkeep_mult = -2
+}
+
+# Research Rushing
+random_event_modifier_B_2 = {
+	all_technology_research_speed = 0.25
+}
+
+# Trading Tradeoffs
+random_event_modifier_C_2 = {
+	trade_value_mult = 0.25
+	planet_clerks_unity_upkeep_add = 1.5
+	planet_traders_unity_upkeep_add = 1.5
+}
+
+# Economic Slog
+random_event_modifier_D_2 = {
+	country_produces_mult = -0.05
+}
+
+# Unemployment Epidemic
+random_event_modifier_F_2 = {
+	job_clerk_add = -5
+	job_farmer_add = -5
+	job_miner_add = -5
+	job_technician_add = -5
+	job_researcher_add = -5
+	job_bureaucrat_add = -5
+	job_foundry_add = -5
+	job_artisan_add = -5
+}
+
+# A is surveyor
+
+# Ruler Rhapsody
+random_event_modifier_B_3 = {
+	planet_jobs_ruler_produces_mult = 1
+}
+
+# Workers Wonderland
+random_event_modifier_C_3 = {
+	planet_jobs_worker_produces_mult = 0.5
+	pop_cat_worker_political_power = 2
+	planet_pops_upkeep_mult = 0.25
+	pop_housing_usage_mult = 0.25
+}
+
+# Factional Friction
+random_event_modifier_D_3 = {
+	faction_approval = -0.1
+	pop_factions_produces_mult = -0.5
+}
+
+# Councilor Incompetence
+random_event_modifier_F_3 = {
+	councilor_skill_add = -10
+}
