@@ -215,7 +215,7 @@ country_event = {
 
     immediate = {
         random_list = {
-                18 = {}
+                20 = {}
                 1 = { country_event = { id = devolved_random_events.1 } }
 				1 = { country_event = { id = devolved_random_events.2 } }
                 1 = { country_event = { id = devolved_random_events.3 } }
@@ -234,6 +234,8 @@ country_event = {
                 1 = { country_event = { id = devolved_random_events.16 } }
                 1 = { country_event = { id = devolved_random_events.17 } }
                 1 = { country_event = { id = devolved_random_events.18 } }
+                1 = { country_event = { id = devolved_random_events.19 } }
+                1 = { country_event = { id = devolved_random_events.20 } }
 			}
     }
 }
