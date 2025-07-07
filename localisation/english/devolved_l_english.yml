@@ -631,6 +631,29 @@ resolution_project_poverty_repeal_success:0 "Project Poverty has been successful
 increasing_inflation_easy:0 "Increasing Inflation I"
 increasing_inflation_medium:0 "Increasing Inflation II"
 increasing_inflation_hard:0 "Increasing Inflation III"
+
 random_event_modifier_A_1:0 "Metallurgic Mania (A)"
+random_event_modifier_B_1:0 "Self Actualization (B)"
+random_event_modifier_C_1:0 "Artisan Overdrive (C)"
+random_event_modifier_D_1:0 "Age of Stagnation (D)"
+random_event_modifier_F_1:0 "Bloated Bureau (F)"
+
+random_event_modifier_A_2:0 "Upkeep Elimination (A)"
+random_event_modifier_B_2:0 "Research Rushing (B)"
+random_event_modifier_C_2:0 "Trading Tradeoffs (C)"
+random_event_modifier_D_2:0 "Economic Slog (D)"
+random_event_modifier_F_2:0 "Unemployment Epidemic (F)"
+
+#random_event_modifier_A_3:0 "N/A"
+random_event_modifier_B_3:0 "Ruler Rhapsody (B)"
+random_event_modifier_C_3:0 "Workers' Wonderland (C)"
+random_event_modifier_D_3:0 "Factional Friction (D)"
+random_event_modifier_F_3:0 "Councilor Incompetence (F)"
+
+random_event_modifier_A_4:0 "Mother of all Megastructures (A)"
+random_event_modifier_B_4:0 "Fertility Frenzy (B)"
+random_event_modifier_C_4:0 "Cooperian Captivation (C)"
+random_event_modifier_D_4:0 "Station Stagnation (D)"
 random_event_modifier_F_4:0 "Trust Bust (F)"
 
+random_event_modifier_A_5:0 "Ascension Millenium (A)"

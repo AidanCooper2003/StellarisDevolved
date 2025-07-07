@@ -229,6 +229,15 @@ random_event_modifier_D_4 = {
 	station_researchers_produces_mult = -2
 }
 
+# Trust Bust
 random_event_modifier_F_4 = {
 	country_trust_cap_add = -2000
 }
+
+# Ascension Millenium
+random_event_modifier_A_5 = {
+	planetary_ascension_effect_mult = 15
+}
+
+
+# 

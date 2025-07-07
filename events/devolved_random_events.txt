@@ -39,8 +39,8 @@ country_event = {
 country_event = {
 	id = devolved_random_events.2
 	name = "Self Actualization"
-	desc = "Self Actualization: Your people have found great happiness internally!"
-	hide_window = yes
+	desc = "Self Actualization: Your people have found great happiness internally! (B)"
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -73,8 +73,9 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.3
-
-	hide_window = yes
+	name = "Artisan Overdrive"
+	desc = "Artisan Overdrive: Your artisans are working extra hard, at an increased price. (C)"
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -107,8 +108,9 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.4
-
-	hide_window = yes
+	name = "Age of Stagnation"
+	desc = "Age of Stagnation: Your researchers have all hit roadblocks in their studies. (D)"
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -141,8 +143,10 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.5
+	name = "Bloated Bureau"
+	desc = "Bloated Bureau: A chain reaction of failures in the central bureaucracy has led to massive failures in government programs. (F)"
 
-	hide_window = yes
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -175,8 +179,10 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.6
+	name = "Upkeep Elimination"
+	desc = "Upkeep Elimination: Your people and structures have decided to take care of themselves for a bit! (A)"
 
-	hide_window = yes
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -209,8 +215,10 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.7
+	name = "Research Rushing"
+	desc = "Research Rushing: Your researchers are all finding amazing breakthroughs! (B)"
 
-	hide_window = yes
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -243,8 +251,10 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.8
+	name = "Trading Tradeoffs"
+	desc = "Trading Tradeoffs: The economy is booming, but the workers supporting it are feeling a little left behind. (C)"
 
-	hide_window = yes
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -277,8 +287,10 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.9
+	name = "Economic Slog"
+	desc = "Economic Slog: Productivity is generally down across the board. (D)"
 
-	hide_window = yes
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -311,8 +323,10 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.10
-
-	hide_window = yes
+	name = "Unemployment Epidemic"
+	desc = "Unemployment Epidemic: A series of major issues revolving around planetary infrastructure have lead to layoffs unheard of in history. (F)"
+	
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -346,8 +360,9 @@ country_event = {
 # Mass Surveyor (A)
 country_event = {
 	id = devolved_random_events.11
-
-	hide_window = yes
+	name = "Treasure Troves"
+	desc = "Treasure Troves: A golden age of citizen-led surveying groups is leading to amazing deposit discoveries! (A)"
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -375,8 +390,10 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.12
+	name = "Ruler Rhapsody"
+	desc = "Ruler Rhapsody: The elite feel greatful for their position in society, and are now doing their best to use their positions for good. (B)"
 
-	hide_window = yes
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -409,10 +426,12 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.13
+	name = "Workers' Wonderland"
+	desc = "Workers' Wonderland: Your workers are putting in a lot more effort, but are also demanding far greater accommodations. (C)"
 
-	hide_window = yes
+	hide_window = no
     is_triggered_only = yes
-    trigger = {
+    trigger = { 
         is_country_type = default
         has_civic = devolved_civic_randivist_principles
     }
@@ -443,8 +462,10 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.14
+	name = "Factional Friction"
+	desc = "Factional Friction: All your political factions are growing very tired of your rule. (D)"
 
-	hide_window = yes
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -477,8 +498,11 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.15
+	name = "Councilor Incompetence"
+	desc = "Councilor Incompetence: A new drug frequently used at council meetings for intelligence enhancement has gone wrong: All your councilors are now so stupid they're actively making your government worse! (F)"
 
-	hide_window = yes
+
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -682,6 +706,42 @@ country_event = {
 
         add_modifier = {
 			modifier = random_event_modifier_F_4
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.21
+	name = "Ascension Millenium"
+	desc = "Ascension Millenium: Corey Feldman is revolutionizing the universe with his sound, ascension effect is boosted! (A)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_A_5
 			multiplier = multipliercount
 			years = 3
 		}
