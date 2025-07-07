@@ -239,5 +239,23 @@ random_event_modifier_A_5 = {
 	planetary_ascension_effect_mult = 15
 }
 
+# Edictarion Explosion
+random_event_modifier_B_5 = {
+	edicts_upkeep_mult = -0.6
+} 
 
-# 
+# Astral Awakening
+random_event_modifier_C_5 = {
+	country_physics_research_produces_mult = -0.3
+	country_astral_threads_produces_add = 20
+}
+
+# Starbases are Stupid
+random_event_modifier_D_5 = {
+	country_starbase_capacity_mult = -0.5
+}
+
+# Envoy Evaporation
+random_event_modifier_F_5 = {
+	envoys_add = -200
+}

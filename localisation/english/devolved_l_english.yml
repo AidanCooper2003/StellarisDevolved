@@ -657,3 +657,7 @@ random_event_modifier_D_4:0 "Station Stagnation (D)"
 random_event_modifier_F_4:0 "Trust Bust (F)"
 
 random_event_modifier_A_5:0 "Ascension Millenium (A)"
+random_event_modifier_B_5:0 "Edictarian Explosion (B)"
+random_event_modifier_C_5:0 "Astral Awakening (C)"
+random_event_modifier_D_5:0 "Starbases are Stupid (D)"
+random_event_modifier_F_5:0 "Envoy Evaporation (F)"
