@@ -3,8 +3,9 @@ namespace = devolved_random_events
 # Random Modifiers
 country_event = {
 	id = devolved_random_events.1
-
-	hide_window = yes
+	name = "Metallurgic Mania"
+	desc = "Your metallurgists are all now hyperefficient!"
+	hide_window = no
     is_triggered_only = yes
     trigger = {
         is_country_type = default
@@ -21,10 +22,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -37,7 +38,8 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.2
-
+	name = "Self Actualization"
+	desc = "Self Actualization: Your people have found great happiness internally!"
 	hide_window = yes
     is_triggered_only = yes
     trigger = {
@@ -55,10 +57,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -89,10 +91,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -123,10 +125,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -157,10 +159,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -191,10 +193,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -225,10 +227,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -259,10 +261,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -293,10 +295,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -327,10 +329,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -391,10 +393,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -425,10 +427,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -459,10 +461,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -493,10 +495,10 @@ country_event = {
 		}
 
 		random_list = {
-			80 = {set_variable = {which = "multipliercount" value = 2}}
-			9 = {set_variable = {which = "multipliercount" value = 1}}
-			9 = {set_variable = {which = "multipliercount" value = 4}}
-			2 = {set_variable = {which = "multipliercount" value = 20}}
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
 		}
 
         add_modifier = {
@@ -507,3 +509,181 @@ country_event = {
 	}     
 }
 
+country_event = {
+	id = devolved_random_events.16
+	name = "Mother of all Megastructures"
+	desc = "Mother of all Megastructures: All your megastructures are now more productive!"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_A_4
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.17
+	name = "Fertility Frenzy"
+	desc = "Fertility Frenzy: Lots more citizens will soon join your empire!"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_B_4
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.18
+	name = "Cooperian Captivation"
+	desc = "Cooperian Captivation: Some culture workers very dedicated to your empire's ethics have decided to found a cooperian culturalist center on your worlds!"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_C_4
+			multiplier = multipliercount
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.19
+	name = "Station Stagnation"
+	desc = "Station Stagnation: Your space stations are lagging behind in production."
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_D_4
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.20
+	name = "Trust Bust"
+	desc = "Trust Bust: Seems like no other empire can trust you for a while."
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_F_4
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
