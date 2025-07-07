@@ -4,7 +4,7 @@ namespace = devolved_random_events
 country_event = {
 	id = devolved_random_events.1
 	name = "Metallurgic Mania"
-	desc = "Your metallurgists are all now hyperefficient!"
+	desc = "Metallurgic Mania: Your metallurgists are all now hyperefficient! (A)"
 	hide_window = no
     is_triggered_only = yes
     trigger = {
@@ -512,7 +512,7 @@ country_event = {
 country_event = {
 	id = devolved_random_events.16
 	name = "Mother of all Megastructures"
-	desc = "Mother of all Megastructures: All your megastructures are now more productive!"
+	desc = "Mother of all Megastructures: All your megastructures are now more productive! (A)"
 
 	hide_window = no
     is_triggered_only = yes
@@ -548,7 +548,7 @@ country_event = {
 country_event = {
 	id = devolved_random_events.17
 	name = "Fertility Frenzy"
-	desc = "Fertility Frenzy: Lots more citizens will soon join your empire!"
+	desc = "Fertility Frenzy: Lots more citizens will soon join your empire! (B)"
 
 	hide_window = no
     is_triggered_only = yes
@@ -584,7 +584,7 @@ country_event = {
 country_event = {
 	id = devolved_random_events.18
 	name = "Cooperian Captivation"
-	desc = "Cooperian Captivation: Some culture workers very dedicated to your empire's ethics have decided to found a cooperian culturalist center on your worlds!"
+	desc = "Cooperian Captivation: Some culture workers very dedicated to your empire's ethics have decided to found a cooperian culturalist center on your worlds! (C)"
 
 	hide_window = no
     is_triggered_only = yes
@@ -619,7 +619,7 @@ country_event = {
 country_event = {
 	id = devolved_random_events.19
 	name = "Station Stagnation"
-	desc = "Station Stagnation: Your space stations are lagging behind in production."
+	desc = "Station Stagnation: Your space stations are lagging behind in production. (D)"
 
 	hide_window = no
     is_triggered_only = yes
@@ -655,7 +655,7 @@ country_event = {
 country_event = {
 	id = devolved_random_events.20
 	name = "Trust Bust"
-	desc = "Trust Bust: Seems like no other empire can trust you for a while."
+	desc = "Trust Bust: Seems like no other empire can trust you for a while. (F)"
 
 	hide_window = no
     is_triggered_only = yes

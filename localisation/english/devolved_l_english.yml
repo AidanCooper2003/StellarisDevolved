@@ -631,6 +631,6 @@ resolution_project_poverty_repeal_success:0 "Project Poverty has been successful
 increasing_inflation_easy:0 "Increasing Inflation I"
 increasing_inflation_medium:0 "Increasing Inflation II"
 increasing_inflation_hard:0 "Increasing Inflation III"
-random_event_modifier_A_1:0 "Metallurgic Mania"
-random_event_modifier_F_4:0 "Trust Bust"
+random_event_modifier_A_1:0 "Metallurgic Mania (A)"
+random_event_modifier_F_4:0 "Trust Bust (F)"
 
