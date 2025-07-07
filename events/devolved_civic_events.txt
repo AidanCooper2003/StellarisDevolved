@@ -215,7 +215,7 @@ country_event = {
 
     immediate = {
         random_list = {
-                25 = {}
+                30 = {}
                 1 = { country_event = { id = devolved_random_events.1 } }
 				1 = { country_event = { id = devolved_random_events.2 } }
                 1 = { country_event = { id = devolved_random_events.3 } }
@@ -241,6 +241,11 @@ country_event = {
                 1 = { country_event = { id = devolved_random_events.23 } }
                 1 = { country_event = { id = devolved_random_events.24 } }
                 1 = { country_event = { id = devolved_random_events.25 } }
+                1 = { country_event = { id = devolved_random_events.26 } }
+                1 = { country_event = { id = devolved_random_events.27 } }
+                1 = { country_event = { id = devolved_random_events.28 } }
+                1 = { country_event = { id = devolved_random_events.29 } }
+                1 = { country_event = { id = devolved_random_events.30 } }
 			}
     }
 }

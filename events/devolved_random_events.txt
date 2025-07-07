@@ -857,9 +857,152 @@ country_event = {
 }
 
 country_event = {
-	id = devolved_random_events.25
-	name = "Envoy Evaporation"
-	desc = "Envoy Evaporation: A mysterious illness that is only lethal to envoys is becoming a pandemic! (F)"
+	id = devolved_random_events.26
+	name = "Councilor Craze"
+	desc = "Councilor Craze: Your councilors are temporarily making all the best decisions they possibly could! (A)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_A_6
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.27
+	name = "Extra Ascension"
+	desc = "Extra Ascension: Your society is progressing to such a degree that you (probably) permanently unlocked an extra ascension perk slot! (B)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_B_6
+			multiplier = multipliercount
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.28
+	name = "Ascension Investment"
+	desc = "Ascension Investment: Your philosophers are currently overtaking researchers in the public eye, making planetary ascension easier at the cost of your technological progression. (C)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_F_5
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.29
+	name = "Criminal Castle"
+	desc = "Criminal Castle: A castle of celestial proportion full of criminals has been spotted and could spread to your planets wreaking havoc... (D)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_F_5
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.30
+	name = "Leader Lukemia"
+	desc = "Leader Lukemia: A rare form of cancer has afflicted all of your leaders, greatly reducing their lifespans. (F)"
 
 	hide_window = no
     is_triggered_only = yes

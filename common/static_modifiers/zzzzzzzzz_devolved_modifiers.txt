@@ -259,3 +259,31 @@ random_event_modifier_D_5 = {
 random_event_modifier_F_5 = {
 	envoys_add = -200
 }
+
+# Councilor Craze
+random_event_modifier_A_6 = {
+	councilor_skill_add = 20
+}
+
+# Extra Ascension
+random_event_modifier_B_6 = {
+	ascension_perks_add = 1
+}
+
+# Ascension Investment
+random_event_modifier_C_6 = {
+	planetary_ascension_cost_mult = -0.5
+	society_tech_cost_mult = 0.25
+	physics_tech_cost_mult = 0.25
+	engineering_tech_cost_mult = 0.25
+}
+
+# Criminal Castle
+random_event_modifier_D_6 = {
+	planet_crime_mult = 5
+}
+
+# Leader Lukemia
+random_event_modifier_F_6 = {
+	leader_lifespan_add = -100
+}
