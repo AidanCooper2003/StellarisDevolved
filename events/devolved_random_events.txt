@@ -1239,7 +1239,6 @@ country_event = {
         add_modifier = {
 			modifier = random_event_modifier_D_7
 			multiplier = multipliercount
-			years = 3
 		}
 	}     
 }
