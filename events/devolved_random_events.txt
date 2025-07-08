@@ -857,6 +857,42 @@ country_event = {
 }
 
 country_event = {
+	id = devolved_random_events.25
+	name = "Envoy Evaporation"
+	desc = "Envoy Evaporation: A rare disease only lethal to envoys has become a pandemic... (F)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_F_5
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
 	id = devolved_random_events.26
 	name = "Councilor Craze"
 	desc = "Councilor Craze: Your councilors are temporarily making all the best decisions they possibly could! (A)"
@@ -956,7 +992,7 @@ country_event = {
 		}
 
         add_modifier = {
-			modifier = random_event_modifier_F_5
+			modifier = random_event_modifier_C_6
 			multiplier = multipliercount
 			years = 3
 		}
@@ -992,48 +1028,14 @@ country_event = {
 		}
 
         add_modifier = {
-			modifier = random_event_modifier_F_5
+			modifier = random_event_modifier_D_6
 			multiplier = multipliercount
 			years = 3
 		}
 	}     
 }
 
-country_event = {
-	id = devolved_random_events.31
-	name = "Leader Lukemia"
-	desc = "Leader Lukemia: A rare form of cancer has afflicted all of your leaders, greatly reducing their lifespans. (F)"
 
-	hide_window = no
-    is_triggered_only = yes
-    trigger = {
-        is_country_type = default
-        has_civic = devolved_civic_randivist_principles
-    }
-
-    immediate = {
-		
-		random_list = {
-			33 = {set_variable = {which = "yearcount" value = 5}}
-			33 = {set_variable = {which = "yearcount" value = 3}}
-		    33 = {set_variable = {which = "yearcount" value = 1}}
-			1 = {set_variable = {which = "yearcount" value = 25}}
-		}
-
-		random_list = {
-			50 = {set_variable = {which = "multipliercount" value = 1}}
-			24 = {set_variable = {which = "multipliercount" value = 0.5}}
-			24 = {set_variable = {which = "multipliercount" value = 2}}
-			2 = {set_variable = {which = "multipliercount" value = 10}}
-		}
-
-        add_modifier = {
-			modifier = random_event_modifier_F_5
-			multiplier = multipliercount
-			years = 3
-		}
-	}     
-}
 
 country_event = {
 	id = devolved_random_events.30
@@ -1064,7 +1066,7 @@ country_event = {
 		}
 
         add_modifier = {
-			modifier = random_event_modifier_F_5
+			modifier = random_event_modifier_F_6
 			multiplier = multipliercount
 			years = 3
 		}
