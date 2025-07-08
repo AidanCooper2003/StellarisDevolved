@@ -627,6 +627,10 @@ resolution_project_anarchy_repeal:0 "Repeal Project Anarchy"
 resolution_project_anarchy_repeal_desc:0 "Community members will no longer be forced to prevent any form of power structure and incite rebellion."
 resolution_project_poverty_repeal_success:0 "Project Poverty has been successfully repealed!"
 
+# Deposits
+d_delicious_deposit:0 "Delicious Deposit"
+d_caffeine_deposit:0 "Caffeine Deposit"
+
 # Modifiers
 increasing_inflation_easy:0 "Increasing Inflation I"
 increasing_inflation_medium:0 "Increasing Inflation II"
@@ -668,8 +672,9 @@ random_event_modifier_C_6:0 "Ascension Investment (C)"
 random_event_modifier_D_6:0 "Criminal Castle (D)"
 random_event_modifier_F_6:0 "Leader Lukemia (F)"
 
-#random_event_modifier_A_7:0 "Delicious De Craze (A)"
-#random_event_modifier_B_7:0 "Extra Ascension (B)"
+#random_event_modifier_A_7:0 "Delicious Deposits (A)"
+#random_event_modifier_B_7:0 "Planetation Creation (B)"
 random_event_modifier_C_7:0 "Shoddy Ships (C)"
 random_event_modifier_D_7:0 "Technological Descendency (D)"
-random_event_modifier_F_76:0 "Civil Disobedience (F)"
+random_event_modifier_F_7:0 "Civil Disobedience (F)"
+

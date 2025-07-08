@@ -247,7 +247,7 @@ random_event_modifier_B_5 = {
 # Astral Awakening
 random_event_modifier_C_5 = {
 	country_physics_research_produces_mult = -0.3
-	country_astral_threads_produces_add = 20
+	monthly_trades_astral_threads_produces_add = 30
 }
 
 # Starbases are Stupid

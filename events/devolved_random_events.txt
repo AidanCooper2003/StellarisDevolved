@@ -3,8 +3,10 @@ namespace = devolved_random_events
 # Random Modifiers
 country_event = {
 	id = devolved_random_events.1
-	name = "Metallurgic Mania"
+	title = "Metallurgic Mania"
 	desc = "Metallurgic Mania: Your metallurgists are all now hyperefficient! (A)"
+
+
 	hide_window = no
     is_triggered_only = yes
     trigger = {
@@ -38,7 +40,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.2
-	name = "Self Actualization"
+	title = "Self Actualization"
 	desc = "Self Actualization: Your people have found great happiness internally! (B)"
 	hide_window = no
     is_triggered_only = yes
@@ -73,7 +75,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.3
-	name = "Artisan Overdrive"
+	title = "Artisan Overdrive"
 	desc = "Artisan Overdrive: Your artisans are working extra hard, at an increased price. (C)"
 	hide_window = no
     is_triggered_only = yes
@@ -108,7 +110,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.4
-	name = "Age of Stagnation"
+	title = "Age of Stagnation"
 	desc = "Age of Stagnation: Your researchers have all hit roadblocks in their studies. (D)"
 	hide_window = no
     is_triggered_only = yes
@@ -143,7 +145,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.5
-	name = "Bloated Bureau"
+	title = "Bloated Bureau"
 	desc = "Bloated Bureau: A chain reaction of failures in the central bureaucracy has led to massive failures in government programs. (F)"
 
 	hide_window = no
@@ -179,7 +181,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.6
-	name = "Upkeep Elimination"
+	title = "Upkeep Elimination"
 	desc = "Upkeep Elimination: Your people and structures have decided to take care of themselves for a bit! (A)"
 
 	hide_window = no
@@ -215,7 +217,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.7
-	name = "Research Rushing"
+	title = "Research Rushing"
 	desc = "Research Rushing: Your researchers are all finding amazing breakthroughs! (B)"
 
 	hide_window = no
@@ -251,7 +253,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.8
-	name = "Trading Tradeoffs"
+	title = "Trading Tradeoffs"
 	desc = "Trading Tradeoffs: The economy is booming, but the workers supporting it are feeling a little left behind. (C)"
 
 	hide_window = no
@@ -287,7 +289,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.9
-	name = "Economic Slog"
+	title = "Economic Slog"
 	desc = "Economic Slog: Productivity is generally down across the board. (D)"
 
 	hide_window = no
@@ -323,7 +325,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.10
-	name = "Unemployment Epidemic"
+	title = "Unemployment Epidemic"
 	desc = "Unemployment Epidemic: A series of major issues revolving around planetary infrastructure have lead to layoffs unheard of in history. (F)"
 	
 	hide_window = no
@@ -360,7 +362,7 @@ country_event = {
 # Mass Surveyor (A)
 country_event = {
 	id = devolved_random_events.11
-	name = "Treasure Troves"
+	title = "Treasure Troves"
 	desc = "Treasure Troves: A golden age of citizen-led surveying groups is leading to amazing deposit discoveries! (A)"
 	hide_window = no
     is_triggered_only = yes
@@ -390,7 +392,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.12
-	name = "Ruler Rhapsody"
+	title = "Ruler Rhapsody"
 	desc = "Ruler Rhapsody: The elite feel greatful for their position in society, and are now doing their best to use their positions for good. (B)"
 
 	hide_window = no
@@ -426,7 +428,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.13
-	name = "Workers' Wonderland"
+	title = "Workers' Wonderland"
 	desc = "Workers' Wonderland: Your workers are putting in a lot more effort, but are also demanding far greater accommodations. (C)"
 
 	hide_window = no
@@ -462,7 +464,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.14
-	name = "Factional Friction"
+	title = "Factional Friction"
 	desc = "Factional Friction: All your political factions are growing very tired of your rule. (D)"
 
 	hide_window = no
@@ -498,7 +500,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.15
-	name = "Councilor Incompetence"
+	title = "Councilor Incompetence"
 	desc = "Councilor Incompetence: A new drug frequently used at council meetings for intelligence enhancement has gone wrong: All your councilors are now so stupid they're actively making your government worse! (F)"
 
 
@@ -535,7 +537,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.16
-	name = "Mother of all Megastructures"
+	title = "Mother of all Megastructures"
 	desc = "Mother of all Megastructures: All your megastructures are now more productive! (A)"
 
 	hide_window = no
@@ -571,7 +573,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.17
-	name = "Fertility Frenzy"
+	title = "Fertility Frenzy"
 	desc = "Fertility Frenzy: Lots more citizens will soon join your empire! (B)"
 
 	hide_window = no
@@ -607,7 +609,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.18
-	name = "Cooperian Captivation"
+	title = "Cooperian Captivation"
 	desc = "Cooperian Captivation: Some culture workers very dedicated to your empire's ethics have decided to found a cooperian culturalist center on your worlds! (C)"
 
 	hide_window = no
@@ -642,7 +644,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.19
-	name = "Station Stagnation"
+	title = "Station Stagnation"
 	desc = "Station Stagnation: Your space stations are lagging behind in production. (D)"
 
 	hide_window = no
@@ -678,7 +680,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.20
-	name = "Trust Bust"
+	title = "Trust Bust"
 	desc = "Trust Bust: Seems like no other empire can trust you for a while. (F)"
 
 	hide_window = no
@@ -714,7 +716,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.22
-	name = "Ascension Millenium"
+	title = "Ascension Millenium"
 	desc = "Ascension Millenium: Corey Feldman is revolutionizing the universe with his sound, ascension effect is boosted! (A)"
 
 	hide_window = no
@@ -750,7 +752,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.22
-	name = "Edictarion Explosion"
+	title = "Edictarion Explosion"
 	desc = "Edictarion Explosion: Edicts now have a much cheaper upkeep. (B)"
 
 	hide_window = no
@@ -786,7 +788,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.23
-	name = "Astral Awakening"
+	title = "Astral Awakening"
 	desc = "Astral Awakening: Your physics researchers are all deciding to focus on finding new sources of astral threads instead of their assigned tasks. (C)"
 
 	hide_window = no
@@ -822,7 +824,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.24
-	name = "Starbases are Stupid"
+	title = "Starbases are Stupid"
 	desc = "Starbases are Stupid: A populist movement of land lovers are derriding our space stations and want them gone. (D)"
 
 	hide_window = no
@@ -858,7 +860,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.25
-	name = "Envoy Evaporation"
+	title = "Envoy Evaporation"
 	desc = "Envoy Evaporation: A rare disease only lethal to envoys has become a pandemic... (F)"
 
 	hide_window = no
@@ -894,7 +896,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.26
-	name = "Councilor Craze"
+	title = "Councilor Craze"
 	desc = "Councilor Craze: Your councilors are temporarily making all the best decisions they possibly could! (A)"
 
 	hide_window = no
@@ -930,7 +932,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.27
-	name = "Extra Ascension"
+	title = "Extra Ascension"
 	desc = "Extra Ascension: Your society is progressing to such a degree that you (probably) permanently unlocked an extra ascension perk slot! (B)"
 
 	hide_window = no
@@ -965,7 +967,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.28
-	name = "Ascension Investment"
+	title = "Ascension Investment"
 	desc = "Ascension Investment: Your philosophers are currently overtaking researchers in the public eye, making planetary ascension easier at the cost of your technological progression. (C)"
 
 	hide_window = no
@@ -1001,7 +1003,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.29
-	name = "Criminal Castle"
+	title = "Criminal Castle"
 	desc = "Criminal Castle: A castle of celestial proportion full of criminals has been spotted and could spread to your planets wreaking havoc... (D)"
 
 	hide_window = no
@@ -1039,7 +1041,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.30
-	name = "Leader Lukemia"
+	title = "Leader Lukemia"
 	desc = "Leader Lukemia: A rare form of cancer has afflicted all of your leaders, greatly reducing their lifespans. (F)"
 
 	hide_window = no
@@ -1075,7 +1077,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.31
-	name = "Delicious Deposits"
+	title = "Delicious Deposits"
 	desc = "Delicious Deposit: An underground vault filled with all manner of superb substances were found on your capital! They don't work offworld, but they will greatly improve your capital! (A)"
 
 	hide_window = no
@@ -1093,20 +1095,22 @@ country_event = {
 		    33 = {set_variable = {which = "yearcount" value = 1}}
 			1 = {set_variable = {which = "yearcount" value = 25}}
 		}
-
-		random_list = {
-			50 = {event_target:capital = { add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } } }
-			24 = {event_target:capital = { add_deposit = { d_delicious_deposit } } }
-			24 = {event_target:capital = { add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } } }
-			2 = {event_target:capital = { add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } }  }
+		capital_scope = {
+			random_list = {
+				50 = { add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit }
+				24 = { add_deposit = d_delicious_deposit  }
+				24 = { add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit }
+				2 = { add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit add_deposit = d_delicious_deposit }
 		}
+		}
+
 
 	}     
 }
 
 country_event = {
 	id = devolved_random_events.32
-	name = "Planetation Creation"
+	title = "Planetation Creation"
 	desc = "Planetation Creation: A new habitable world has appeared in your capital system! (B)"
 
 	hide_window = no
@@ -1125,58 +1129,64 @@ country_event = {
 			1 = {set_variable = {which = "yearcount" value = 25}}
 		}
 
-		random_list = {
-			50 = {spawn_planet = {
-					class = pc_gaia
-					location = root.capital_scope
-					orbit_angle_offset = 90
-					size = 15
-					init_effect = {
-						set_planet_flag = colony_event
-						prevent_anomaly = yes
-						set_name = "Randivist Orb"
-					}
-				}}
-			24 = {spawn_planet = {
-					class = pc_nuked
-					location = root.capital_scope
-					orbit_angle_offset = 90
-					size = 15
-					init_effect = {
-						set_planet_flag = colony_event
-						prevent_anomaly = yes
-						set_name = "Randivist Remains"
-					}
-				}}
-			24 = {spawn_planet = {
-					class = pc_gaia
-					location = root.capital_scope
-					orbit_angle_offset = 90
-					size = 25
-					init_effect = {
-						set_planet_flag = colony_event
-						prevent_anomaly = yes
-						set_name = "Randivist Jewel"
-					}
-				}}
-			2 = {spawn_planet = {
-					class = pc_gaia
-					location = root.capital_scope
-					orbit_angle_offset = 90
-					size = 50
-					init_effect = {
-						set_planet_flag = colony_event
-						prevent_anomaly = yes
-						set_name = "Randivist Perfection"
-					}
-				}}
+		capital_scope.solar_system = {
+			random_list = {
+				50 = {spawn_planet = {
+						class = pc_gaia
+						orbit_angle_offset = 90
+						orbit_location = yes
+						orbit_distance_offset = 10
+						size = 10
+						init_effect = {
+							set_planet_flag = colony_event
+							prevent_anomaly = yes
+							set_name = "Randivist Orb"
+						}
+					}}
+				24 = {spawn_planet = {
+						class = pc_nuked
+						orbit_angle_offset = 90
+						orbit_location = yes
+						orbit_distance_offset = 10
+						size = 10
+						init_effect = {
+							set_planet_flag = colony_event
+							prevent_anomaly = yes
+							set_name = "Randivist Remains"
+						}
+					}}
+				24 = {spawn_planet = {
+						class = pc_gaia
+						orbit_angle_offset = 90
+						orbit_location = yes
+						orbit_distance_offset = 10
+						size = 15
+						init_effect = {
+							set_planet_flag = colony_event
+							prevent_anomaly = yes
+							set_name = "Randivist Jewel"
+						}
+					}}
+				2 = {spawn_planet = {
+						class = pc_gaia
+						orbit_angle_offset = 90
+						orbit_location = yes
+						orbit_distance_offset = 10
+						size = 50
+						init_effect = {
+							set_planet_flag = colony_event
+							prevent_anomaly = yes
+							set_name = "Randivist Perfection"
+						}
+					}}
+			}
 		}
 	}     
 }
 
 country_event = {
 	id = devolved_random_events.33
-	name = "Shoddy Ships"
+	title = "Shoddy Ships"
 	desc = "Shoddy Ships: Ships are now much cheaper but due to their shoddyness, take longer to assemble correctly. (C)"
 
 	hide_window = no
@@ -1212,7 +1222,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.34
-	name = "Technological Descendency"
+	title = "Technological Descendency"
 	desc = "Technological Descendency: Education has eroded and made the population dumber permanently. (D)"
 
 	hide_window = no
@@ -1247,7 +1257,7 @@ country_event = {
 
 country_event = {
 	id = devolved_random_events.35
-	name = "Civil Disobedience"
+	title = "Civil Disobedience"
 	desc = "Civil Disobedience: Society is crumbling. (F)"
 
 	hide_window = no
