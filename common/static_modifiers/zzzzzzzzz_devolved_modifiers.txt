@@ -287,3 +287,21 @@ random_event_modifier_D_6 = {
 random_event_modifier_F_6 = {
 	leader_lifespan_add = -100
 }
+
+
+# Shoddy Ships
+random_event_modifier_C_7 = {
+	shipclass_military_build_speed_mult = -0.75
+	ships_cost_mult = -0.25
+}
+
+# Technological Descendency
+random_event_modifier_D_7 = {
+	all_technology_research_speed = -0.15
+	
+}
+
+# Civil Disobedience
+random_event_modifier_F_7 = {
+	planet_stability_add = -300
+}

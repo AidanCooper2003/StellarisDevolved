@@ -1000,6 +1000,42 @@ country_event = {
 }
 
 country_event = {
+	id = devolved_random_events.31
+	name = "Leader Lukemia"
+	desc = "Leader Lukemia: A rare form of cancer has afflicted all of your leaders, greatly reducing their lifespans. (F)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_F_5
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
 	id = devolved_random_events.30
 	name = "Leader Lukemia"
 	desc = "Leader Lukemia: A rare form of cancer has afflicted all of your leaders, greatly reducing their lifespans. (F)"
@@ -1029,6 +1065,215 @@ country_event = {
 
         add_modifier = {
 			modifier = random_event_modifier_F_5
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.31
+	name = "Delicious Deposits"
+	desc = "Delicious Deposit: An underground vault filled with all manner of superb substances were found on your capital! They don't work offworld, but they will greatly improve your capital! (A)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {event_target:capital = { add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } } }
+			24 = {event_target:capital = { add_deposit = { d_delicious_deposit } } }
+			24 = {event_target:capital = { add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } } }
+			2 = {event_target:capital = { add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } add_deposit = { d_delicious_deposit } }  }
+		}
+
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.32
+	name = "Planetation Creation"
+	desc = "Planetation Creation: A new habitable world has appeared in your capital system! (B)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {spawn_planet = {
+					class = pc_gaia
+					location = root.capital_scope
+					orbit_angle_offset = 90
+					size = 15
+					init_effect = {
+						set_planet_flag = colony_event
+						prevent_anomaly = yes
+						set_name = "Randivist Orb"
+					}
+				}}
+			24 = {spawn_planet = {
+					class = pc_nuked
+					location = root.capital_scope
+					orbit_angle_offset = 90
+					size = 15
+					init_effect = {
+						set_planet_flag = colony_event
+						prevent_anomaly = yes
+						set_name = "Randivist Remains"
+					}
+				}}
+			24 = {spawn_planet = {
+					class = pc_gaia
+					location = root.capital_scope
+					orbit_angle_offset = 90
+					size = 25
+					init_effect = {
+						set_planet_flag = colony_event
+						prevent_anomaly = yes
+						set_name = "Randivist Jewel"
+					}
+				}}
+			2 = {spawn_planet = {
+					class = pc_gaia
+					location = root.capital_scope
+					orbit_angle_offset = 90
+					size = 50
+					init_effect = {
+						set_planet_flag = colony_event
+						prevent_anomaly = yes
+						set_name = "Randivist Perfection"
+					}
+				}}
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.33
+	name = "Shoddy Ships"
+	desc = "Shoddy Ships: Ships are now much cheaper but due to their shoddyness, take longer to assemble correctly. (C)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_C_7
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.34
+	name = "Technological Descendency"
+	desc = "Technological Descendency: Education has eroded and made the population dumber permanently. (D)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_D_7
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.35
+	name = "Civil Disobedience"
+	desc = "Civil Disobedience: Society is crumbling. (F)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_F_7
 			multiplier = multipliercount
 			years = 3
 		}
