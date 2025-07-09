@@ -315,7 +315,7 @@ random_event_modifier_A_8 = {
 
 # Leveling Leaders
 random_event_modifier_B_8 = {
-	councilor_skill_add = 2
+	species_leader_exp_gain = 2
 }
 
 # Production Malfunction
@@ -441,7 +441,7 @@ random_event_modifier_F_11 = {
 
 # Fleet Unification
 random_event_modifier_A_12 = {
-	ship_unity_upkeep_add = -12
+	ships_unity_upkeep_add = -12
 }
 
 # Production Boost Lite
@@ -513,5 +513,7 @@ random_event_modifier_D_13 = {
 
 # Abandoned Ship
 random_event_modifier_F_13 = {
+	shipclass_starbase_hull_mult = 10
 	ship_hull_mult = -10
+	
 }
