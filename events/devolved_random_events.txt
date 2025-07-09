@@ -2497,6 +2497,9 @@ country_event = {
     immediate = {
 
 		random_planet_within_border = {
+			limit = {
+				is_colony = yes
+			}
 			picture = GFX_evt_exploding_planet
 			show_sound = event_super_explosion
 			location = root
