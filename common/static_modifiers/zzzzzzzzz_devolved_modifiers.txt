@@ -507,7 +507,7 @@ random_event_modifier_C_13 = {
 
 # Offensive Falsehoods
 random_event_modifier_D_13 = {
-	country_size_mult = 0.1
+	empire_size_penalty_mult = 0.1
 	monthly_trades_influence_produces_add = -1
 }
 
