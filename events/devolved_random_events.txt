@@ -715,7 +715,7 @@ country_event = {
 }
 
 country_event = {
-	id = devolved_random_events.22
+	id = devolved_random_events.21
 	title = "Ascension Millenium"
 	desc = "Ascension Millenium: Corey Feldman is revolutionizing the universe with his sound, ascension effect is boosted! (A)"
 
