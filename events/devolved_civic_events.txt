@@ -254,3 +254,226 @@ country_event = {
 			}
     }
 }
+
+# Gain Exceptional Specimen Helper Event
+country_event = {
+    id = devolved_civic_events.14
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+    }
+
+    immediate = {
+        random_list = {
+                1 = { give_specimen = { key = altar_to_the_elder_one }}
+                1 = { give_specimen = { key = captain_ness_body  }}
+                1 = { give_specimen = { key = cetana_love }}
+                1 = { give_specimen = { key = claw_of_the_trickster }}
+                1 = { give_specimen = { key = crystal_sphere_fragments  }}
+                1 = { give_specimen = { key = data_on_infinity }}
+                1 = { give_specimen = { key = fossilized_vultaum_remains }}
+                1 = { give_specimen = { key = golden_phonograph_record  }}
+                1 = { give_specimen = { key = hyper_mulch }}
+                1 = { give_specimen = { key = last_mharin_kharin }}
+                1 = { give_specimen = { key = leviathan_scale  }}
+                1 = { give_specimen = { key = loopmail }}
+                1 = { give_specimen = { key = missile_lone_defender }}
+                1 = { give_specimen = { key = path_to_progress  }}
+                1 = { give_specimen = { key = perikan_tapico_jewel }}
+                1 = { give_specimen = { key = planet_vaccine }}
+                1 = { give_specimen = { key = psionic_entity_residue  }}
+                1 = { give_specimen = { key = robe_of_the_golden_broker }}
+                1 = { give_specimen = { key = rock_jellies }}
+                1 = { give_specimen = { key = rudari_death_laser_prototype  }}
+                1 = { give_specimen = { key = the_writer_sphere }}
+                1 = { give_specimen = { key = voidworm_heart }}
+                1 = { give_specimen = { key = ytterite_preserved_corpse  }}
+                1 = { give_specimen = { key = ytterite_kaleidoscopic_fascinator }}
+                1 = { give_specimen = { key = ytterite_royal_scepter }}
+			}
+    }
+}
+
+# Gain Good Relic Helper Event
+country_event = {
+    id = devolved_civic_events.15
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+    }
+
+    immediate = {
+        random_list = {
+                1 = {
+					give_relic = r_unbidden_warlock
+					modifier = {
+						factor = 0
+						has_relic = r_unbidden_warlock
+					}
+				}
+				1 = {
+					give_relic = r_prethoryn_queen
+					modifier = {
+						factor = 0
+						has_relic = r_prethoryn_queen
+					}
+				}
+				1 = {
+					give_relic = r_contingency_core
+					modifier = {
+						factor = 0
+						has_relic = r_contingency_core
+					}
+				}
+				1 = {
+					give_relic = r_cetanas_heart
+					modifier = {
+						factor = 0
+						has_relic = r_cetanas_heart
+					}
+				}
+				1 = {
+					give_relic = r_eternal_throne
+					modifier = {
+						factor = 0
+						has_relic = r_eternal_throne
+					}
+				}
+				1 = {
+					give_relic = r_odryskan_crystal
+					modifier = {
+						factor = 0
+						has_relic = r_odryskan_crystal
+					}
+				}
+				1 = {
+					give_relic = r_severed_head
+					modifier = {
+						factor = 0
+						has_relic = r_severed_head
+					}
+				}
+				1 = {
+					give_relic = r_dragon_trophy
+					modifier = {
+						factor = 0
+						has_relic = r_dragon_trophy	
+					}
+				}
+				1 = {
+					give_relic = r_war_forge
+					modifier = {
+						factor = 0
+						has_relic = r_war_forge
+					}
+				}
+				1 = {
+					give_relic = r_zro_crystal
+					modifier = {
+						factor = 0
+						has_relic = r_zro_crystal
+					}
+				}
+				1 = {
+					give_relic = r_continuum
+					modifier = {
+						factor = 0
+						has_relic = r_continuum
+					}
+				}
+				1 = {
+					give_relic = r_time_crystal
+					modifier = {
+						factor = 0
+						has_relic = r_time_crystal
+					}
+				}
+				1 = {
+					give_relic = r_vaporous_mega_orchid
+					modifier = {
+						factor = 0
+						has_relic = r_vaporous_mega_orchid
+					}
+				}
+				1 = {
+					give_relic = r_entangled_relay
+					modifier = {
+						factor = 0
+						has_relic = r_entangled_relay
+					}
+				}
+				1 = {
+					give_relic = r_executus_compendium
+					modifier = {
+						factor = 0
+						has_relic = r_executus_compendium
+					}
+				}
+				1 = {
+					give_relic = r_prototype_vir_core
+					modifier = {
+						factor = 0
+						has_relic = r_prototype_vir_core
+					}
+				}
+				1 = {
+					give_relic = r_propagandosphere
+					modifier = {
+						factor = 0
+						has_relic = r_propagandosphere
+					}
+				}
+				1 = {
+					give_relic = r_crystallinus_diffuser
+					modifier = {
+						factor = 0
+						has_relic = r_crystallinus_diffuser
+					}
+				}
+				1 = {
+					give_relic = r_everchanging_stone
+					modifier = {
+						factor = 0
+						has_relic = r_everchanging_stone
+					}
+				}
+				1 = {
+					give_relic = r_the_modularium
+					modifier = {
+						factor = 0
+						has_relic = r_the_modularium
+					}
+				}
+				1 = {
+					give_relic = r_wormhole_key
+					modifier = {
+						factor = 0
+						has_relic = r_wormhole_key
+					}
+				}
+				1 = {
+					give_relic = r_galatron
+					modifier = {
+						factor = 0
+						has_relic = r_galatron
+					}
+				}
+				1 = {
+					give_relic = r_surveyor
+					modifier = {
+						factor = 0
+						has_relic = r_surveyor
+					}
+				}
+				1 = {
+					give_relic = r_vacuum_flower
+					modifier = {
+						factor = 0
+						has_relic = r_vacuum_flower
+					}
+				}	
+			}
+    }
+}
