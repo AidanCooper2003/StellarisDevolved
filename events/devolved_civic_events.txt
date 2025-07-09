@@ -343,168 +343,168 @@ country_event = {
     immediate = {
         random_list = {
                 1 = {
-					give_relic = r_unbidden_warlock
+					add_relic = r_unbidden_warlock
 					modifier = {
 						factor = 0
 						has_relic = r_unbidden_warlock
 					}
 				}
 				1 = {
-					give_relic = r_prethoryn_queen
+					add_relic = r_prethoryn_queen
 					modifier = {
 						factor = 0
 						has_relic = r_prethoryn_queen
 					}
 				}
 				1 = {
-					give_relic = r_contingency_core
+					add_relic = r_contingency_core
 					modifier = {
 						factor = 0
 						has_relic = r_contingency_core
 					}
 				}
 				1 = {
-					give_relic = r_cetanas_heart
+					add_relic = r_cetanas_heart
 					modifier = {
 						factor = 0
 						has_relic = r_cetanas_heart
 					}
 				}
 				1 = {
-					give_relic = r_eternal_throne
+					add_relic = r_eternal_throne
 					modifier = {
 						factor = 0
 						has_relic = r_eternal_throne
 					}
 				}
 				1 = {
-					give_relic = r_odryskan_crystal
+					add_relic = r_odryskan_crystal
 					modifier = {
 						factor = 0
 						has_relic = r_odryskan_crystal
 					}
 				}
 				1 = {
-					give_relic = r_severed_head
+					add_relic = r_severed_head
 					modifier = {
 						factor = 0
 						has_relic = r_severed_head
 					}
 				}
 				1 = {
-					give_relic = r_dragon_trophy
+					add_relic = r_dragon_trophy
 					modifier = {
 						factor = 0
 						has_relic = r_dragon_trophy	
 					}
 				}
 				1 = {
-					give_relic = r_war_forge
+					add_relic = r_war_forge
 					modifier = {
 						factor = 0
 						has_relic = r_war_forge
 					}
 				}
 				1 = {
-					give_relic = r_zro_crystal
+					add_relic = r_zro_crystal
 					modifier = {
 						factor = 0
 						has_relic = r_zro_crystal
 					}
 				}
 				1 = {
-					give_relic = r_continuum
+					add_relic = r_continuum
 					modifier = {
 						factor = 0
 						has_relic = r_continuum
 					}
 				}
 				1 = {
-					give_relic = r_time_crystal
+					add_relic = r_time_crystal
 					modifier = {
 						factor = 0
 						has_relic = r_time_crystal
 					}
 				}
 				1 = {
-					give_relic = r_vaporous_mega_orchid
+					add_relic = r_vaporous_mega_orchid
 					modifier = {
 						factor = 0
 						has_relic = r_vaporous_mega_orchid
 					}
 				}
 				1 = {
-					give_relic = r_entangled_relay
+					add_relic = r_entangled_relay
 					modifier = {
 						factor = 0
 						has_relic = r_entangled_relay
 					}
 				}
 				1 = {
-					give_relic = r_executus_compendium
+					add_relic = r_executus_compendium
 					modifier = {
 						factor = 0
 						has_relic = r_executus_compendium
 					}
 				}
 				1 = {
-					give_relic = r_prototype_vir_core
+					add_relic = r_prototype_vir_core
 					modifier = {
 						factor = 0
 						has_relic = r_prototype_vir_core
 					}
 				}
 				1 = {
-					give_relic = r_propagandosphere
+					add_relic = r_propagandosphere
 					modifier = {
 						factor = 0
 						has_relic = r_propagandosphere
 					}
 				}
 				1 = {
-					give_relic = r_crystallinus_diffuser
+					add_relic = r_crystallinus_diffuser
 					modifier = {
 						factor = 0
 						has_relic = r_crystallinus_diffuser
 					}
 				}
 				1 = {
-					give_relic = r_everchanging_stone
+					add_relic = r_everchanging_stone
 					modifier = {
 						factor = 0
 						has_relic = r_everchanging_stone
 					}
 				}
 				1 = {
-					give_relic = r_the_modularium
+					add_relic = r_the_modularium
 					modifier = {
 						factor = 0
 						has_relic = r_the_modularium
 					}
 				}
 				1 = {
-					give_relic = r_wormhole_key
+					add_relic = r_wormhole_key
 					modifier = {
 						factor = 0
 						has_relic = r_wormhole_key
 					}
 				}
 				1 = {
-					give_relic = r_galatron
+					add_relic = r_galatron
 					modifier = {
 						factor = 0
 						has_relic = r_galatron
 					}
 				}
 				1 = {
-					give_relic = r_surveyor
+					add_relic = r_surveyor
 					modifier = {
 						factor = 0
 						has_relic = r_surveyor
 					}
 				}
 				1 = {
-					give_relic = r_vacuum_flower
+					add_relic = r_vacuum_flower
 					modifier = {
 						factor = 0
 						has_relic = r_vacuum_flower
