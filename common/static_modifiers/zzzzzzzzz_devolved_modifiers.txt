@@ -339,7 +339,7 @@ random_event_modifier_F_8 = {
 
 # Production Boost
 random_event_modifier_A_9 = {
-	empire_produces_mult = 1
+	country_produces_mult = 1
 }
 
 # Station Initiation
@@ -374,7 +374,7 @@ random_event_modifier_F_9 = {
 
 # Unitarian Utopia
 random_event_modifier_A_10 = {
-	empire_unity_produces_mult = 3
+	country_unity_produces_mult = 3
 }
 
 # Specimen Specialization
@@ -391,8 +391,8 @@ random_event_modifier_C_10 = {
 
 # Executive Decline
 random_event_modifier_D_10 = {
-	edict_fund = -100
-	edict_fund_upkeep_add = 0.05
+	country_edict_fund_add = -100
+	edicts_upkeep_mult = 0.05
 }
 
 # Job Scramble
@@ -410,9 +410,9 @@ random_event_modifier_F_10 = {
 
 # Research Radicalization
 random_event_modifier_A_11 = {
-	empire_physics_research_produces_mult = 2
-	empire_society_research_produces_mult = 2
-	empire_engineering_research_produces_mult = 2
+	country_physics_research_produces_mult = 2
+	country_society_research_produces_mult = 2
+	country_engineering_research_produces_mult = 2
 }
 
 # Light Speed Jets
@@ -423,13 +423,13 @@ random_event_modifier_B_11 = {
 
 # Hard Labor
 random_event_modifier_C_11 = {
-	empire_produces_mult = 0.5
+	country_produces_mult = 0.5
 	pop_environment_tolerance = -0.5
 }
 
 # Zero Vision
 random_event_modifier_D_11 = {
-	empire_unity_produces_mult = -0.1
+	country_unity_produces_mult = -0.1
 	pop_amenities_usage_mult = 0.05
 	pop_government_ethic_attraction = -0.5
 }
@@ -446,12 +446,12 @@ random_event_modifier_A_12 = {
 
 # Production Boost Lite
 random_event_modifier_B_12 = {
-	empire_produces_mult = 0.5
+	country_produces_mult = 0.5
 }
 
 # Beefy Districts
 random_event_modifier_C_12 = {
-	empire_size_districts_mult = 10
+	country_size_districts_mult = 10
 		planet_districts_industrial_consumer_goods_produces_add = 1
         planet_districts_industrial_volatile_motes_produces_add = 1
         planet_districts_industrial_unity_produces_add = 1
@@ -507,7 +507,7 @@ random_event_modifier_C_13 = {
 
 # Offensive Falsehoods
 random_event_modifier_D_13 = {
-	empire_size_mult = 0.1
+	country_size_mult = 0.1
 	monthly_trades_influence_produces_add = -1
 }
 
