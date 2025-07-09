@@ -493,3 +493,25 @@ random_event_modifier_F_12 = {
         	army_defense_morale_mult = -0.8
         	army_defense_health_mult = -0.8
 }
+
+# A is Caffeine
+
+# B is Relic
+
+# More the Merrier
+random_event_modifier_C_13 = {
+	megastructure_build_speed_mult = -0.5
+	megastructures_cost_mult = -0.2
+	country_megastructure_build_cap_add = 4
+}
+
+# Offensive Falsehoods
+random_event_modifier_D_13 = {
+	empire_size_mult = 0.1
+	monthly_trades_influence_produces_add = -1
+}
+
+# Abandoned Ship
+random_event_modifier_F_13 = {
+	ship_hull_mult = -10
+}

@@ -19,3 +19,12 @@ d_caffeine_deposit = {
 		planet_jobs_produces_mult = 0.5
 	}
 }
+
+d_storage_porridge = {
+	is_for_colonizable = yes
+	category = deposit_cat_rare
+
+	country_modifier = {
+		country_resource_max_add = 50000 
+	}
+}

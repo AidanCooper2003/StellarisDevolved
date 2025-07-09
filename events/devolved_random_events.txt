@@ -2189,7 +2189,178 @@ country_event = {
 }
 
 country_event = {
-	id = devolved_random_events.1001
+	id = devolved_random_events.61
+	title = "Sextupal Specimen"
+	desc = "Sextupal Specimen: Gain some random exceptional specimens! (A)"
+
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+		capital_scope = {
+			random_list = {
+				50 = { country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} }
+				24 = { country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} }
+				24 = { country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} }
+				2 = { country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} }
+			}
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.62
+	title = "Relic Randomizer"
+	desc = "Relic Randomizer: Gain a random (decent) relic! (B)"
+
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+		capital_scope = {
+			random_list = {
+				80 = { country_event = {id = devolved_civic_events.15}}
+				18 = { country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15}}
+				2 = {country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15}}
+			}
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.63
+	title = "More the Merrier"
+	desc = "You can now build more megastructures at a cheaper cost, but they will build slower. (C)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_C_13
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.64
+	title = "Offensive Falsehoods"
+	desc = "Negative Ascension Perk: Your empire spreads so much blatant misinformation that other empires are less inclined to respect your authority. (D)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_D_13
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.65
+	title = "Abandonded Ship"
+	desc = "Your ships... they're all... (F)"
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+		
+		random_list = {
+			33 = {set_variable = {which = "yearcount" value = 5}}
+			33 = {set_variable = {which = "yearcount" value = 3}}
+		    33 = {set_variable = {which = "yearcount" value = 1}}
+			1 = {set_variable = {which = "yearcount" value = 25}}
+		}
+
+		random_list = {
+			50 = {set_variable = {which = "multipliercount" value = 1}}
+			24 = {set_variable = {which = "multipliercount" value = 0.5}}
+			24 = {set_variable = {which = "multipliercount" value = 2}}
+			2 = {set_variable = {which = "multipliercount" value = 10}}
+		}
+
+        add_modifier = {
+			modifier = random_event_modifier_F_13
+			multiplier = multipliercount
+			years = 3
+		}
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.66
 	title = "Caffeine Deposits"
 	desc = "Caffeine Deposit: A deposit of Caffeine has been found, boosting the production of all of your pops! (A)"
 
@@ -2223,9 +2394,9 @@ country_event = {
 }
 
 country_event = {
-	id = devolved_random_events.1002
-	title = "Sextupal Specimen"
-	desc = "Sextupal Specimen: Gain some random exceptional specimens! (A)"
+	id = devolved_random_events.66
+	title = "Storage Porridge"
+	desc = "Storage Porridge: You find a magical porridge on a planet that morphs into a magical cabinet to store a lot of resources! (B)"
 
 
 	hide_window = no
@@ -2245,19 +2416,75 @@ country_event = {
 		}
 		capital_scope = {
 			random_list = {
-				50 = { country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} }
-				24 = { country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} }
-				24 = { country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} }
-				2 = { country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} country_event = {id = devolved_civic_events.14} }
+				50 = { add_deposit = d_storage_porridge add_deposit = d_storage_porridge }
+				24 = { add_deposit = d_storage_porridge  }
+				24 = { add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge }
+				2 = { add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge add_deposit = d_storage_porridge }
+		}
+		}
+
+
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.67
+	title = "Ecumenopolis Expansion"
+	desc = "A random colonized world gets turned into an ecumenopolis! (C)"
+
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+
+		random_planet_within_border = {
+			limit = {
+				is_colony = yes
+				NOT = {is_planet_class = pc_city}
 			}
+			change_pc = pc_city
+
+		}
+
+
+
+	}     
+}
+
+country_event = {
+	id = devolved_random_events.69
+	title = "Entombment"
+	desc = "A random colonized world gets turned into a tomb world! (D)"
+
+
+	hide_window = no
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_civic = devolved_civic_randivist_principles
+    }
+
+    immediate = {
+
+		random_planet_within_border = {
+			limit = {
+				is_colony = yes
+				NOT = {is_planet_class = pc_nuked}
+			}
+			change_pc = pc_nuked
 		}
 	}     
 }
 
 country_event = {
-	id = devolved_random_events.1003
-	title = "Relic Randomizer"
-	desc = "Relic Randomizer: Gain a random (decent) relic! (B)"
+	id = devolved_random_events.70
+	title = "Nuclear Mayhem"
+	desc = "The most powerful nuclear missile in the universe hits one of your planets, completely destroying it! (F)"
 
 
 	hide_window = no
@@ -2268,18 +2495,33 @@ country_event = {
     }
 
     immediate = {
-		
-		random_list = {
-			33 = {set_variable = {which = "yearcount" value = 5}}
-			33 = {set_variable = {which = "yearcount" value = 3}}
-		    33 = {set_variable = {which = "yearcount" value = 1}}
-			1 = {set_variable = {which = "yearcount" value = 25}}
-		}
-		capital_scope = {
+
+		random_planet_within_border = {
+			limit = {
+				is_colony = yes
+				NOT = {is_planet_class = pc_nuked}
+			}
+			picture = GFX_evt_exploding_planet
+			show_sound = event_super_explosion
+			location = root
+			destroy_colony = yes
+			change_pc = pc_shattered
+			clear_deposits = yes
 			random_list = {
-				80 = { country_event = {id = devolved_civic_events.15}}
-				18 = { country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15}}
-				2 = {country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15} country_event = {id = devolved_civic_events.15}}
+				1 = {
+					add_deposit = d_minerals_10
+					add_deposit = d_minerals_6
+				}
+				1 = {
+					add_deposit = d_minerals_10
+					add_deposit = d_minerals_2
+				}
+				1 = {
+					add_deposit = d_minerals_8
+				}
+				1 = {
+					add_deposit = d_minerals_4
+				}
 			}
 		}
 	}     

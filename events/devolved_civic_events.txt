@@ -276,6 +276,17 @@ country_event = {
                 1 = { country_event = { id = devolved_random_events.58 } }
                 1 = { country_event = { id = devolved_random_events.59 } }
                 1 = { country_event = { id = devolved_random_events.60 } }
+                1 = { country_event = { id = devolved_random_events.61 } }
+                1 = { country_event = { id = devolved_random_events.62 } }
+                1 = { country_event = { id = devolved_random_events.63 } }
+                1 = { country_event = { id = devolved_random_events.64 } }
+                1 = { country_event = { id = devolved_random_events.65 } }
+                1 = { country_event = { id = devolved_random_events.65 } }
+                1 = { country_event = { id = devolved_random_events.66 } }
+                1 = { country_event = { id = devolved_random_events.67 } }
+                1 = { country_event = { id = devolved_random_events.68 } }
+                1 = { country_event = { id = devolved_random_events.69 } }
+                9999 = { country_event = { id = devolved_random_events.70 } }
 			}
     }
 }
