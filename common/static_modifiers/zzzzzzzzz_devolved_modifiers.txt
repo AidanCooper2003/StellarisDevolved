@@ -356,7 +356,9 @@ random_event_modifier_C_9 = {
 
 # Leader Slot Slump
 random_event_modifier_D_9 = {
-	country_leader_pool_size = -4
+	country_official_cap_add = -4
+	country_commander_cap_add = -4
+	country_scientist_cap_add = -4
 }
 
 # Plummeting Production
@@ -436,7 +438,7 @@ random_event_modifier_D_11 = {
 
 # BIG POPS
 random_event_modifier_F_11 = {
-	pop_housing_usage = 10
+	pop_housing_usage_mult = 10
 }
 
 # Fleet Unification
