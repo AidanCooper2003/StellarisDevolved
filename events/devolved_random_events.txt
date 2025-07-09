@@ -2394,7 +2394,7 @@ country_event = {
 }
 
 country_event = {
-	id = devolved_random_events.66
+	id = devolved_random_events.67
 	title = "Storage Porridge"
 	desc = "Storage Porridge: You find a magical porridge on a planet that morphs into a magical cabinet to store a lot of resources! (B)"
 
@@ -2428,7 +2428,7 @@ country_event = {
 }
 
 country_event = {
-	id = devolved_random_events.67
+	id = devolved_random_events.68
 	title = "Ecumenopolis Expansion"
 	desc = "A random colonized world gets turned into an ecumenopolis! (C)"
 
