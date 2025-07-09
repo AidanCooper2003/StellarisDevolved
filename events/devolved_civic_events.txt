@@ -247,10 +247,35 @@ country_event = {
                 1 = { country_event = { id = devolved_random_events.29 } }
                 1 = { country_event = { id = devolved_random_events.30 } }
                 1 = { country_event = { id = devolved_random_events.31 } }
-                9999 = { country_event = { id = devolved_random_events.32 } }
+                1 = { country_event = { id = devolved_random_events.32 } }
                 1 = { country_event = { id = devolved_random_events.33 } }
                 1 = { country_event = { id = devolved_random_events.34 } }
                 1 = { country_event = { id = devolved_random_events.35 } }
+                1 = { country_event = { id = devolved_random_events.36 } }
+                1 = { country_event = { id = devolved_random_events.37 } }
+                1 = { country_event = { id = devolved_random_events.38 } }
+                1 = { country_event = { id = devolved_random_events.39 } }
+                1 = { country_event = { id = devolved_random_events.40 } }
+                1 = { country_event = { id = devolved_random_events.41 } }
+                1 = { country_event = { id = devolved_random_events.42 } }
+                1 = { country_event = { id = devolved_random_events.43 } }
+                1 = { country_event = { id = devolved_random_events.44 } }
+                1 = { country_event = { id = devolved_random_events.45 } }
+                1 = { country_event = { id = devolved_random_events.46 } }
+                1 = { country_event = { id = devolved_random_events.47 } }
+                1 = { country_event = { id = devolved_random_events.48 } }
+                1 = { country_event = { id = devolved_random_events.49 } }
+                1 = { country_event = { id = devolved_random_events.50 } }
+                1 = { country_event = { id = devolved_random_events.51 } }
+                1 = { country_event = { id = devolved_random_events.52 } }
+                1 = { country_event = { id = devolved_random_events.53 } }
+                1 = { country_event = { id = devolved_random_events.54 } }
+                1 = { country_event = { id = devolved_random_events.55 } }
+                1 = { country_event = { id = devolved_random_events.56 } }
+                1 = { country_event = { id = devolved_random_events.57 } }
+                1 = { country_event = { id = devolved_random_events.58 } }
+                1 = { country_event = { id = devolved_random_events.59 } }
+                1 = { country_event = { id = devolved_random_events.60 } }
 			}
     }
 }

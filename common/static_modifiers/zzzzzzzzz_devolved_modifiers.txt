@@ -305,3 +305,191 @@ random_event_modifier_D_7 = {
 random_event_modifier_F_7 = {
 	planet_stability_add = -300
 }
+
+# Procrastinating Councilors
+random_event_modifier_A_8 = {
+	councilor_skill_add = 100
+	council_agenda_progress_speed = 5
+	council_agenda_finishing_effect_duration_mult = 5
+}
+
+# Leveling Leaders
+random_event_modifier_B_8 = {
+	councilor_skill_add = 2
+}
+
+# Production Malfunction
+random_event_modifier_C_8 = {
+	planet_technician_physics_research_produces_add = 3
+	planet_farmers_society_research_produces_add = 3
+	planet_miners_engineering_research_produces_add = 3
+	planet_clerks_unity_produces_add = 3
+	planet_districts_upkeep_mult = 1
+}
+
+# Construction Strike
+random_event_modifier_D_8 = {
+	planet_building_build_speed_mult = -2
+}
+
+# Battleships of Bankruptcy
+random_event_modifier_F_8 = {
+	ships_upkeep_mult = 100
+}
+
+# Production Boost
+random_event_modifier_A_9 = {
+	empire_produces_mult = 1
+}
+
+# Station Initiation
+random_event_modifier_B_9 = {
+	station_gatherers_produces_mult = 5
+	station_researchers_produces_mult = 10
+}
+
+# Amazing Artifacts
+random_event_modifier_C_9 = {
+	country_society_research_produces_mult = -0.3
+	monthly_trades_minor_artifacts_produces_add = 30
+}
+
+# Leader Slot Slump
+random_event_modifier_D_9 = {
+	country_leader_pool_size = -4
+}
+
+# Plummeting Production
+random_event_modifier_F_9 = {
+	planet_farmers_food_produces_add = -5
+	planet_technician_energy_produces_add = -5
+	planet_administrators_unity_produces_add = -5
+	planet_researchers_physics_research_produces_add = -5
+	planet_researchers_society_research_produces_add = -5
+	planet_researchers_engineering_research_produces_add = -5
+	planet_metallurgists_alloys_produces_add = -5
+	planet_miners_minerals_produces_add = -5
+	planet_artisans_consumer_goods_produces_add = -5
+}
+
+# Unitarian Utopia
+random_event_modifier_A_10 = {
+	empire_unity_produces_mult = 3
+}
+
+# Specimen Specialization
+random_event_modifier_B_10 = {
+	specimens_produces_mult = 5
+	planet_researchers_unity_produces_add = 1
+}
+
+# Nanite National Anthem
+random_event_modifier_C_10 = {
+	country_engineering_research_produces_mult = -0.3
+	monthly_trades_nanites_produces_add = 30
+}
+
+# Executive Decline
+random_event_modifier_D_10 = {
+	edict_fund = -100
+	edict_fund_upkeep_add = 0.05
+}
+
+# Job Scramble
+random_event_modifier_F_10 = {
+	planet_farmers_alloys_produces_add = -4
+	planet_technician_minerals_produces_add = -4
+	planet_administrators_consumer_goods_produces_add = -4
+	planet_researchers_food_produces_add = -4
+	planet_researchers_energy_produces_add = -4
+	planet_researchers_unity_produces_add = -4
+	planet_metallurgists_physics_research_produces_add = -4
+	planet_miners_society_research_produces_add = -4
+	planet_artisans_engineering_research_produces_add = -4
+}
+
+# Research Radicalization
+random_event_modifier_A_11 = {
+	empire_physics_research_produces_mult = 2
+	empire_society_research_produces_mult = 2
+	empire_engineering_research_produces_mult = 2
+}
+
+# Light Speed Jets
+random_event_modifier_B_11 = {
+	ship_speed_mult = 999
+	ship_windup_mult = -1
+}
+
+# Hard Labor
+random_event_modifier_C_11 = {
+	empire_produces_mult = 0.5
+	pop_environment_tolerance = -0.5
+}
+
+# Zero Vision
+random_event_modifier_D_11 = {
+	empire_unity_produces_mult = -0.1
+	pop_amenities_usage_mult = 0.05
+	pop_government_ethic_attraction = -0.5
+}
+
+# BIG POPS
+random_event_modifier_F_11 = {
+	pop_housing_usage = 10
+}
+
+# Fleet Unification
+random_event_modifier_A_12 = {
+	ship_unity_upkeep_add = -12
+}
+
+# Production Boost Lite
+random_event_modifier_B_12 = {
+	empire_produces_mult = 0.5
+}
+
+# Beefy Districts
+random_event_modifier_C_12 = {
+	empire_size_districts_mult = 10
+		planet_districts_industrial_consumer_goods_produces_add = 1
+        planet_districts_industrial_volatile_motes_produces_add = 1
+        planet_districts_industrial_unity_produces_add = 1
+        planet_districts_industrial_alloys_produces_add = 1
+		planet_districts_industrial_engineering_research_produces_add = 10
+        planet_districts_farming_food_produces_add = 1
+        planet_districts_farming_unity_produces_add = 1
+		planet_districts_farming_society_research_produces_add = 10
+        planet_districts_mining_minerals_produces_add = 1
+        planet_districts_mining_unity_produces_add = 1
+        planet_districts_mining_exotic_gases_produces_add = 0.1
+        planet_districts_mining_rare_crystals_produces_add = 0.1
+		planet_districts_mining_engineering_research_produces_add = 10
+        planet_districts_generator_energy_produces_add = 1
+		planet_districts_generator_physics_research_produces_add = 10
+        planet_districts_resort_trade_value_produces_add = 10
+        planet_districts_prison_physics_research_produces_add = 10
+        planet_districts_prison_society_research_produces_add = 10
+        planet_districts_prison_engineering_research_produces_add = 10
+        planet_districts_prison_industrial_consumer_goods_produces_add = 1
+        planet_districts_prison_industrial_alloys_produces_add = 1
+        planet_districts_prison_industrial_unity_produces_add = 1
+}
+
+# Amateur Builders
+random_event_modifier_D_12 = {
+	megastructure_build_speed_mult = -0.25
+}
+
+# Army Annihilation
+random_event_modifier_F_12 = {
+	planet_army_build_speed_mult = -1
+        	army_damage_mult = -0.8
+        	army_defense_damage_mult = -0.8
+        	army_morale = -0.8
+        	army_health = -0.8
+        	army_collateral_damage_mult = -0.8
+        	army_attack_damage_mult = -0.8
+        	army_defense_morale_mult = -0.8
+        	army_defense_health_mult = -0.8
+}

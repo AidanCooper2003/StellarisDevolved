@@ -678,3 +678,33 @@ random_event_modifier_C_7:0 "Shoddy Ships (C)"
 random_event_modifier_D_7:0 "Technological Descendency (D)"
 random_event_modifier_F_7:0 "Civil Disobedience (F)"
 
+
+random_event_modifier_A_8:0 "Procrastinating Councilors (A)"
+random_event_modifier_B_8:0 "Leveling Leaders (B)"
+random_event_modifier_C_8:0 "Production Malfunction (C)"
+random_event_modifier_D_8:0 "Construction Strike" (D)"
+random_event_modifier_F_8:0 "Battleships of Bankruptcy (F)"
+
+random_event_modifier_A_9:0 "Production Boost (A)"
+random_event_modifier_B_9:0 "Station Initiation (B)"
+random_event_modifier_C_9:0 "Amazing Artifacts (C)"
+random_event_modifier_D_9:0 "Leader Slot Slump (D)"
+random_event_modifier_F_9:0 "Plummeting Production"
+
+random_event_modifier_A_10:0 "Unitarian Utopia"
+random_event_modifier_B_10:0 "Specimen Specialization"
+random_event_modifier_C_10:0 "Nanite National Anthem"
+random_event_modifier_D_10:0 "Executive Decline"
+random_event_modifier_F_10:0 "Job Scramble"
+
+random_event_modifier_A_11:0 "Research Radicalization"
+random_event_modifier_B_11:0 "Light Speed Jets"
+random_event_modifier_C_11:0 "Hard Labor"
+random_event_modifier_D_11:0 "Zero Vision"
+random_event_modifier_F_11:0 "BIG POPS"
+
+random_event_modifier_A_12:0 "Fleet Unification"
+random_event_modifier_B_12:0 "Production Boost Lite"
+random_event_modifier_C_12:0 "Beefy Districts"
+random_event_modifier_D_12:0 "Amateur Builders"
+random_event_modifier_F_12:0 "Army Annihilation"
