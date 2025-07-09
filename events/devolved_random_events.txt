@@ -2430,7 +2430,7 @@ country_event = {
 country_event = {
 	id = devolved_random_events.68
 	title = "Ecumenopolis Expansion"
-	desc = "A random colonized world gets turned into an ecumenopolis! (C)"
+	desc = "An explosion of impressive urban developers and construction workers have turned a random colonized world gets turned into an ecumenopolis! (C)"
 
 
 	hide_window = no
@@ -2459,7 +2459,7 @@ country_event = {
 country_event = {
 	id = devolved_random_events.69
 	title = "Entombment"
-	desc = "A random colonized world gets turned into a tomb world! (D)"
+	desc = "A random colonized world gets turned into a tomb world by an army of mad scientists! (D)"
 
 
 	hide_window = no
